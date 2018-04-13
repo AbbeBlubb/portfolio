@@ -1,0 +1,37 @@
+
+.project-list-container-for-container {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.9em;
+  color: #3C3940;
+  background-color: rgba(168, 198, 186, 0.84);
+}
+
+.project-list-container-for-container:hover {
+  background-color: #ABC6BA ;
+}
+
+.project-list-container-for-container a:link,
+.project-list-container-for-container a:active,
+.project-list-container-for-container a:visited {
+  color: #3C3940;
+}
+
+.project-list-container {
+  display: flex;
+  flex-direction: row;
+  border-top: 0 solid #FFCDB2;
+  padding: 0.8em 0 0.8em 2em;
+}
+
+.project-list-name {
+  font-weight: bold;
+}
+
+.project-list-short {
+  font-weight: normal;
+}
+
+.project-list-container-for-background {
+  height: 0.8em;
+  background-color: rgba(168, 198, 186, 0.84);
+}

@@ -1,0 +1,13 @@
+
+Color scheeme maby to use:
+https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-3c3940
+
+Fonts
+https://fonts.google.com/specimen/Tajawal?selection.family=Tajawal
+
+hero.css
+https://fonts.google.com/specimen/Tajawal:400,700
+
+entry.css
+https://fonts.google.com/specimen/Raleway
+
