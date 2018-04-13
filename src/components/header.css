@@ -44,3 +44,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, +50%);
 }
+
+.header-button-scroll-down:hover {
+  background-color: rgba(109, 104, 117, 0.7);
+}

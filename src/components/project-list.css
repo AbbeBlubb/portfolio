@@ -1,3 +1,7 @@
+.project-list-empty-container-for-background {
+  height: 0.8em;
+  background-color: rgba(168, 198, 186, 0.84);
+}
 
 .project-list-container-for-container {
   font-family: 'Raleway', sans-serif;
@@ -16,7 +20,7 @@
   color: #3C3940;
 }
 
-.project-list-container {
+.project-list-container-for-name-and-short {
   display: flex;
   flex-direction: row;
   border-top: 0 solid #FFCDB2;
@@ -31,7 +35,3 @@
   font-weight: normal;
 }
 
-.project-list-container-for-background {
-  height: 0.8em;
-  background-color: rgba(168, 198, 186, 0.84);
-}
