@@ -9,7 +9,7 @@ class Header extends React.Component {
         <h1>
           <span id="bold-span">Alberto</span> Francisco Chávez Pérez
         </h1>
-        <div className="header-button-scroll-down">Portfolio & me</div>
+        <a href="#project-list-main-container"><div className="header-button-scroll-down">Portfolio & me</div></a>
       </header>
     )
   }
