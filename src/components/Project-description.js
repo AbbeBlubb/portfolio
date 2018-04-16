@@ -32,19 +32,19 @@ class ProjectDescription extends React.Component {
   render() {
     if (this.state.project) {
       return (
-        <div className="project-description-main-container">
-          <div className="project-description-main-container-2">
-            <div className="project-description-container-for-img">
-              <div className="project-description-img-wrap">
-                <img className="project-description-img" src={require("../img/" + this.state.project.imgFileName)} />
+        <div className="pd-main">
+          <div className="pd-project">
+            <div className="container-img">
+              <div className="pd-img-wrap">
+                <img className="pd-img" src={require("../img/" + this.state.project.imgFileName)} />
               </div>
             </div>
-            <div className="project-description-container-for-text">
-              <div className="project-description-header-wrap">
-                <div className="project-description-header">{this.state.project.name}</div>
+            <div className="container-text">
+              <div className="pd-header-wrap">
+                <div className="pd-header">{this.state.project.name}</div>
               </div>
-              <div className="project-description-description-wrap">
-                <div className="project-description-description">{this.state.project.description}</div>
+              <div className="pd-description-wrap">
+                <div className="pd-description">{this.state.project.description}</div>
               </div>
             </div>
           </div>

@@ -23,11 +23,11 @@ h1 {
   padding: 0 0.5em 0 0.5em;
 }
 
-.bold-span {
+h1 span {
   font-weight: 700;
 }
 
-.header-button-scroll-down {
+.header-button {
   background-color: rgba(109, 104, 117, 0.4);
   color: rgba(255, 255, 255, 0.8);
   height: 3.7em;

@@ -7,9 +7,9 @@ class Header extends React.Component {
     return (
       <header>
         <h1>
-          <span className="bold-span">Alberto</span> Francisco Chávez Pérez
+          <span>Alberto</span> Francisco Chávez Pérez
         </h1>
-        <a href="#project-list-main-container"><div className="header-button-scroll-down">Portfolio & me</div></a>
+        <a href="#pl-main"><div className="header-button">Portfolio & me</div></a>
       </header>
     )
   }

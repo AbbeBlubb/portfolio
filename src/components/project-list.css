@@ -1,40 +1,41 @@
-.project-list-empty-container-for-background {
+.pl-empty {
   height: 0.8em;
   background-color: rgba(168, 198, 186, 0.84);
 }
 
-.project-list-container-for-container {
+.pl {
   font-family: 'Raleway', sans-serif;
   font-size: 1.9em;
   color: #3C3940;
   background-color: rgba(168, 198, 186, 0.84);
 }
 
-.project-list-container-for-container:hover {
+.pl:hover {
   background-color: #ABC6BA ;
 }
 
-.project-list-container-for-container a:link,
-.project-list-container-for-container a:active,
-.project-list-container-for-container a:visited {
+.pl a:link,
+.pl a:active,
+.pl a:visited {
   color: #3C3940;
 }
 
-.project-list-container-for-name-and-short {
+.pl .container {
   display: flex;
   flex-direction: row;
   border-top: 0 solid #FFCDB2;
   padding: 0.8em 0 0.8em 2em;
 }
 
-.project-list-name {
+.pl-name {
   font-weight: bold;
 }
 
-.project-list-short {
+.pl-name::after {
+  content: "\00a0";
+}
+
+.pl-short {
   font-weight: normal;
 }
 
-.project-list-main-container::before {
-  padding-top: 0.8em;
-}

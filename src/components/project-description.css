@@ -1,16 +1,16 @@
-.project-description-main-container {
+.pd-main {
   background-color: rgba(255, 228, 191, 0.7);
 }
 
-.project-description-img-wrap {
+.pd-img-wrap {
   width: 400px;
   height: 300px;
 }
 
-.project-description-img {
+.pd-img {
   width: 100%;
 }
 
-.project-description-header {
+.pd-header {
   font-size: 1.5em;
 }
