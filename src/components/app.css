@@ -5,19 +5,13 @@ body, html {
   font-size: 1em;
 }
 
-.app-main-container {
+.app-main {
   display: flex;
   flex-direction: column;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:active{
-  text-decoration: none;
-}
-
+a:link,
+a:active,
 a:visited {
   text-decoration: none;
 }

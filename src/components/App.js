@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="app-main-container">
+        <div className="app-main">
           <Header />
           <div>
             <Route path="/" component={ProjectList} />
