@@ -35,3 +35,6 @@
   font-weight: normal;
 }
 
+.project-list-main-container::before {
+  padding-top: 0.8em;
+}

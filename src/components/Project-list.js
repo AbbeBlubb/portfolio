@@ -1,9 +1,7 @@
 import React from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom"
-import Line from "./Line"
 import data from "../data"
 import "./project-list.css"
-import ProjectDescription from "./Project-description";
 
 class ProjectList extends React.Component {
   render() {
