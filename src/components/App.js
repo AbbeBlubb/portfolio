@@ -1,8 +1,8 @@
 import React from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import Header from "./Header"
-import ProjectList from "./Project-list"
-import ProjectDescription from "./Project-description";
+import List from "./List"
+import Description from "./Description";
 import About from "./About";
 import "./app.css"
 
@@ -15,10 +15,10 @@ class App extends React.Component {
         <div className="app-main">
           <Header />
           <div>
-            <Route path="/" component={ProjectList} />
+            <Route path="/" component={List} />
           </div>
           <div>
-            <Route path="/:projectId" component={ProjectDescription} />
+            <Route path="/:projectId" component={Description} />
           </div>
           <About />
         </div>

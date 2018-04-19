@@ -1,9 +1,9 @@
 import React from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import data from "../data"
-import "./project-list.css"
+import "./list.css"
 
-class ProjectList extends React.Component {
+class List extends React.Component {
   render() {
     return (
       <div className="pl-main" id="pl-main">
@@ -26,4 +26,4 @@ class ProjectList extends React.Component {
   }
 }
 
-export default ProjectList
+export default List

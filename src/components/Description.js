@@ -1,8 +1,8 @@
 import React from "react"
 import data from "../data"
-import "./project-description.css"
+import "./description.css"
 
-class ProjectDescription extends React.Component {
+class Description extends React.Component {
 
   constructor(props) {
     super(props);
@@ -17,7 +17,6 @@ class ProjectDescription extends React.Component {
     const project = data.find((project) => (
       project.id === this.props.match.params.projectId
     ));
-
     this.setState({
       project
     })
@@ -58,4 +57,4 @@ class ProjectDescription extends React.Component {
   }
 }
 
-export default ProjectDescription
+export default Description
