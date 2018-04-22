@@ -9,6 +9,7 @@ class Description extends React.Component {
     this.state = { project: null }
   }
 
+  /*
   componentDidMount() {
     this.fetchProject()
   }
@@ -27,6 +28,7 @@ class Description extends React.Component {
       this.fetchProject()
     }
   }
+  */
 
   render() {
     if (this.state.project) {
@@ -49,6 +51,7 @@ class Description extends React.Component {
           </div>
         </div>
       )
+
     } else {
       return (
         <div>Loading project..</div>

@@ -1,41 +1,5 @@
-.pl-empty {
+.list-main .empty {
   height: 0.8em;
   background-color: rgba(168, 198, 186, 0.84);
-}
-
-.pl {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.9em;
-  color: #3C3940;
-  background-color: rgba(168, 198, 186, 0.84);
-}
-
-.pl:hover {
-  background-color: #ABC6BA ;
-}
-
-.pl a:link,
-.pl a:active,
-.pl a:visited {
-  color: #3C3940;
-}
-
-.pl .container {
-  display: flex;
-  flex-direction: row;
-  border-top: 0 solid #FFCDB2;
-  padding: 0.8em 0 0.8em 2em;
-}
-
-.pl-name {
-  font-weight: bold;
-}
-
-.pl-name::after {
-  content: "\00a0";
-}
-
-.pl-short {
-  font-weight: normal;
 }
 
