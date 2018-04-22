@@ -1,16 +1,21 @@
 .pd-main {
+  padding: 0 2em 0.8em 2em;
+}
+
+.project {
+  /*font-size: 0.526em;*/
   background-color: rgba(255, 228, 191, 0.7);
 }
 
-.pd-img-wrap {
+.pd-main .img-wrap {
   width: 400px;
   height: 300px;
 }
 
-.pd-img {
+.pd-main img {
   width: 100%;
 }
 
-.pd-header {
-  font-size: 1.5em;
+.pd-main .header {
+  font-weight: bold;
 }
