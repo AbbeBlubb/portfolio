@@ -16,9 +16,11 @@ class List extends React.Component {
             id={element.id}
             name={element.name}
             short={element.short}
+            description={element.description}
+            img={element.imgFileName}
           />
         ))}
-        <div className="pl-empty"></div>
+        <div className="empty"></div>
       </div>
     )
   }

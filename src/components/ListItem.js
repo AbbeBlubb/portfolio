@@ -1,5 +1,6 @@
 import React from "react"
 import "./listitem.css"
+import ProjectDescription from "./ProjectDescription";
 
 
 class ListItem extends React.Component {
@@ -25,7 +26,12 @@ class ListItem extends React.Component {
             <div className="name">{this.props.name}</div>
             <div className="pl-short">/ {this.props.short}</div>
           </div>
-          {this.state.projectIsVisible ? <div>///TEST id:{this.props.id}///</div> : null}
+          {this.state.projectIsVisible
+            ? <ProjectDescription
+                name={this.props.name}
+                description={this.props.description}
+                img={this.props.img}/>
+            : null}
         </div>
     )
   }

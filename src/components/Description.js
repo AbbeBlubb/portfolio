@@ -1,6 +1,6 @@
 import React from "react"
 import data from "../data"
-import "./description.css"
+import "./projectdescription.css"
 
 class Description extends React.Component {
 
