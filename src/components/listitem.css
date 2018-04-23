@@ -34,3 +34,10 @@
   font-weight: normal;
 }
 
+.li-main .hidden {
+  display: none;
+}
+
+.li-main .visible {
+  display: block;
+}

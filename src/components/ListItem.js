@@ -26,12 +26,12 @@ class ListItem extends React.Component {
             <div className="name">{this.props.name}</div>
             <div className="pl-short">/ {this.props.short}</div>
           </div>
-          {this.state.projectIsVisible
-            ? <ProjectDescription
+            <div className={this.state.projectIsVisible ? "visible" : "hidden"}>
+              <ProjectDescription
                 name={this.props.name}
                 description={this.props.description}
                 img={this.props.img}/>
-            : null}
+            </div>
         </div>
     )
   }
