@@ -35,9 +35,20 @@
 }
 
 .li-main .hidden {
-  display: none;
+  /*display: none;*/
+  /*height: 0;
+  z-index: -10;*/
+  position: absolute;
+  top: -100%;
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  -ms-transition: top 1s;
+  -o-transition: top 1s;
+  transition: top 1s ease 0s;
 }
 
 .li-main .visible {
-  display: block;
+  /*display: block;*/
+  /*height: 100%;*/
+  top: 0;
 }
