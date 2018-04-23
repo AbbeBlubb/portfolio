@@ -9,13 +9,38 @@ import "./app.css"
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props)
+    this.divProjects = React.createRef()
+    this.state = {
+      pixel: 0
+    }
+  }
+
+  componentDidMount () {
+    this.state.pixel = this.divProjects.current.getBoundingClientRect().y
+  }
+
+  handleScrollButtonClick = () => {
+    window.scrollTo({
+      top: this.state.pixel,
+      behavior: "smooth"
+    })
+  }
+
   render() {
     return (
       <BrowserRouter>
         <div className="app-main">
-          <Header />
-          <div>
-            <Route path="/" component={List} />
+          <Header
+            handleScrollButtonClick={this.handleScrollButtonClick}
+          />
+          <div
+            ref={this.divProjects}>
+            <Route
+              path="/"
+              component={List}
+            />
           </div>
           <div>
             <Route path="/:projectId" component={Description} />

@@ -9,7 +9,9 @@ class Header extends React.Component {
         <h1>
           <span>Alberto</span> Francisco Chávez Pérez
         </h1>
-        <a href="#pl-main"><div className="header-button">Portfolio & me</div></a>
+        <div
+          className="header-button"
+          onClick={this.props.handleScrollButtonClick}>Portfolio & me</div>
       </header>
     )
   }
