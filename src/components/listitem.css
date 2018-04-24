@@ -3,6 +3,7 @@
   font-size: 1.9em;
   color: #3C3940;
   background-color: rgba(168, 198, 186, 0.84);
+  transition: top 1s ease;
 }
 
 .li-main:hover {
@@ -35,20 +36,13 @@
 }
 
 .li-main .hidden {
-  /*display: none;*/
-  /*height: 0;
-  z-index: -10;*/
-  position: absolute;
-  top: -100%;
-  -webkit-transition: top 1s;
-  -moz-transition: top 1s;
-  -ms-transition: top 1s;
-  -o-transition: top 1s;
-  transition: top 1s ease 0s;
+  height: 0;
+  transition: height 1s ease;
+  overflow: hidden;
 }
 
 .li-main .visible {
-  /*display: block;*/
-  /*height: 100%;*/
-  top: 0;
+  height: 400px;
+  transition: height 1s ease;
+  overflow: hidden;
 }
