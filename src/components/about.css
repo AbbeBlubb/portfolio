@@ -6,16 +6,27 @@
   flex-direction: row;
   line-height: 1.6em;
   font-size: 1.2em;
+  width: 100%;
   position: relative;
 }
 
-.about-main > .container {
+.about-main .container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   padding-left: 10%;
   position: absolute;
   bottom: 10vh;
 }
+
+.box1 {
+
+  background-color: yellow;
+  width: 60%;
+  color: black;
+}
+
+
 
 .about-main h2 {
   font-size: 1.7em;
@@ -32,12 +43,6 @@
 
 .contact h2 {
   margin-top: 60px;
-}
-
-.photo > div {
-  width: 250px;
-  height: 350px;
-  background-color: lightseagreen;
 }
 
 @media (max-width: 600px) {
