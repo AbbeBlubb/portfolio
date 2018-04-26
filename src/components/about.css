@@ -1,44 +1,42 @@
-.about-main {
-  height: 100vh;
+footer {
+  height: auto;
   width: 100%;
   background-color: #6D6875;
   color: rgba(255, 255, 255, 0.9);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  line-height: 1.6em;
+  font-size: 1em;
 }
 
 .container-1 {
   height: 100%;
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  line-height: 1.6em;
-  font-size: 1.2em;
   position: relative;
 }
 
 .container-1 > div {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 15%;
-  bottom: 10%;
+  position: static;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .container-2 {
   height: 100%;
-  width: 40%;
+  width: 100%;
   background-color: black;
   position: relative;
 }
 
 .container-2 > div {
-  position: absolute;
-  right: 50%;
-  bottom: 50%;
-  transform: translate(50%, 40%);
-  width: 80%;
+  position: static;
+  width: 50%;
+  height: auto;
+  transform: translate(0, 0);
+  margin: 20px auto
+
 }
 
 .container-2 > div > div {
@@ -49,12 +47,12 @@
 
 
 
-.about-main h2 {
-  font-size: 1.7em;
+footer h2 {
+  font-size: 1.2em;
   color: rgba(255, 255, 255, 1);
 }
 
-.about-main span {
+footer span {
   font-weight: bold;
 }
 
@@ -71,49 +69,53 @@
 
 
 
-@media (max-width: 600px) {
-  .about-main {
-    font-size: 1em;
+@media (min-width: 600px) {
+  footer {
+    font-size: 1.2em;
   }
-  .about-main h2 {
-    font-size: 1.5em;
+
+  footer h2 {
+    font-size: 1.4em;
   }
+
   .container-1 > div  {
-    width: 400px;
-    margin: 0 auto;
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 20%;
   }
 }
 
-@media (max-width: 1030px) {
-  .about-main {
-    position: static;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+
+
+
+@media (min-width: 1030px) {
+  footer {
+    height: 100vh;
+    flex-direction: row;
   }
 
   .container-1 {
-    width: 100%;
+    width: 60%;
   }
 
   .container-1 > div {
-    position: static;
-    margin-left: 20%; /* DOESNT WORK NOW BECAUSE OF MAX-WIDTHS OVERRIDE */
+    margin: 0;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
   }
 
   .container-2 {
-    width: 100%;
-
+    width: 40%;
   }
+
   .container-2 > div {
-    position: static;
-    width: 50%;
-    height: auto;
-    transform: translate(0, 0);
-    margin: 20px auto
-  }
-
-  .container-2 > div > div {
-    background-color: white;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 40%);
+    width: 80%;
   }
 }

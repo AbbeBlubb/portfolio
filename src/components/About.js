@@ -5,7 +5,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <footer className="about-main">
+      <footer>
         <div className="container-1">
           <div>
             <div className="about">
