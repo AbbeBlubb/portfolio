@@ -5,6 +5,7 @@ header {
 }
 
 h1 {
+  width: 515px;
   font-family: 'Tajawal', sans-serif;
   font-size: 5em;
   line-height: 1em;
@@ -14,13 +15,13 @@ h1 {
   text-shadow: 1px 1px 0 #B5838D;
   position: absolute;
   top: 50%;
-  left: 50%;
+  right: 0;
   transform: translate(0, -50%);
   background-color: #6D6875;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0 0 0 0.5em;
 }
 
 h1 span {
@@ -47,4 +48,22 @@ h1 span {
 
 .header-button:hover {
   background-color: rgba(109, 104, 117, 0.7);
+}
+
+@media (max-width: 550px) {
+  h1 {
+    position: static;
+    transform: translate(0, 0);
+    width: auto;
+  }
+}
+
+@media (min-width: 1030px) {
+  h1 {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 0.5em 0 0.5em;
+  }
 }

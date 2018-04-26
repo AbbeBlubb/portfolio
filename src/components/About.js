@@ -6,7 +6,8 @@ class About extends React.Component {
   render() {
     return (
       <footer className="about-main">
-          <div className="container">
+        <div className="container-1">
+          <div>
             <div className="about">
               <div className="about-header">
                 <h2>About me</h2></div>
@@ -27,13 +28,12 @@ class About extends React.Component {
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="box1">
-            <div>Box1</div>
+        <div className="container-2">
+          <div>
+            <div>Photo img</div>
           </div>
-
-        <div className="box2">
-          <div>Box2</div>
         </div>
 
       </footer>
