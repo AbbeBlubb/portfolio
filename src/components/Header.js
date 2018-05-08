@@ -1,5 +1,6 @@
 import React from "react"
 import "./header.css"
+import text from "../text"
 
 class Header extends React.Component {
 
@@ -7,11 +8,11 @@ class Header extends React.Component {
     return (
       <header>
         <h1>
-          <span>Alberto</span> Francisco Chávez Pérez
+          <span>{text.header.a}</span> {text.header.fcp}
         </h1>
         <div
           className="header-button"
-          onClick={this.props.handleScrollButtonClick}>Portfolio & me</div>
+          onClick={this.props.handleScrollButtonClick}>{text.header.button}</div>
       </header>
     )
   }

@@ -1,4 +1,4 @@
-.pd-main {
+.pd {
   padding: 0 2em 0.8em 2em;
 }
 
@@ -7,15 +7,15 @@
   background-color: rgba(255, 228, 191, 0.7);
 }
 
-.pd-main .img-wrap {
+.pd .img-wrap {
   width: 400px;
   height: 300px;
 }
 
-.pd-main img {
+.pd img {
   width: 100%;
 }
 
-.pd-main .header {
+.pd .header {
   font-weight: bold;
 }

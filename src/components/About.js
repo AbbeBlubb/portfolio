@@ -1,5 +1,6 @@
 import React from "react"
 import "./about.css"
+import text from "../text"
 
 class About extends React.Component {
 
@@ -8,22 +9,24 @@ class About extends React.Component {
       <footer>
         <div className="container-1">
           <div>
-            <div className="about">
-              <div className="about-header">
-                <h2>About me</h2></div>
-              <div className="about-text">
-                <p>I'm a junior web developer. After eight years working with law I discovered frontend. At first I had the learning as a hobby, and soon I decided to go all-in. I love my new career path! </p>
-                <p>My experience with relevance for web developement is: 12 week intensive bootcamp in web developement / 5-week full-time course in C# / webcourse in Android Developement / evening course in responsive web design / own studies. </p>
+            <div>
+              <div >
+                <h2>{text.about.header}</h2>
+              </div>
+              <div>
+                <p>{text.about.parraf1}</p>
+                <p>{text.about.parraf2}</p>
+                <p>{text.about.parraf3}</p>
               </div>
             </div>
             <div className="contact">
-              <div className="contact-header">
-                <h2>Contact</h2>
+              <div>
+                <h2>{text.contact.header}</h2>
               </div>
-              <div className="contact-text">
+              <div>
                 <ul>
-                  <li><span>My@email.yes</span></li>
-                  <li>Maby LinkedIn</li>
+                  <li><span>{text.contact.email}</span></li>
+                  <li><a href={text.contact.linkedin} target="_blank">LinkedIn</a></li>
                 </ul>
               </div>
             </div>

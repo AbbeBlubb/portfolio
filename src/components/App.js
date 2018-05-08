@@ -2,7 +2,6 @@ import React from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import Header from "./Header"
 import List from "./List"
-import Description from "./Description";
 import About from "./About";
 import "./app.css"
 
@@ -42,9 +41,7 @@ class App extends React.Component {
               component={List}
             />
           </div>
-          <div>
-            <Route path="/:projectId" component={Description} />
-          </div>
+
           <About />
         </div>
       </BrowserRouter>

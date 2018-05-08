@@ -9,6 +9,12 @@ footer {
   font-size: 1em;
 }
 
+footer a:link,
+footer a:active,
+footer a:visited {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .container-1 {
   height: 100%;
   width: 100%;
@@ -19,7 +25,7 @@ footer {
 
 .container-1 > div {
   position: static;
-  width: 400px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -36,7 +42,6 @@ footer {
   height: auto;
   transform: translate(0, 0);
   margin: 20px auto
-
 }
 
 .container-2 > div > div {
@@ -44,8 +49,6 @@ footer {
   height: 300px;
   background-color: white;
 }
-
-
 
 footer h2 {
   font-size: 1.2em;
@@ -56,18 +59,9 @@ footer span {
   font-weight: bold;
 }
 
-.about {
-
-}
-
 .contact h2 {
   margin-top: 60px;
 }
-
-
-
-
-
 
 @media (min-width: 600px) {
   footer {
@@ -86,9 +80,6 @@ footer span {
     margin: 0 0 0 20%;
   }
 }
-
-
-
 
 @media (min-width: 1030px) {
   footer {
