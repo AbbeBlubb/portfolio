@@ -28,7 +28,8 @@ export default {
   contact: {
     header: "Contact",
     email: "alberto@francisco.nu",
-    linkedin: "https://www.linkedin.com/in/albertochavezperez/"
+    linkedin: "https://www.linkedin.com/in/albertochavezperez/",
+    photo: "profilephoto.jpg"
   }
 
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import "./about.css"
 import text from "../text"
+import photo from "../img/profilephoto.jpg"
 
 class About extends React.Component {
 
@@ -35,8 +36,11 @@ class About extends React.Component {
         </div>
 
         <div className="container-2">
+          {console.log(text)}
           <div>
-            <div>Photo img</div>
+            <img
+              src={photo}
+              alt="Profile" />
           </div>
         </div>
 

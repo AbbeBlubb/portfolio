@@ -2,20 +2,20 @@
   padding: 0 2em 0.8em 2em;
 }
 
-.project {
+.pd .project {
   /*font-size: 0.526em;*/
   height: 388px;
   background-color: rgba(255, 228, 191, 0.7);
   display: flex;
 }
 
-.img-container {
+.pd .img-container {
   margin: 4% 0 4% 4%;
 }
 
 .pd .img-wrap {
-  width: 400px;
-  height: 300px;
+  max-width: 400px;
+  max-height: 300px;
 }
 
 .pd img {
@@ -28,5 +28,17 @@
 
 .pd .header {
   font-weight: bold;
-  padding: 0.8em 0 0.8em 0;
+  padding: 0.4em 0 0.4em 0;
+}
+
+@media (min-width: 1030px) {
+  .pd .img-container {
+    margin: 30px 0 30px 30px;
+  }
+  .pd .text {
+    margin: 30px 30px 30px 30px;
+  }
+  .pd .header {
+    padding: 0.8em 0 0.8em 0;
+  }
 }
