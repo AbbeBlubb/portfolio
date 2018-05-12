@@ -12,7 +12,8 @@ class Header extends React.Component {
         </h1>
         <div
           className="header-button"
-          onClick={this.props.handleScrollButtonClick}>{text.header.button}</div>
+          onClick={this.props.handleScrollButtonClick}>{text.header.button}
+        </div>
       </header>
     )
   }

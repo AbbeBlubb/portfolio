@@ -2,9 +2,8 @@ import React from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import Header from "./Header"
 import List from "./List"
-import About from "./About";
+import About from "./About"
 import "./app.css"
-
 
 class App extends React.Component {
 
@@ -16,8 +15,11 @@ class App extends React.Component {
     }
   }
 
-  componentDidMount () {
-    this.state.pixel = this.divProjects.current.getBoundingClientRect().y
+  componentDidMount() {
+    const pixel = this.divProjects.current.getBoundingClientRect().y
+    this.setState({
+      pixel
+    })
   }
 
   handleScrollButtonClick = () => {
@@ -32,14 +34,12 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="app-main">
           <Header
-            handleScrollButtonClick={this.handleScrollButtonClick}
-          />
+            handleScrollButtonClick={this.handleScrollButtonClick} />
           <div
             ref={this.divProjects}>
             <Route
               path="/"
-              component={List}
-            />
+              component={List} />
           </div>
 
           <About />

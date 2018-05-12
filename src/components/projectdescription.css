@@ -4,7 +4,13 @@
 
 .project {
   /*font-size: 0.526em;*/
+  height: 388px;
   background-color: rgba(255, 228, 191, 0.7);
+  display: flex;
+}
+
+.img-container {
+  margin: 4% 0 4% 4%;
 }
 
 .pd .img-wrap {
@@ -16,6 +22,11 @@
   width: 100%;
 }
 
+.pd .text {
+  margin: 4% 4% 4% 4%;
+}
+
 .pd .header {
   font-weight: bold;
+  padding: 0.8em 0 0.8em 0;
 }

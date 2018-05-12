@@ -1,6 +1,6 @@
 import React from "react"
 import "./listitem.css"
-import ProjectDescription from "./ProjectDescription";
+import ProjectDescription from "./ProjectDescription"
 
 
 class ListItem extends React.Component {
@@ -30,7 +30,7 @@ class ListItem extends React.Component {
               <ProjectDescription
                 name={this.props.name}
                 description={this.props.description}
-                img={this.props.img}/>
+                img={this.props.img} />
             </div>
         </div>
     )

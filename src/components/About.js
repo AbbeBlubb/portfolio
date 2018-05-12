@@ -20,6 +20,7 @@ class About extends React.Component {
               </div>
             </div>
             <div className="contact">
+
               <div>
                 <h2>{text.contact.header}</h2>
               </div>
