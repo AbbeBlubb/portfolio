@@ -30,6 +30,7 @@ class ListItem extends React.Component {
           <ProjectDescription
             name={this.props.name}
             description={this.props.description}
+            link={this.props.link}
             img={this.props.img} />
         </div>
       </div>

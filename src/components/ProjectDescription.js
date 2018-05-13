@@ -26,6 +26,16 @@ class ProjectDescription extends React.Component {
                 {this.props.description}
               </div>
             </div>
+            <div className="link">
+              <a
+                href={this.props.link}
+                target="_blank"
+                onClick="return false">
+                <div>
+                  See the project
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

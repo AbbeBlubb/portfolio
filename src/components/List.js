@@ -16,6 +16,7 @@ class List extends React.Component {
             name={element.name}
             short={element.short}
             description={element.description}
+            link={element.link}
             img={element.imgFileName} />
         ))}
         <div className="empty" />

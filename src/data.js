@@ -1,24 +1,28 @@
 export default [
   {
-    id: "Clock",
-    name: "Clock",
-    description: "Hkldjflkajflkajf is a longer description than the about hello.",
-    short: "Det här är ett projekt. Lorem Ipsum",
-    imgFileName: "placeholder3.png"
+    id: "habittracker",
+    name: "Habit Tracker",
+    short: "Manage your to-do list",
+    description: "Create your own tasks, and mark them as completed or delete them. Uses localStorage. Made with React. Mobile first.",
+    imgFileName: "placeholder2.png",
+    link: "https://abbeblubb.github.io/habittracker/"
   },
   {
-    id: "Radio",
-    name: "Radio Player",
-    description: "Beskrivning this can be longer bla bla lorem lorem hej.",
-    short: "Kort sammanfattning",
-    imgFileName: "placeholder2.png"
+    id: "weatherdashboard",
+    name: "Weather Dashboard",
+    short: "Realtime weather description",
+    description: "Fetches temperature, text-description and a descriptive icon, from an API. Flexbox. Mobile first.",
+    imgFileName: "placeholder2.png",
+    link: "https://abbeblubb.github.io/weather/"
+
   },
   {
     id: "Easter",
     name: "Easter Egg Hunt",
     description: "Oklj lajf iehdbco this can be longer bla bla bla lorem lorem.",
     short: "About the project short",
-    imgFileName: "placeholder.png"
+    imgFileName: "placeholder.png",
+    link: "https://abbeblubb.github.io/habittracker/"
   }
 ]
 
