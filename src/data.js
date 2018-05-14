@@ -10,8 +10,8 @@ export default [
   {
     id: "weather",
     name: "Weather Dashboard",
-    short: "Realtime weather description",
-    description: "Fetches temperature, text-description and a descriptive icon, from an API. Flexbox. Responsive, mobile first.",
+    short: "Realtime weather information",
+    description: "Fetches actual weather description and temperature, including a descriptive icon, from an API. Responsive, mobile first.",
     imgFileName: "weather.png",
     link: "https://abbeblubb.github.io/weather/"
 
@@ -20,7 +20,7 @@ export default [
     id: "grid",
     name: "Grid",
     short: "A design brief",
-    description: "Uses grid and relative/absolute positioning. Responsive, mobile first.",
+    description: "Uses CSS grid and CSS relative/absolute positioning. Responsive, mobile first.",
     imgFileName: "grid.png",
     link: "https://abbeblubb.github.io/grid/"
   }

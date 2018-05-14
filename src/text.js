@@ -1,3 +1,5 @@
+import profilephoto from "./img/profilephoto.jpg"
+
 export default {
 
   header: {
@@ -31,7 +33,7 @@ export default {
     header: "Contact",
     email: "alberto@francisco.nu",
     linkedin: "https://www.linkedin.com/in/albertochavezperez/",
-    photo: "profilephoto.jpg"
+    photo: profilephoto
   }
 
 }
