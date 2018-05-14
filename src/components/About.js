@@ -18,6 +18,7 @@ class About extends React.Component {
                 <p>{text.about.parraf1}</p>
                 <p>{text.about.parraf2}</p>
                 <p>{text.about.parraf3}</p>
+                <p>{text.about.parraf4}</p>
               </div>
             </div>
             <div className="contact">

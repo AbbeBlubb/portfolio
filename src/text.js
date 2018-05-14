@@ -22,7 +22,9 @@ export default {
       "5-week full-time course in C# / " +
       "webcourse in Android Developement / " +
       "evening course in responsive web design / " +
-      "own studies."
+      "own studies.",
+    parraf4:
+      "This site is published May 14, 2018. I'll be deploying projects during this month."
   },
 
   contact: {
