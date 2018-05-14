@@ -17,6 +17,14 @@ export default [
 
   },
   {
+    id: "clock",
+    name: "Clock",
+    short: "Freeze the time",
+    description: "This clock is built with JavaScript and uses the React lifecycle. Mobile first.",
+    imgFileName: "clock2.png",
+    link: "https://abbeblubb.github.io/clock/"
+  },
+  {
     id: "grid",
     name: "Grid",
     short: "A design brief",
