@@ -10,7 +10,7 @@ export default [
   {
     id: "weather",
     name: "Weather Dashboard",
-    short: "Realtime weather information",
+    short: "Real-time weather information",
     description: "Fetches actual weather description and temperature, including a descriptive icon, from an API. Responsive, mobile first.",
     imgFileName: "weather.png",
     link: "https://abbeblubb.github.io/weather/"
@@ -19,7 +19,7 @@ export default [
   {
     id: "clock",
     name: "Clock",
-    short: "Freeze the time",
+    short: "Freeze time",
     description: "This clock is built with JavaScript and uses the React lifecycle. Mobile first.",
     imgFileName: "clock2.png",
     link: "https://abbeblubb.github.io/clock/"
@@ -28,7 +28,7 @@ export default [
     id: "grid",
     name: "Grid",
     short: "A design brief",
-    description: "Uses CSS grid and CSS relative/absolute positioning. Responsive, mobile first.",
+    description: "Here I have used CSS grid layout and CSS relative/absolute positioning. Responsive, mobile first.",
     imgFileName: "grid.png",
     link: "https://abbeblubb.github.io/grid/"
   }
