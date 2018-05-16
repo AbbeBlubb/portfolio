@@ -1,5 +1,13 @@
 export default [
   {
+    id: "forum",
+    name: "Forum",
+    short: "Questions and answers",
+    description: "This project is built with JSX, CSS, JavaScript, React, Node.js, Express, MongoDB, Mongoose. Hosted in mLab, Heroku and GitHub. Mobile first.",
+    imgFileName: "forum2.png",
+    link: "https://abbeblubb.github.io/forum/"
+  },
+  {
     id: "habittracker",
     name: "Habit Tracker",
     short: "Manage your to-do list",
@@ -19,7 +27,7 @@ export default [
   {
     id: "clock",
     name: "Clock",
-    short: "Freeze time",
+    short: "Freeze time!",
     description: "This clock is built with JavaScript and uses the React lifecycle. Mobile first.",
     imgFileName: "clock2.png",
     link: "https://abbeblubb.github.io/clock/"

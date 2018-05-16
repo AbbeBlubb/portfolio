@@ -12,12 +12,13 @@ export default {
     header: "About me",
     parraf1:
       "I'm a junior web developer. " +
-      "After 8 years working with law I discovered frontend. " +
-      "At first I had the learning as a hobby, and soon I decided to go all-in. " +
-      "I love my new career path!",
+      "I know HTML, CSS, SASS, JSX, JavaScript, React, Node.js, Express, MongoDB, Mongoose, and more. ",
     parraf2:
+      "After 8 years working with law I discovered web developing. " +
+      "At first I had the learning as a hobby, and soon I decided to go all-in. " +
+      "I love my new career path! " +
       "Law is a lot about structure, analisis and presentation. " +
-      "This experience I bring into my new career!",
+      "This experience I have brought into my web developer career!",
     parraf3:
       "My experience in developement is: " +
       "12 week intensive bootcamp in web developement / " +

@@ -2,6 +2,10 @@
   padding: 0 2em 0.8em 2em;
 }
 
+.pd:hover {
+  cursor: context-menu;
+}
+
 .pd .project {
   /*font-size: 0.526em;*/
   height: 388px;
@@ -40,6 +44,10 @@
 
 .pd a {
   padding: 0.8em;
+}
+
+.pd a:hover {
+  color: #e57b7d;
 }
 
 .pd .link > a > div::after {
