@@ -48,7 +48,7 @@
   overflow: hidden;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .li-main {
     font-size: 1.6em;
   }

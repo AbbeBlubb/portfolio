@@ -1,19 +1,19 @@
 export default [
   {
-    id: "forum",
-    name: "Forum",
-    short: "Questions and answers",
-    description: "This project is built with JSX, CSS, JavaScript, React, Node.js, Express, MongoDB, Mongoose. Hosted in mLab, Heroku and GitHub. Mobile first.",
-    imgFileName: "forum2.png",
-    link: "https://abbeblubb.github.io/forum/"
-  },
-  {
     id: "habittracker",
     name: "Habit Tracker",
     short: "Manage your to-do list",
-    description: "Create your own tasks, and mark them as completed or delete them. Uses localStorage. Made with React. Responsive, mobile first.",
+    description: "Create your own tasks, and mark them as completed or delete them. Uses localStorage. Made with React and JavaScript. Mobile first.",
     imgFileName: "habittracker2.png",
     link: "https://abbeblubb.github.io/habittracker/"
+  },
+  {
+    id: "forum",
+    name: "Forum",
+    short: "Questions and answers",
+    description: "This project is built with JavaScript, React, Node.js, Express, MongoDB, Mongoose. Hosted in mLab, Heroku and GitHub. Mobile first.",
+    imgFileName: "forum2.png",
+    link: "https://abbeblubb.github.io/forum/"
   },
   {
     id: "weather",
