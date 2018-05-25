@@ -1,5 +1,13 @@
 export default [
   {
+    id: "stocks",
+    name: "Stocks explorer",
+    short: "Value rating and news",
+    description: "Get to know the Swedish Large Cap list! Compare financial information and explore news. Made with React, JavaScript, Express, Mongoose. Responsive, mobile first.",
+    imgFileName: "value.png",
+    link: "https://abbeblubb.github.io/stocks/"
+  },
+  {
     id: "habittracker",
     name: "Habit Tracker",
     short: "Manage your to-do list",
@@ -22,7 +30,6 @@ export default [
     description: "Fetches actual weather description and temperature, including a descriptive icon, from an API. Responsive, mobile first.",
     imgFileName: "weather.png",
     link: "https://abbeblubb.github.io/weather/"
-
   },
   {
     id: "clock",
@@ -39,6 +46,14 @@ export default [
     description: "Here I have used CSS grid layout and CSS relative/absolute positioning. Responsive, mobile first.",
     imgFileName: "grid.png",
     link: "https://abbeblubb.github.io/grid/"
+  },
+  {
+    id: "flexbox",
+    name: "Flexbox",
+    short: "A design brief",
+    description: "This magazine web page uses flexbox. Responsive, mobile first.",
+    imgFileName: "magazine.png",
+    link: "https://abbeblubb.github.io/magazine/"
   }
 ]
 
