@@ -54,6 +54,14 @@ export default [
     description: "This magazine web page uses flexbox. Responsive, mobile first.",
     imgFileName: "magazine.png",
     link: "https://abbeblubb.github.io/magazine/"
+  },
+  {
+    id: "log",
+    name: "C#",
+    short: "A spacecraft's logbook",
+    description: "This is a console program in C#. The link goes to my repository, where you can download the .exe-file. The program is in Swedish.",
+    imgFileName: "log.png",
+    link: "https://github.com/AbbeBlubb/log"
   }
 ]
 
