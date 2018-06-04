@@ -27,7 +27,7 @@ export default {
       "evening course in responsive web design / " +
       "own studies.",
     parraf4:
-      "This site is published May 14, 2018. I'll be deploying projects during this month."
+      "This site is published May 14, 2018. I'll be deploying projects during May-June."
   },
 
   contact: {
