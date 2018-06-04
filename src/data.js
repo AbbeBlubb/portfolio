@@ -2,8 +2,8 @@ export default [
   {
     id: "stocks",
     name: "Stocks explorer",
-    short: "Value rating and news",
-    description: "Get to know the Swedish Large Cap list! Compare financial information and explore news. Made with React, JavaScript, Express, Mongoose. Responsive, mobile first.",
+    short: "Financial rating and global news",
+    description: "Get to know the Swedish Large Cap list! Made with React, JavaScript, MongoDB, Express, Mongoose. Responsive, mobile first.",
     imgFileName: "value.png",
     link: "https://abbeblubb.github.io/stocks/"
   },
