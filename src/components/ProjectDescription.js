@@ -1,46 +1,46 @@
 import React from "react"
-import "./projectdescription.css"
 
-class ProjectDescription extends React.Component {
+export function ProjectDescription(props) {
 
-  render() {
-    return (
-      <div className="pd">
-        <div className="project">
-          <div className="img-container">
-            <div className="img-wrap">
-              <img
-                className="img"
-                src={require(`../img/${this.props.img}`)}
-                alt="Project" />
-            </div>
-          </div>
-          <div className="text">
-            <div>
-              <div className="header">
-                {this.props.name}
-              </div>
-            </div>
-            <div>
-              <div>
-                {this.props.description}
-              </div>
-            </div>
-            <div className="link">
-              <a
-                href={this.props.link}
-                target="_blank"
-                onClick="return false">
-                <div>
-                  See the project
-                </div>
-              </a>
-            </div>
+  return (
+      <div className={`project-description-dropdown ${props.projectIsVisible && 'project-description-visible'}`}>
+    <div className={`project-description`}>
+      <div className="project-description__inner">
+        
+        <div className="img-container">
+          <div className="img-wrap">
+            <img
+              className="img"
+              src={require(`../assets/project-images/${props.img}`)}
+              alt="Project" />
           </div>
         </div>
+        
+        <div className="text">
+          
+          <div className="header">
+            {props.name}
+          </div>
+        
+          <div>
+            {props.description}
+          </div>
+          
+          <div className="link">
+            <a
+              href={props.link}
+              target="_blank"
+              onClick="return false">
+              <div>
+                See the project
+              </div>
+            </a>
+          </div>
+          
+        </div>
+        
       </div>
-    )
-  }
+    </div>
+    </div>
+  )
 }
-
-export default ProjectDescription

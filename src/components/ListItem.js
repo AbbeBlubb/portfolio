@@ -1,8 +1,7 @@
 import React from "react"
-import "./listitem.css"
-import ProjectDescription from "./ProjectDescription"
+import { ProjectDescription } from "./ProjectDescription"
 
-class ListItem extends React.Component {
+export default class ListItem extends React.Component {
 
   constructor(props) {
     super(props)
@@ -22,20 +21,20 @@ class ListItem extends React.Component {
       <div
         className="li-main"
         onClick={this.toggleProject}>
+        
         <div className="container">
           <div className="name">{this.props.name}</div>
           <div className="pl-short">/ {this.props.short}</div>
         </div>
-        <div className={this.state.projectIsVisible ? "visible" : "hidden"}>
-          <ProjectDescription
-            name={this.props.name}
-            description={this.props.description}
-            link={this.props.link}
-            img={this.props.img} />
-        </div>
+        
+        <ProjectDescription
+          projectIsVisible={this.state.projectIsVisible}
+          name={this.props.name}
+          description={this.props.description}
+          link={this.props.link}
+          img={this.props.img} />
+        
       </div>
     )
   }
 }
-
-export default ListItem

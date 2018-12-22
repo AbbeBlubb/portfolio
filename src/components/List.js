@@ -1,28 +1,20 @@
 import React from "react"
-import data from "../data"
-import "./list.css"
+import data from "../assets/data"
 import ListItem from "./ListItem"
 
-class List extends React.Component {
-
-  render() {
-    return (
-      <div className="list-main">
-        <div className="empty" />
-        {data.map(element => (
-          <ListItem
-            key={element.id}
-            id={element.id}
-            name={element.name}
-            short={element.short}
-            description={element.description}
-            link={element.link}
-            img={element.imgFileName} />
-        ))}
-        <div className="empty" />
-      </div>
-    )
-  }
+export function List() {
+  return (
+    <div className="list">
+      {data.map(element => (
+        <ListItem
+          key={element.id}
+          id={element.id}
+          name={element.name}
+          short={element.short}
+          description={element.description}
+          link={element.link}
+          img={element.imgFileName} />
+      ))}
+    </div>
+  )
 }
-
-export default List

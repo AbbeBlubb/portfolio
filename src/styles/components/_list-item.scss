@@ -20,7 +20,7 @@
 .li-main > .container {
   display: flex;
   flex-direction: row;
-  border-top: 0 solid #FFCDB2;
+  border-top: 0 solid $sand;
   padding: 0.8em 0 0.8em 2em;
 }
 
@@ -36,17 +36,7 @@
   font-weight: normal;
 }
 
-.li-main .hidden {
-  height: 0;
-  transition: height 1s ease;
-  overflow: hidden;
-}
 
-.li-main .visible {
-  height: 400px;
-  transition: height 1s ease;
-  overflow: hidden;
-}
 
 @media (min-width: 700px) {
   .li-main {

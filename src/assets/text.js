@@ -1,4 +1,4 @@
-import profilephoto from "./img/profilephoto.jpg"
+import profilephoto from "./profilephoto.jpg"
 
 export default {
 

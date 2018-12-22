@@ -1,0 +1,9 @@
+.list {
+  &::before,
+  &::after {
+    display: block;
+    content: '';
+    height: 13px;
+    background-color: $green;
+  }
+}

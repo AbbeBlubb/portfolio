@@ -1,9 +1,8 @@
 import React from "react"
-import "./about.css"
-import text from "../text"
+import text from "../assets/text"
 //import photo from "../img/profilephoto.jpg"
 
-class About extends React.Component {
+export default class About extends React.Component {
 
   render() {
     return (
@@ -47,5 +46,3 @@ class About extends React.Component {
   }
 
 }
-
-export default About
