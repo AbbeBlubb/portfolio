@@ -5,7 +5,7 @@ export default class Hero extends React.Component {
 
   constructor(props){
     super(props)
-    this.titleContainer = React.createRef()
+    this.titleContainer = React.createRef() // The ref is created, see the JSX
     this.state={
       windowInnerHeight: window.innerHeight,
       heroOffsetX: 0,
@@ -41,7 +41,7 @@ export default class Hero extends React.Component {
   
   _onMouseMove = (e) => {
     /* Get the width and height of the Hero component (Header element) */
-    const width = this.titleContainer.current.clientWidth
+    const width = this.titleContainer.current.clientWidth // The properties of the ref are in the .current
     const height = this.titleContainer.current.clientHeight
     
     /* Get the cursors position in relation to the Hero: cursors position divided with the Hero's dimensions, then x100 to get percentage */
