@@ -53,6 +53,12 @@
     & > a {
       padding: 0.8em;
 
+      &:link,
+      &:active,
+      &:visited {
+        color: $off-black;
+      }
+
       &:hover {
         color: #e57b7d;
       }

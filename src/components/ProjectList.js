@@ -1,12 +1,12 @@
 import React from "react"
 import data from "../assets/data"
-import ListItem from "./ListItem"
+import ProjectListItem from "./ProjectListItem"
 
-export function List() {
+export function ProjectList() {
   return (
-    <div className="list">
+    <div className="project-list">
       {data.map(element => (
-        <ListItem
+        <ProjectListItem
           key={element.id}
           id={element.id}
           name={element.name}

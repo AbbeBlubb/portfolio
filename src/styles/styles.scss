@@ -3,6 +3,7 @@
 @import 'components/about';
 @import 'components/app';
 @import 'components/hero';
-@import 'components/list';
-@import 'components/list-item';
-@import 'components/projectdescription';
+@import 'components/project-list';
+@import 'components/project-list-item';
+@import 'components/_project-strip.scss';
+@import 'components/project-description';

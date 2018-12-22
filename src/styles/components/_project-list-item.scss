@@ -1,0 +1,23 @@
+.project-list-item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+  color: $off-black;
+  background-color: $green;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $green-hover;
+  }
+}
+
+@media (min-width: 700px) {
+  .project-list-item {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 950px) {
+  .project-list-item {
+    font-size: 1.9em;
+  }
+}
