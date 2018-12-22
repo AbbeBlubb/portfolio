@@ -5,6 +5,7 @@ export default class Hero extends React.Component {
 
   constructor(props){
     super(props)
+    this.titleContainer = React.createRef()
     this.state={
       windowInnerHeight: window.innerHeight,
       heroOffsetX: 0,
@@ -40,8 +41,8 @@ export default class Hero extends React.Component {
   
   _onMouseMove = (e) => {
     /* Get the width and height of the Hero component (Header element) */
-    const width = this.refs.titleContainer.clientWidth
-    const height = this.refs.titleContainer.clientHeight
+    const width = this.titleContainer.current.clientWidth
+    const height = this.titleContainer.current.clientHeight
     
     /* Get the cursors position in relation to the Hero: cursors position divided with the Hero's dimensions, then x100 to get percentage */
     const offsetX = e.nativeEvent.offsetX / width * 100
@@ -73,7 +74,7 @@ export default class Hero extends React.Component {
           className='hero'
           onMouseMove={this._onMouseMove}
           onMouseOut={this._onMouseOut}
-          ref='titleContainer'
+          ref={this.titleContainer}
           style={maskStyle}>
         
         <h1 className='hero__header'>
