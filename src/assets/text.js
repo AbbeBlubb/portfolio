@@ -2,7 +2,7 @@ import profilephoto from "./profilephoto.jpg"
 
 export default {
 
-  header: {
+  hero: {
     a: "Alberto",
     fcp: "Francisco Chávez Pérez",
     button: "Portfolio & me"

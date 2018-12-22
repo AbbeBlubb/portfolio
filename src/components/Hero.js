@@ -7,6 +7,8 @@ export default class Hero extends React.Component {
     super(props)
     this.state={
       windowInnerHeight: window.innerHeight,
+      heroOffsetX: 0,
+      heroOffsetY: 0,
     }
   }
   
@@ -36,17 +38,57 @@ export default class Hero extends React.Component {
     this.setState({ windowInnerHeight: window.innerHeight})
   }
   
+  _onMouseMove = (e) => {
+    /* Get the width and height of the Hero component (Header element) */
+    const width = this.refs.titleContainer.clientWidth
+    const height = this.refs.titleContainer.clientHeight
+    
+    /* Get the cursors position in relation to the Hero: cursors position divided with the Hero's dimensions, then x100 to get percentage */
+    const offsetX = e.nativeEvent.offsetX / width * 100
+    const offsetY = e.nativeEvent.offsetY / height * 100
+    
+    this.setState({
+      heroOffsetX: offsetX,
+      heroOffsetY: offsetY,
+    })
+    
+    console.table([width, height, Math.floor(offsetX), Math.floor(offsetY)])
+  }
+  
+  _onMouseOut = () => {
+    this.setState({
+      heroOffsetX: 0,
+      heroOffsetY: 0,
+    })
+  }
+  
   render() {
+ 
+    const maskStyle = {
+      '--maskX': this.state.heroOffsetX,
+      '--maskY': this.state.heroOffsetY,
+    }
     return (
-      <header>
-        <h1>
-          <span>{text.header.a}</span> {text.header.fcp}
+      <header
+          className='hero'
+          onMouseMove={this._onMouseMove}
+          onMouseOut={this._onMouseOut}
+          ref='titleContainer'
+          style={maskStyle}>
+        
+        <h1 className='hero__header'>
+          <div><span>{text.hero.a}</span> {text.hero.fcp}</div>
         </h1>
+        <h1 className='hero__header-clone'>
+          <span>{text.hero.a}</span> {text.hero.fcp}
+        </h1>
+        
         <div
-            className="header-button"
+            className="hero__button"
             onClick={() => this.handleScrollButtonClick()}>
-          {text.header.button}
+          {text.hero.button}
         </div>
+        
       </header>
     )
   }
