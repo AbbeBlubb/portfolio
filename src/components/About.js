@@ -2,9 +2,7 @@ import React from "react"
 import text from "../assets/text"
 //import photo from "../img/profilephoto.jpg"
 
-export default class About extends React.Component {
-
-  render() {
+export function About() {
     return (
       <footer>
         <div className="container-1">
@@ -43,6 +41,5 @@ export default class About extends React.Component {
 
       </footer>
     )
-  }
 
 }
