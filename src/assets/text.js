@@ -12,7 +12,7 @@ export default {
     header: "About me",
     parraf1:
       "I'm a junior web developer. " +
-      "I know HTML, CSS, SASS, JSX, JavaScript, React, Node.js, Express, MongoDB, Mongoose, and more. ",
+      "I have experience with HTML, CSS, SASS, LESS, JavaScript, React, JSX, Redux, Aurelia, Node.js, Express, MongoDB, Mongoose, Contentful, and more.",
     parraf2:
       "After 8 years working with law I discovered web developing. " +
       "At first I had the development as a hobby, and soon I decided to go all-in. " +
