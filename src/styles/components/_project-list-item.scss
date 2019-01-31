@@ -2,11 +2,12 @@
   font-family: 'Raleway', sans-serif;
   font-size: 1.4em;
   color: $off-black;
-  background-color: $green;
+  //background-color: $green;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
+    background-image: none;
     background-color: $green-hover;
     //box-shadow: inset 0 0 5px #bbdace;
     //box-shadow: inset 0 0 5px #919191;

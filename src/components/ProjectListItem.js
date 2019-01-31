@@ -21,6 +21,7 @@ export default class ProjectListItem extends React.Component {
     return (
       <div
           className="project-list-item"
+          style={{ backgroundColor: this.props.backgroundColor, backgroundImage: "url(\"" + this.props.backgroundImage.url + "\")"}}
           onClick={this.toggleProject}>
   
         <ProjectStrip
