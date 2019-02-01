@@ -4,6 +4,13 @@
   border-top: 0 solid $sand;
   padding: 25px 5%;
 
+  &__text-wrap {
+    transition: background-color 0.3s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+
   &__name {
     font-weight: bold;
 

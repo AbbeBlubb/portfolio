@@ -16,5 +16,8 @@
     height: 388px;
     background-color: rgb(251, 229, 198);
     display: flex;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
   }
 }
