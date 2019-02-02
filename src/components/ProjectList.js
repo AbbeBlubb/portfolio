@@ -13,7 +13,8 @@ export function ProjectList() {
           name={element.name}
           short={element.short}
           description={element.description}
-          link={element.link}
+          linkUrl={element.linkUrl}
+          linkText={element.linkText}
           img={element.imgFileName}
           backgroundColor={backgroundColor}
           backgroundImage={backgroundImages[Math.floor(Math.random()*backgroundImages.length)]}/>

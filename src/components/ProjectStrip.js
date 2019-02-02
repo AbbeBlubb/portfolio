@@ -3,11 +3,13 @@ import React from "react";
 export function ProjectStrip(props) {
   return(
     <div className="project-strip">
-      <div className="project-strip__text-wrap">
+      <div 
+        className="project-strip__text-wrap"
+        style={{ backgroundColor: props.projectIsVisible && '#fbe5c6'}}>
         <span className="project-strip__name">
-          &nbsp;{props.name}
+          {props.name}
         </span>
-        /&nbsp;{props.short}&nbsp;
+        /&nbsp;{props.short}
       </div>
     </div>
   )

@@ -15,7 +15,8 @@ export function ProjectDescription(props) {
           <ProjectTextArea
               name={props.name}
               description={props.description}
-              href={props.link}/>
+              linkUrl={props.linkUrl}
+              linkText={props.linkText}/>
   
         </div>
       </div>
