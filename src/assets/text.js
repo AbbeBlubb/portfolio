@@ -11,8 +11,8 @@ export default {
   about: {
     header: `About me`,
     parraf1:
-      "I'm a junior web developer. " +
-      `I have experience with agile methodology, small and big projects,
+      `I'm a junior web developer.
+      I have experience with agile methodology, small and big projects,
       HTML, CSS, SASS, LESS,
       JavaScript, React, Redux, JSX, Gatsby, Aurelia,
       Node.js, Express, MongoDB, Mongoose,
@@ -22,7 +22,7 @@ export default {
       At first I had the development as a hobby, and soon I decided to go all-in.
       I love my new career path!
       Law is a lot about structure, analysis and presentation.
-      This experience I have brought into my web developer career!`,
+      This experience I have brought into my web developer career!`
   },
 
   contact: {

@@ -25,6 +25,7 @@ export default class ProjectListItem extends React.Component {
           onClick={this.toggleProject}>
   
         <ProjectStrip
+            projectIsVisible={this.state.projectIsVisible}
             name={this.props.name}
             short={this.props.short}/>
   
@@ -32,7 +33,8 @@ export default class ProjectListItem extends React.Component {
             projectIsVisible={this.state.projectIsVisible}
             name={this.props.name}
             description={this.props.description}
-            link={this.props.link}
+            linkUrl={this.props.linkUrl}
+            linkText={this.props.linkText}
             img={this.props.img}/>
 
       </div>
