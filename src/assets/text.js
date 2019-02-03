@@ -12,7 +12,7 @@ export default {
     header: `About me`,
     parraf1:
       `I'm a junior web developer.
-      I have experience with agile methodology, small and big projects,
+      I have experience with agile methodology, big and small projects,
       HTML, CSS, SASS, LESS,
       JavaScript, React, Redux, JSX, Gatsby, Aurelia,
       Node.js, Express, MongoDB, Mongoose,
