@@ -84,7 +84,9 @@ export default class Hero extends React.Component {
           <span>{text.hero.a}</span> {text.hero.fcp}
         </h1>
         
+        {/* Position the wrapper in absolute, so the button inside the wrapper don't need to have the absolute positioning */}
         <div className="hero__button-wrapper">
+              {/* The button has the styling, and the wave-effect that requires relative positioning */}
               <div
                   className="hero__button
                              waves-effect
