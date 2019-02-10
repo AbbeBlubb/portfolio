@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom"
 import Hero from "../components/Hero"
 import { ProjectList } from "../components/ProjectList"
 import { About } from "../components/About"
+import '../assets/waves'
 
 export function AppRouter() {
   return (

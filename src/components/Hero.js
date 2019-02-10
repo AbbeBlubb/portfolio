@@ -84,10 +84,15 @@ export default class Hero extends React.Component {
           <span>{text.hero.a}</span> {text.hero.fcp}
         </h1>
         
-        <div
-            className="hero__button"
-            onClick={() => this.handleScrollButtonClick()}>
-          {text.hero.button}
+        <div className="hero__button-wrapper">
+              <div
+                  className="hero__button
+                             waves-effect
+                             waves-light"
+                  onClick={() => this.handleScrollButtonClick()}
+              >
+                {text.hero.button}
+              </div>
         </div>
         
       </header>
