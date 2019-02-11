@@ -6,11 +6,18 @@
 
   &__text-wrap {
     width: 100%;
+
+  }
+
+  /* This class is affected by a :hover in _project-list-item.scss  */
+  &__text-line {
     transition: background-color 0.3s;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
     padding: 0 2%;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
   &__name {
