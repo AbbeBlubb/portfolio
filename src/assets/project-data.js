@@ -1,17 +1,17 @@
 export default [
   {
     id: 'snake',
-    name: 'Snake Game',
-    short: 'Eat apples and get bigger!',
-    description: 'Make swipe gestures on the screen or use the keyboard arrows to control the snake. Made with JavaScript. Mobile first. I will continue to develop this game.',
+    name: 'JavaScript game',
+    short: 'Snake Game - Eat apples and get bigger!',
+    description: 'Make swipe gestures on the screen or use the keyboard arrows to control the snake. Made with JavaScript. Mobile first.',
     imgFileName: 'snake.png',
     linkUrl: 'https://abbeblubb.github.io/snake/',
     linkText: 'See the project'
   },
   {
     id: 'stocks',
-    name: 'Stocks Explorer',
-    short: 'Financial rating and global news',
+    name: 'Database, server and API',
+    short: 'Stocks Explorer - Financial rating and global news',
     description: 'Explore the Swedish Large Cap list! Explained financial information and up-to-date global news. JavaScript, React, MongoDB, Express, Mongoose. Responsive, mobile first.',
     imgFileName: 'value.png',
     linkUrl: 'https://abbeblubb.github.io/stocks/',
@@ -19,9 +19,9 @@ export default [
   },
   {
     id: 'taskmanager',
-    name: 'Task Manager',
-    short: 'A task manager for a manager',
-    description: 'Search bar to easily find persons by name, city, e-mail or nickname. Made with JavaScript, React, SASS. Responsive, mobile first. Fetches users and tasks from an API.',
+    name: 'Global State with Redux',
+    short: 'Task manager',
+    description: 'Follow the Redux Store and Actions in the console or in Redux DevTools. Uses Redux-Thunk for synchronous actions. Search bar to easily find persons. React, SASS, mobile first.',
     imgFileName: 'taskmanager.png',
     linkUrl: 'https://abbeblubb.github.io/taskmanager/',
     linkText: 'See the project'
@@ -64,7 +64,7 @@ export default [
   },
   {
     id: 'grid',
-    name: 'Grid',
+    name: 'CSS Grid',
     short: 'A design brief',
     description: 'Here I have used CSS grid layout and CSS relative/absolute positioning. Responsive, mobile first.',
     imgFileName: 'grid.png',
@@ -73,7 +73,7 @@ export default [
   },
   {
     id: 'flexbox',
-    name: 'Flexbox',
+    name: 'CSS Flexbox',
     short: 'A design brief',
     description: 'This magazine web page uses flexbox. Responsive, mobile first.',
     imgFileName: 'magazine.png',
