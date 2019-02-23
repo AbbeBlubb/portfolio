@@ -26,7 +26,7 @@ export default [
     linkUrl: 'https://abbeblubb.github.io/taskmanager/',
     linkText: 'See the project'
   },
-  {
+  /*{
     id: 'habittracker',
     name: 'Habit Tracker',
     short: 'Manage your to-do list',
@@ -34,7 +34,7 @@ export default [
     imgFileName: 'habittracker2.png',
     linkUrl: 'https://abbeblubb.github.io/habittracker/',
     linkText: 'See the project'
-  },
+  },*/
   {
     id: 'forum',
     name: 'Forum',
@@ -53,7 +53,7 @@ export default [
     linkUrl: 'https://abbeblubb.github.io/weather/',
     linkText: 'See the project'
   },
-  {
+  /*{
     id: 'clock',
     name: 'Clock',
     short: 'Freeze time!',
@@ -61,7 +61,7 @@ export default [
     imgFileName: 'clock2.png',
     linkUrl: 'https://abbeblubb.github.io/clock/',
     linkText: 'See the project'
-  },
+  },*/
   {
     id: 'grid',
     name: 'CSS Grid',
