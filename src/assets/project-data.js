@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 'taskmanager',
-    name: 'Global State with Redux',
+    name: 'Global State with Redux, image optimization',
     short: 'Task manager',
     description: 'Follow the Redux Store and Actions in the console or in Redux DevTools. Uses Redux-Thunk for synchronous actions. Search bar to easily find persons. React, SASS, mobile first.',
     imgFileName: 'taskmanager.png',

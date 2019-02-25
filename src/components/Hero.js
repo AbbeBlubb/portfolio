@@ -68,7 +68,8 @@ export default class Hero extends React.Component {
     const maskStyle = {
       '--maskX': this.state.heroOffsetX,
       '--maskY': this.state.heroOffsetY,
-    }
+    };
+    
     return (
       <header
           className='hero'
