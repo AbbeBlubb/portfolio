@@ -8,19 +8,16 @@ export function About() {
         <div className="container-1">
           <div>
             <div>
-              <div >
-                <h2>{text.about.header}</h2>
-              </div>
+              <h2>{text.about.header}</h2>
               <div>
                 <p>{text.about.parraf1}</p>
                 <p>{text.about.parraf2}</p>
+                <p>{text.about.parraf3}</p>
               </div>
             </div>
             <div className="contact">
 
-              <div>
-                <h2>{text.contact.header}</h2>
-              </div>
+              <h2>{text.contact.header}</h2>
               <div>
                 <ul>
                   <li><span>{text.contact.email}</span></li>
