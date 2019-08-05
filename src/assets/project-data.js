@@ -2,7 +2,7 @@ export default [
   {
     id: 'taskmanager',
     name: 'Fullstack Task Manager',
-    short: 'Global State with Redux, image optimization',
+    short: 'Global State with Redux',
     description: 'Follow the Redux Store and Actions in the console or in Redux DevTools. Uses Redux-Thunk for synchronous actions. Search bar to easily find persons. React, SASS, mobile first.',
     imgFileName: 'taskmanager.png',
     linkUrl: 'https://abbeblubb.github.io/taskmanager/',

@@ -1,28 +1,22 @@
 import React from "react"
 import text from "../assets/text"
 
-export default class Hero extends React.Component {
+export class Hero extends React.Component {
 
   constructor(props){
     super(props)
-    this.titleContainer = React.createRef() // The ref is created, see the JSX <header> element attributes
+    this.refForTitleContainer = React.createRef() // The ref is created, see the JSX <header> element attributes
     this.state={
       heroOffsetX: 0,
       heroOffsetY: 0,
     }
   }
   
-  handleScroll = () => {
-    window.scrollTo({
-      top: 300,
-      behavior: "smooth"
-    })
-  }
   
   _onMouseMove = (e) => {
     /* Get the width and height of the Hero component (Header element) */
-    const width = this.titleContainer.current.clientWidth // The properties of the ref are in the .current
-    const height = this.titleContainer.current.clientHeight
+    const width = this.refForTitleContainer.current.clientWidth // The properties of the ref are in the .current
+    const height = this.refForTitleContainer.current.clientHeight
     
     /* Get the cursors position in relation to the Hero: cursors position divided with the Hero's dimensions, then x100 to get percentage */
     const offsetX = e.nativeEvent.offsetX / width * 100
@@ -53,7 +47,7 @@ export default class Hero extends React.Component {
           className='hero'
           onMouseMove={this._onMouseMove}
           onMouseOut={this._onMouseOut}
-          ref={this.titleContainer}
+          ref={this.refForTitleContainer}
           style={maskStyle}>
         
         <h1 className='hero__header'>
@@ -70,7 +64,7 @@ export default class Hero extends React.Component {
                   className="hero__button
                              waves-effect
                              waves-light"
-                  onClick={() => this.handleScroll()}
+                  onClick={() => this.props.handleScrollToRef()}
               >
                 {text.hero.button}
               </div>

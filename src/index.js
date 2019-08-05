@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { AppRouter } from "./routers/AppRouter"
+import { App } from "./components/App"
 import "./styles/styles.scss"
 
-ReactDOM.render(<AppRouter />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
 
