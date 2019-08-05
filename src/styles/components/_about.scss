@@ -1,111 +1,73 @@
-footer {
-  height: auto;
-  width: 100%;
-  background-color: $dark-gray;
-  color: $off-white;
+.about {
+
+  & a:link,
+  & a:active,
+  & a:visited {
+    color: $off-white;
+  }
+
+  & h2 {
+    font-size: 1.2em;
+    color: $white;
+
+    @media (min-width: 600px) {
+      font-size: 1.4em;
+    }
+  }
+
   display: flex;
   flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $dark-gray;
+  color: $off-white;
   line-height: 1.6em;
   font-size: 1em;
-}
+    @media (min-width: 600px) {
+      font-size: 1.2em;
+    }
 
-footer a:link,
-footer a:active,
-footer a:visited {
-  color: $off-white;
-}
-
-.container-1 {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-.container-1 > div {
-  position: static;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.container-2 {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-.container-2 > div {
-  position: static;
-  width: 50%;
-  height: auto;
-  transform: translate(0, 0);
-  margin: 20px auto
-}
-
-.container-2 > div > img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-footer h2 {
-  font-size: 1.2em;
-  color: $white;
-}
-
-footer span {
-  font-weight: bold;
-}
-
-.contact h2 {
-  //margin-top: 60px;
-}
-
-@media (min-width: 600px) {
-  footer {
-    font-size: 1.2em;
-  }
-
-  footer h2 {
-    font-size: 1.4em;
-  }
-
-  .container-1 > div  {
-    height: auto;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 0 20%;
-  }
-}
-
-@media (min-width: 1030px) {
-  footer {
-    height: 100vh;
+  @media (min-width: 1300px) {
     flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+.about__text-section {
+  margin: 0 10px;
+
+  @media (min-width: 600px) {
+    max-width: 500px;
+    margin: 50px 5% 0 20%;
   }
 
-  .container-1 {
+  @media (min-width: 1030px) {
     width: 60%;
+    margin: 50px 0 0 15%;
+  }
+}
+
+
+.about__photo-section {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+
+  @media (min-width: 1300px) {
+    margin: 55px 0 10% 0;
   }
 
-  .container-1 > div {
-    margin: 0;
-    position: absolute;
-    left: 15%;
-    //bottom: 10%;
-  }
+  .about__photo {
+    height: auto;
+    margin: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
 
-  .container-2 {
-    width: 40%;
-  }
-
-  .container-2 > div {
-    position: absolute;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    width: 80%;
+    @media (min-width: 1300px) {
+      width: 80%;
+      max-width: 450px;
+    }
   }
 }

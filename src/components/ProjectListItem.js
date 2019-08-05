@@ -19,7 +19,7 @@ export default class ProjectListItem extends React.Component {
 
   render() {
     return (
-      <div
+      <article
           className="project-list-item"
           style={{ backgroundColor: this.props.backgroundColor, backgroundImage: "url(\"" + this.props.backgroundImage.url + "\")"}}
           onClick={this.toggleProject}>
@@ -37,7 +37,7 @@ export default class ProjectListItem extends React.Component {
             linkText={this.props.linkText}
             img={this.props.img}/>
 
-      </div>
+      </article>
     )
   }
 }

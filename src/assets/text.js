@@ -12,10 +12,9 @@ export default {
     
     header: `About me`,
     
-    parraf1:
+    parrafs: [
       `I'm a junior web developer currently working at a bank. I have  previously being working as consultant.`,
     
-    parraf2:
       `I have experience with agile methodology, big and small projects, 
       SAFe, Jira, Trello, Git, Bitbucket, TeamCity, build and deployment,
       HTML, JSX, Dust, 
@@ -24,12 +23,12 @@ export default {
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github, and more.`,
     
-      parraf3:
       `After 8 years working as law expert I discovered web developing.
       At first I had the development as a hobby, and soon I decided to go all-in.
       I love my new career path!
       Law is a lot about structure, analysis and presentation.
       This experience I have brought into my web developer career!`
+    ]
   },
 
   contact: {

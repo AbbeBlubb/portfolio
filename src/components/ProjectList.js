@@ -5,7 +5,7 @@ import { backgroundColor, backgroundImages } from '../assets/background-images'
 
 export function ProjectList() {
   return (
-    <div className="project-list">
+    <section className="project-list">
       {projectData.map(project => (
         <ProjectListItem
           key={project.id}
@@ -19,6 +19,6 @@ export function ProjectList() {
           backgroundColor={backgroundColor}
           backgroundImage={backgroundImages[Math.floor(Math.random()*backgroundImages.length)]} />
       ))}
-    </div>
+    </section>
   )
 }
