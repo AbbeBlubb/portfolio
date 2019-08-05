@@ -5,38 +5,18 @@ export default class Hero extends React.Component {
 
   constructor(props){
     super(props)
-    this.titleContainer = React.createRef() // The ref is created, see the JSX
+    this.titleContainer = React.createRef() // The ref is created, see the JSX <header> element attributes
     this.state={
-      windowInnerHeight: window.innerHeight,
       heroOffsetX: 0,
       heroOffsetY: 0,
     }
   }
   
-  componentDidMount() {
-    console.log(`Inner height when componentDidMount: ${this.state.windowInnerHeight} px`)
-    window.addEventListener('resize', this.getNewInnerHeight)
-  }
-  
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.table({
-      'componentDidUpdate. Previous state of inner height': `${prevState.windowInnerHeight} px`,
-      'componentDidUpdate. New inner height': `${this.state.windowInnerHeight} px`})
-  }
-  
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.getNewInnerHeight)
-  }
-  
-  handleScrollButtonClick = () => {
+  handleScroll = () => {
     window.scrollTo({
-      top: this.state.windowInnerHeight + 1,
+      top: 300,
       behavior: "smooth"
     })
-  }
-
-  getNewInnerHeight = () => {
-    this.setState({ windowInnerHeight: window.innerHeight})
   }
   
   _onMouseMove = (e) => {
@@ -52,8 +32,6 @@ export default class Hero extends React.Component {
       heroOffsetX: offsetX,
       heroOffsetY: offsetY,
     })
-    
-    console.table([width, height, Math.floor(offsetX), Math.floor(offsetY)])
   }
   
   _onMouseOut = () => {
@@ -85,14 +63,14 @@ export default class Hero extends React.Component {
           <span>{text.hero.a}</span> {text.hero.fcp}
         </h1>
         
-        {/* Position the wrapper in absolute, so the button inside the wrapper don't need to have the absolute positioning */}
+        {/* Position the button-wrapper in absolute, so the button inside the wrapper don't need to have the absolute positioning */}
         <div className="hero__button-wrapper">
               {/* The button has the styling, and the wave-effect that requires relative positioning */}
               <div
                   className="hero__button
                              waves-effect
                              waves-light"
-                  onClick={() => this.handleScrollButtonClick()}
+                  onClick={() => this.handleScroll()}
               >
                 {text.hero.button}
               </div>
