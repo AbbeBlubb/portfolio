@@ -1,31 +1,13 @@
 .project-description {
-  height: 0;
-  transition: height 0.5s ease;
   overflow: hidden;
-
-  &--visible {
-    height: 350px;
-
-    @media (min-width: 1150px) {
-      height: 400px;
-    }
-  }
+  margin: 0 5%;
+  background-color: rgb(251, 229, 198);
+  display: flex;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 
   &:hover {
     cursor: context-menu;
-  }
-
-  &__inner {
-    margin: 0 5%;
-    height: 338px;
-    background-color: rgb(251, 229, 198);
-    display: flex;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-
-    @media (min-width: 1150px) {
-      height: 388px;
-    }
   }
 }

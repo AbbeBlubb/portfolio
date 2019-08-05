@@ -1,19 +1,21 @@
 import React from "react"
 import { ProjectStrip } from "./ProjectStrip";
-import { ProjectDescription } from "./ProjectDescription"
+import { ProjectDescription } from "./ProjectDescription";
+import AnimateHeight from "react-animate-height";
 
-export default class ProjectListItem extends React.Component {
+export class ProjectListItem extends React.Component {
 
   constructor(props) {
     super(props)
     this.state = {
-      projectIsVisible: false
+      projectDescriptionHeight: 0
     }
   }
 
   toggleProject = () => {
+    const { projectDescriptionHeight } = this.state;
     this.setState({
-      projectIsVisible: !this.state.projectIsVisible
+      projectDescriptionHeight: projectDescriptionHeight === 0 ? 'auto' : 0
     })
   }
 
@@ -25,17 +27,21 @@ export default class ProjectListItem extends React.Component {
           onClick={this.toggleProject}>
   
         <ProjectStrip
-            projectIsVisible={this.state.projectIsVisible}
+            projectIsVisible={this.state.projectDescriptionHeight === 0 ? false : true}
             name={this.props.name}
             short={this.props.short}/>
   
-        <ProjectDescription
-            projectIsVisible={this.state.projectIsVisible}
-            name={this.props.name}
-            description={this.props.description}
-            linkUrl={this.props.linkUrl}
-            linkText={this.props.linkText}
-            img={this.props.img}/>
+        <AnimateHeight
+          duration={500}
+          height={this.state.projectDescriptionHeight}>
+          <ProjectDescription
+              projectIsVisible={this.state.projectDescriptionHeight}
+              name={this.props.name}
+              description={this.props.description}
+              linkUrl={this.props.linkUrl}
+              linkText={this.props.linkText}
+              img={this.props.img}/>
+        </AnimateHeight>
 
       </article>
     )

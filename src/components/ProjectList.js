@@ -1,8 +1,7 @@
 import React from "react"
 import projectData from "../assets/project-data"
-import ProjectListItem from "./ProjectListItem"
+import { ProjectListItem } from "./ProjectListItem"
 import { backgroundColor, backgroundImages } from '../assets/background-images'
-import { ProjectStrip } from "./ProjectStrip";
 
 export function ProjectList(props) {
   return (
