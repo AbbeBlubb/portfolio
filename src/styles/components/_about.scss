@@ -61,13 +61,13 @@
   .about__photo {
     height: auto;
     margin: 20px;
-    width: 100%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 350px;
     border-radius: 50%;
 
     @media (min-width: 1300px) {
       width: 80%;
-      max-width: 450px;
+      max-width: 400px;
     }
   }
 }

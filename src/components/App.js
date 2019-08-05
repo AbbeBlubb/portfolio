@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route } from "react-router-dom"
+//import { BrowserRouter, Route } from "react-router-dom"
 import { Hero } from "./Hero"
 import { ProjectList } from "./ProjectList"
 import { About } from "./About"
