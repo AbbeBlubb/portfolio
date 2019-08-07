@@ -3,7 +3,7 @@ export default [
     id: 'taskmanager',
     name: 'Fullstack Task Manager',
     short: 'Global State with Redux',
-    description: 'Follow the Redux Store and Actions in the console or in Redux DevTools. Uses Redux-Thunk for synchronous actions. Search bar to easily find persons. React, SASS, mobile first.',
+    description: 'Follow the Redux Store and Redux Actions in the console or in Redux DevTools. Search bar to easily find persons. API server hosted in Heroku, MongoDB server hosted in Atlas. JavaScript, React, Redux, Redux-Thunk, Express, Mongoose, SASS. Responsive, mobile first.',
     imgFileName: 'taskmanager.png',
     linkUrl: 'https://abbeblubb.github.io/taskmanager/',
     linkText: 'See the project'
@@ -21,7 +21,7 @@ export default [
     id: 'stocks',
     name: 'Fullstack Stocks Explorer',
     short: 'Financial rating with global newsfeed',
-    description: 'Explore the Swedish Large Cap list! Explained financial information and up-to-date global news. JavaScript, React, MongoDB, Express, Mongoose. Responsive, mobile first.',
+    description: 'Explore the Swedish Large Cap list! Explained financial information and up-to-date global newsfeed. API server hosted in Heroku, MongoDB server hosted in mLab. JavaScript, React, Express, Mongoose. Responsive, mobile first.',
     imgFileName: 'value.png',
     linkUrl: 'https://abbeblubb.github.io/stocks/',
     linkText: 'See the project'

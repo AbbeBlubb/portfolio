@@ -5,7 +5,7 @@ import { ProjectList } from "./ProjectList"
 import { About } from "./About"
 import '../assets/waves'
 import smoothscroll from 'smoothscroll-polyfill';
-smoothscroll.polyfill(); //Polyfill needs to 
+smoothscroll.polyfill(); //Polyfill needs to be called in order to make scrollTo.behavior work in all browsers
 
 export class App extends React.Component {
   constructor(props) {
@@ -22,14 +22,12 @@ export class App extends React.Component {
   }
 
   render() {
-
     return (
-
       <div className="app">
         <Hero
           handleScrollToRef={this.handleScrollToRef} />
         <ProjectList 
-          refProp={this.refForScroll} /> {/*Send the ref through props in order to attatch in child */}
+          refProp={this.refForScroll} /> {/*Send the ref through props in order to attatch it in child */}
         <About />
       </div>
 
