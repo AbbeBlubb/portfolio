@@ -1,6 +1,6 @@
 import React from "react"
 //import { BrowserRouter, Route } from "react-router-dom"
-import { Hero } from "./Hero"
+import { Header } from "./Header"
 import { ProjectList } from "./ProjectList"
 import { About } from "./About"
 import '../assets/waves'
@@ -24,21 +24,12 @@ export class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Hero
+        <Header
           handleScrollToRef={this.handleScrollToRef} />
         <ProjectList 
           refProp={this.refForScroll} /> {/*Send the ref through props in order to attatch it in child */}
         <About />
       </div>
-
-      /*
-      <BrowserRouter>
-        <div className="app">
-          <Route path='/' component={Hero} />
-          <Route path='/' component={ProjectList} />
-          <Route path='/' component={About} />
-        </div>
-      </BrowserRouter>*/
     )
   }
 }

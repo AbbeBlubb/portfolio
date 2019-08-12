@@ -1,30 +1,29 @@
 import React from "react"
 import text from "../assets/text"
 
-export class Hero extends React.Component {
+export class Header extends React.Component {
 
   constructor(props){
     super(props)
     this.refForTitleContainer = React.createRef() // The ref is created, see the JSX <header> element attributes
     this.state={
-      heroOffsetX: 0,
-      heroOffsetY: 0,
+      headerOffsetX: 0,
+      headerOffsetY: 0,
     }
   }
   
-  
   _onMouseMove = (e) => {
-    /* Get the width and height of the Hero component (Header element) */
+    /* Get the width and height of the Header component (Header element) */
     const width = this.refForTitleContainer.current.clientWidth // The properties of the ref are in the .current
     const height = this.refForTitleContainer.current.clientHeight
     
-    /* Get the cursors position in relation to the Hero: cursors position divided with the Hero's dimensions, then x100 to get percentage */
+    /* Get the cursors position in relation to the Header: cursors position divided with the Hero's dimensions, then x100 to get percentage */
     const offsetX = e.nativeEvent.offsetX / width * 100
     const offsetY = e.nativeEvent.offsetY / height * 100
     
     this.setState({
-      heroOffsetX: offsetX,
-      heroOffsetY: offsetY,
+      headerOffsetX: offsetX,
+      headerOffsetY: offsetY,
     })
   }
   
@@ -38,30 +37,30 @@ export class Hero extends React.Component {
   render() {
  
     const maskStyle = {
-      '--maskX': this.state.heroOffsetX,
-      '--maskY': this.state.heroOffsetY,
+      '--maskX': this.state.headerOffsetX,
+      '--maskY': this.state.headerOffsetY,
     };
     
     return (
       <header
-          className='hero'
+          className='header'
           onMouseMove={this._onMouseMove}
           onMouseOut={this._onMouseOut}
           ref={this.refForTitleContainer}
           style={maskStyle}>
         
-        <h1 className='hero__header'>
+        <h1 className='header__header'>
           <div><span>{text.hero.a}</span> {text.hero.fcp}</div>
         </h1>
-        <h1 className='hero__header-clone'>
+        <h1 className='header__header-clone'>
           <span>{text.hero.a}</span> {text.hero.fcp}
         </h1>
         
         {/* Position the button-wrapper in absolute, so the button inside the wrapper don't need to have the absolute positioning */}
-        <div className="hero__button-wrapper">
+        <div className="header__button-wrapper">
               {/* The button has the styling, and the wave-effect that requires relative positioning */}
               <div
-                  className="hero__button
+                  className="header__button
                              waves-effect
                              waves-light"
                   onClick={() => this.props.handleScrollToRef()}
@@ -74,4 +73,3 @@ export class Hero extends React.Component {
     )
   }
 }
-

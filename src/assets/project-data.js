@@ -26,14 +26,5 @@ export default [
     linkUrl: 'https://abbeblubb.github.io/stocks/',
     linkText: 'See the project'
   },
-  /*{
-    id: 'forum',
-    name: 'Forum',
-    short: 'Questions and answers',
-    description: 'Forum to ask questions. Admin section to reply questions. JavaScript, React, Node.js, Express, MongoDB, Mongoose. Hosted in mLab, Heroku and GitHub. Responsive, mobile first.',
-    imgFileName: 'forum2.png',
-    linkUrl: 'https://abbeblubb.github.io/forum/',
-    linkText: 'See the project'
-  },*/
 ]
 
