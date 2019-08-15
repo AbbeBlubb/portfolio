@@ -1,11 +1,13 @@
 import React from "react"
-//import { BrowserRouter, Route } from "react-router-dom"
+import '../assets/waves'
+import smoothscroll from 'smoothscroll-polyfill'
+import { LanguageStore } from '../contexts/LanguageContext'
+import { LanguageSelector } from './LanguageSelector'
 import { Header } from "./Header"
 import { ProjectList } from "./ProjectList"
 import { About } from "./About"
-import '../assets/waves'
-import smoothscroll from 'smoothscroll-polyfill';
-smoothscroll.polyfill(); //Polyfill needs to be called in order to make scrollTo.behavior work in all browsers
+
+smoothscroll.polyfill() //Polyfill needs to be called in order to make scrollTo.behavior work in all browsers
 
 export class App extends React.Component {
   constructor(props) {
@@ -15,20 +17,23 @@ export class App extends React.Component {
 
   handleScrollToRef = () => {
     window.scrollTo({
-      left: 0, 
+      left: 0,
       top: this.refForScroll.current.offsetTop,
-      behavior: "smooth" 
+      behavior: "smooth"
     })
   }
 
   render() {
     return (
       <div className="app">
-        <Header
-          handleScrollToRef={this.handleScrollToRef} />
-        <ProjectList 
-          refProp={this.refForScroll} /> {/*Send the ref through props in order to attatch it in child */}
-        <About />
+        <LanguageStore> {/* Wraps the whole app so all children will have axess to the context object */}
+          <LanguageSelector />
+          <Header
+            handleScrollToRef={this.handleScrollToRef} />
+          <ProjectList 
+            refProp={this.refForScroll} /> {/*Send the ref through props in order to attatch it in child */}
+          <About />
+        </LanguageStore>
       </div>
     )
   }

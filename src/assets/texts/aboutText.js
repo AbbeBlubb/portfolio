@@ -1,4 +1,4 @@
-export default aboutText = {
+export const aboutText = {
 
   en: {
     header: `About me`,
@@ -21,16 +21,30 @@ export default aboutText = {
     ]
   },
 
-  se: {
-
-  },
-
   es: {
-
+    header: `Sobre mí`,
+    parrafs: [
+      'Linea 1',
+      'Linea 2',
+      'Linea 3',
+    ]
   },
-
+  
   ru: {
-    
+    header: `muu`,
+    parrafs: [
+      `Ruuuski`,
+      `Ruuski`,
+      `Russkii`,
+    ]
+  },
+  
+  sv: {
+    header: `Om mig`,
+    parrafs: [
+      `Rad 1`,
+      `Rad 2`,
+      `Rad 3`,
+    ]
   }
-
 }

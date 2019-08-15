@@ -1,37 +1,47 @@
 import React from "react"
 import text from "../assets/text"
+import LanguageContext from '../contexts/LanguageContext'
+import { aboutText } from '../assets/texts/aboutText'
+import { contactText } from '../assets/texts/contactText'
 
-export function About() {
-  return (
-    <section className="about">
+export class About extends React.Component {
+  static contextType = LanguageContext;
+  
+  render() {
 
-      <div className="about__text-section">
+    const language = this.context.language;
 
-        <h2>{text.about.header}</h2>
-        {text.about.parrafs.map(parraf => <p>{parraf}</p>)}
+    return (
+      <section className="about">
 
-        <h2>{text.contact.header}</h2>
-        <ul>
-          <li>
-            <span className='bold'>
-              {text.contact.email}
-            </span>
+        <div className="about__text-section">
+
+          <h2>{aboutText[language].header}</h2>
+          {aboutText[language].parrafs.map(parraf => <p>{parraf}</p>)}
+
+          <h2>{contactText[language].header}</h2>
+          <ul>
+            <li>
+              <span className='bold'>
+                {contactText[language].email}
+              </span>
+              </li>
+            <li>
+              <a href={contactText[language].linkedin} target="_blank">
+                LinkedIn
+              </a>
             </li>
-          <li>
-            <a href={text.contact.linkedin} target="_blank">
-              LinkedIn
-            </a>
-          </li>
-        </ul>
+          </ul>
 
-      </div>
+        </div>
 
-      <div className="about__photo-section">
-        <img className="about__photo"
-          src={text.contact.photo}
-          alt="Profile" />
-      </div>
+        <div className="about__photo-section">
+          <img className="about__photo"
+            src={contactText[language].photo}
+            alt="Profile" />
+        </div>
 
-    </section>
-  )
+      </section>
+    )
+  }
 }

@@ -30,16 +30,15 @@ export default projectText = {
     },
   ],
 
-  se: [
-
-  ],
-
   es: [
 
   ],
 
   ru: [
     
-  ]
+  ],
 
+  sv: [
+
+  ]
 }

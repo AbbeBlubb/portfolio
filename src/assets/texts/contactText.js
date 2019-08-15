@@ -1,8 +1,32 @@
 import profilephoto from "../profilephoto.jpg"
 
-export default contactText = {
-  header: `Contact`,
-  email: `alberto@francisco.nu`,
-  linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
-  photo: profilephoto
+export const contactText = {
+
+  en: {
+    header: `Contact`,
+    email: `alberto@francisco.nu`,
+    linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
+    photo: profilephoto
+  },
+
+  es: {
+    header: `Contacto`,
+    email: `alberto@francisco.nu`,
+    linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
+    photo: profilephoto
+  },
+
+  ru: {
+    header: `Contakti`,
+    email: `alberto@francisco.nu`,
+    linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
+    photo: profilephoto
+  },
+
+  sv: {
+    header: `Contakt`,
+    email: `alberto@francisco.nu`,
+    linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
+    photo: profilephoto
+  }
 }
