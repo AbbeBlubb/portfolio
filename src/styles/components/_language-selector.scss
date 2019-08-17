@@ -10,14 +10,23 @@
 
   &__list-item {
     display: inline;
-    cursor: pointer;
-    text-decoration: underline;
-    border-bottom: 0px solid $off-white;;
-    transition: border-bottom 0.3s ease;
 
     &:not(:first-child) {
       margin-left: 10px;
     }
+  }
+
+  &__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    text-decoration: underline;
+    border-bottom: 0px solid $off-white;;
+    transition: border-bottom 0.3s ease;
 
     &:hover {
       border-bottom: 1.5px solid $off-white;

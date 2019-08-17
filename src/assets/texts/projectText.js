@@ -1,4 +1,4 @@
-export default projectText = {
+export const projectText = {
 
   en: [
     {
@@ -92,8 +92,8 @@ export default projectText = {
 
   sv: [
     {
-      id: 'taskmanager SV',
-      name: 'Fullstack Task Manager',
+      id: 'taskmanager',
+      name: 'Fullstack Task Manager SV',
       short: 'Global State with Redux',
       description: 'Follow the Redux Store and Redux Actions in the console or in Redux DevTools. Search bar to easily find persons. API server hosted in Heroku, MongoDB server hosted in Atlas. JavaScript, React, Redux, Redux-Thunk, Express, Mongoose, SASS. Responsive, mobile first.',
       imgFileName: 'taskmanager.png',

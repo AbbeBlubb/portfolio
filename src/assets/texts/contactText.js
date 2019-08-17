@@ -17,14 +17,14 @@ export const contactText = {
   },
 
   ru: {
-    header: `Contakti`,
+    header: `Контакт`,
     email: `alberto@francisco.nu`,
     linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
     photo: profilephoto
   },
 
   sv: {
-    header: `Contakt`,
+    header: `Kontakt`,
     email: `alberto@francisco.nu`,
     linkedin: `https://www.linkedin.com/in/albertochavezperez/`,
     photo: profilephoto

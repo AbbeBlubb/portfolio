@@ -13,9 +13,9 @@ export const headerText = {
   },
   
   ru: {
-    a: `Алберто`,
-    fcp: `Francisco Chávez Pérez`,
-    button: `Portfolio & me RU`
+    a: `Альберто`,
+    fcp: `Франсиско Чавес Перес`,
+    button: `Портфолио & обо мне`
   },
 
   sv: {
