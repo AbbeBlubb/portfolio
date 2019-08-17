@@ -7,6 +7,8 @@
   margin: 0;
   padding: 0;
   color: $off-white;
+  transition: top 0.3s ease;
+
 
   &__list-item {
     display: inline;
@@ -24,6 +26,7 @@
     color: inherit;
     background: none;
     cursor: pointer;
+    font-size: 16px; //Exact font size to have an exact height for the .language-selector--hidden
     text-decoration: underline;
     border-bottom: 0px solid $off-white;;
     transition: border-bottom 0.3s ease;
@@ -35,5 +38,9 @@
 
   &--selected-language {
     border-bottom: 1.5px solid $off-white;
+  }
+
+  &--hidden {
+    top: -30px; // LanguageSelector is 20px height, and the position from top is 10px = 30px
   }
 }
