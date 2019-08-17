@@ -93,6 +93,12 @@
   }
 }
 
+@media (max-width: 450px) {
+  .header {
+    max-height: 650px;
+  }
+}
+
 @media (max-width: 650px) {
   .header__header {
     top: 100px;
