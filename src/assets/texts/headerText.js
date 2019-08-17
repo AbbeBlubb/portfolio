@@ -15,7 +15,7 @@ export const headerText = {
   ru: {
     a: `Алберто`,
     fcp: `Francisco Chávez Pérez`,
-    button: `Portfolio & me`
+    button: `Portfolio & me RU`
   },
 
   sv: {

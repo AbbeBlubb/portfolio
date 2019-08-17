@@ -8,10 +8,12 @@
   padding: 0;
   color: $off-white;
 
-  li {
+  &__list-item {
     display: inline;
     cursor: pointer;
     text-decoration: underline;
+    border-bottom: 0px solid $off-white;;
+    transition: border-bottom 0.3s ease;
 
     &:not(:first-child) {
       margin-left: 10px;
@@ -20,5 +22,9 @@
     &:hover {
       border-bottom: 1.5px solid $off-white;
     }
+  }
+
+  &--selected-language {
+    border-bottom: 1.5px solid $off-white;
   }
 }

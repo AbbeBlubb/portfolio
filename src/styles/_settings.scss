@@ -17,3 +17,18 @@ $off-white: rgba(255, 255, 255, 0.9); /* Text color for body text */
 $off-off-white: rgba(255, 255, 255, 0.8); /* Text color for text in button in hero */
 
 /* Colors for button */
+
+
+/* Default settings */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}

@@ -60,27 +60,25 @@
   &__button-wrapper {
     position: absolute;
     bottom: 15%;
-    left: 50%;
+    left: 50%; //This makes the button to have a width as maximum as 50% of the screen, thus squashing the text inside
     transform: translate(-50%, +50%);
   }
 
   &__button {
+    border: none;
+    outline: none; //Will fix global outline scheet
     background-color: $light-gray-transparent;
     color: $off-off-white;
-    height: 3.7em;
     min-width: 115px;
-    line-height: 3.7em;
+    line-height: 1.2rem;
     border-radius: 1px;
-    padding: 0 2em;
+    padding: 19px 32px;
     display: inline-block;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    //position: absolute;
-    //bottom: 15%;
-    //left: 50%;
-    //transform: translate(-50%, +50%);
+    font-size: 1rem;
     transition: background-color 0.3s;
 
     &:hover {
@@ -91,7 +89,7 @@
 
 @media (max-width: 400px) {
   .header__button {
-    font-size: 14px;
+    font-size: 0.875rem //14px;
   }
 }
 
