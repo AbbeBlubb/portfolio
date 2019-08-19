@@ -24,7 +24,7 @@ export const aboutText = {
   es: {
     header: `Sobre mi`,
     parrafs: [
-      `Soy un desarrollador de web que actualmente trabaja en un banco. Anteriormente he trabajando como consultor.`,
+      `Soy desarrollador de web en un banco. Anteriormente he trabajando como consultor.`,
 
       `Tengo experiencia con metodología ágil, proyectos grandes y pequeños,
       SAFe, Jira, Trello, Git, Bitbucket, TeamCity, compilación y despliegue,
@@ -34,11 +34,11 @@ export const aboutText = {
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github y más.`,
           
-      `Después de 8 años trabajando como experto legal descubrí el desarrollo web.
-      Al principio tuve el desarrollo web como un pasatiempo, y pronto decidí ir con todo.
+      `Después de 8 años trabajando como experto legal, descubrí el desarrollo web.
+      Al principio tuve el desarrollo web como un pasatiempo y pronto decidí ir con todo.
       ¡Amo mi nueva carrera profesional!
       El derecho se trata mucho de estructura, análisis y presentación.
-      ¡Esta experiencia la he traído a mi carrera como desarrollador!`
+      ¡Esta experiencia me la he traído a mi carrera como desarrollador!`
     ]
   },
   
