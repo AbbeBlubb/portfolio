@@ -12,6 +12,11 @@
   &:hover .project-strip__text-line {
     background-color: #fbe5c6;
   }
+
+  &__strip-and-description-wrapper {
+    max-width: $max-width-content;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 700px) {

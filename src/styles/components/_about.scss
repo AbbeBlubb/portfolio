@@ -1,3 +1,7 @@
+.about-wrapper {
+  background-color: $dark-gray;
+}
+
 .about {
 
   & a:link,
@@ -15,11 +19,12 @@
     }
   }
 
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  background-color: $dark-gray;
+  max-width: $max-width-content;
   color: $off-white;
   line-height: 1.6em;
   font-size: 1em;

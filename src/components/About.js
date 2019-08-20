@@ -11,35 +11,35 @@ export class About extends React.Component {
     const language = this.context.language;
 
     return (
-      <section className="about">
+      <section className="about-wrapper">
+        <div className="about">
 
-        <div className="about__text-section">
+          <div className="about__text-section">
+            <h2>{aboutText[language].header}</h2>
+            {aboutText[language].parrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
 
-          <h2>{aboutText[language].header}</h2>
-          {aboutText[language].parrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
-
-          <h2>{contactText[language].header}</h2>
-          <ul>
-            <li>
-              <span className='bold'>
-                {contactText[language].email}
-              </span>
+            <h2>{contactText[language].header}</h2>
+            <ul>
+              <li>
+                <span className='bold'>
+                  {contactText[language].email}
+                </span>
               </li>
-            <li>
-              <a href={contactText[language].linkedin} target="_blank">
-                LinkedIn
-              </a>
-            </li>
-          </ul>
+              <li>
+                <a href={contactText[language].linkedin} target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="about__photo-section">
+            <img className="about__photo"
+              src={contactText[language].photo}
+              alt="Profile" />
+          </div>
 
         </div>
-
-        <div className="about__photo-section">
-          <img className="about__photo"
-            src={contactText[language].photo}
-            alt="Profile" />
-        </div>
-
       </section>
     )
   }

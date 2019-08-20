@@ -1,5 +1,5 @@
 .project-description {
-  overflow: hidden;
+  //overflow: hidden;
   margin: 0 5%;
   background-color: rgb(251, 229, 198);
   display: flex;
@@ -10,4 +10,5 @@
   &:hover {
     cursor: context-menu;
   }
+
 }

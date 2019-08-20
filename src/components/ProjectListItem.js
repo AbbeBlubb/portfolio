@@ -22,10 +22,10 @@ export class ProjectListItem extends React.Component {
   render() {
     return (
       <article
-          className="project-list-item"
-          style={{ backgroundColor: this.props.backgroundColor, backgroundImage: "url(\"" + this.props.backgroundImage.url + "\")"}}
-          onClick={this.toggleProject}>
-  
+        className="project-list-item"
+        style={{ backgroundColor: this.props.backgroundColor, backgroundImage: "url(\"" + this.props.backgroundImage.url + "\")"}}
+        onClick={this.toggleProject}>
+  <div className="project-list-item__strip-and-description-wrapper">
         <ProjectStrip
             projectIsVisible={this.state.projectDescriptionHeight === 0 ? false : true}
             name={this.props.name}
@@ -42,7 +42,7 @@ export class ProjectListItem extends React.Component {
               linkText={this.props.linkText}
               img={this.props.img}/>
         </AnimateHeight>
-
+</div>
       </article>
     )
   }
