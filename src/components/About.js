@@ -16,7 +16,7 @@ export class About extends React.Component {
         <div className="about__text-section">
 
           <h2>{aboutText[language].header}</h2>
-          {aboutText[language].parrafs.map(parraf => <p>{parraf}</p>)}
+          {aboutText[language].parrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
 
           <h2>{contactText[language].header}</h2>
           <ul>

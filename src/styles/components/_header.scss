@@ -60,8 +60,10 @@
   &__button-wrapper {
     position: absolute;
     bottom: 15%;
-    left: 50%; //This makes the button to have a width as maximum as 50% of the screen, thus squashing the text inside
-    transform: translate(-50%, +50%);
+    //left: 50%; //This makes the button to have a width as maximum as 50% of the screen, thus squashing the text inside
+    //transform: translate(-50%, +50%);
+    width: 100%;
+    text-align: center;
   }
 
   &__button {
@@ -98,7 +100,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 650px), (max-height: 450px) {
   .header__header {
     top: 100px;
     transform: translate(0, 0);
@@ -113,6 +115,18 @@
     width: auto;
     font-size: 40px;
     padding: 5px 2em 5px 2em;
+  }
+}
+
+@media (max-height: 330px) {
+  .header__button-wrapper {
+    bottom: 1%;
+  }
+}
+
+@media (max-height: 320px) {
+  .header__button-wrapper {
+    bottom: 1%;
   }
 }
 
