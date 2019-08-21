@@ -22,7 +22,7 @@ export const aboutText = {
   },
 
   es: {
-    header: `Sobre mi`,
+    header: `Sobre mí`,
     parrafs: [
       `Soy desarrollador de web en un banco. Anteriormente he trabajando como consultor.`,
 
