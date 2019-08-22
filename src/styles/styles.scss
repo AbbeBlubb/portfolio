@@ -1,5 +1,7 @@
-@import 'settings';
-@import 'helpers';
+@import 'general/settings';
+@import 'general/settings-outline';
+@import 'general/helpers';
+@import 'general/waves';
 
 @import 'components/language-selector';
 @import 'components/about';
@@ -11,5 +13,3 @@
 @import 'components/project-description';
 @import 'components/project-text-area';
 @import 'components/project-image-area';
-
-@import 'components/waves';

@@ -1,5 +1,5 @@
 import React from "react";
-import { docCookies } from "../assets/docCookies"
+import { docCookies } from "../helpers/docCookies"
 
 const Context = React.createContext();
 

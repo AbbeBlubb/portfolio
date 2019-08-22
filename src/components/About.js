@@ -21,7 +21,7 @@ export class About extends React.Component {
             <h2>{contactText[language].header}</h2>
             <ul>
               <li>
-                <span className='bold'>
+                <span className='bold' tabIndex={0}>
                   {contactText[language].email}
                 </span>
               </li>

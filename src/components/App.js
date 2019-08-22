@@ -1,5 +1,6 @@
 import React from "react"
-import '../assets/waves'
+import '../helpers/waves'
+import '../helpers/interactionListeners';
 import smoothscroll from 'smoothscroll-polyfill'
 import { LanguageStore } from '../contexts/LanguageContext'
 import { LanguageSelector } from './LanguageSelector'

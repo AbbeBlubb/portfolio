@@ -6,7 +6,6 @@ export class LanguageSelector extends React.Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
       prevScrollPos: window.pageYOffset,
       languageSelectorIsHidden: false
@@ -14,12 +13,21 @@ export class LanguageSelector extends React.Component {
   }
 
   handleScroll = () => {
+
+    if (document.body.classList.contains('user-is-tabbing')) {
+      const currentScrollPos = window.pageYOffset;
+      this.setState({
+        prevScrollPos: currentScrollPos,
+        languageSelectorIsHidden: false
+      });
+      return;
+    }
+
     const { prevScrollPos } = this.state;
-  
     const currentScrollPos = window.pageYOffset;
     const languageSelectorIsHidden = prevScrollPos < currentScrollPos; 
     // current increases when scroll down, and decreases when scroll up. If previous Y is less than current Y = true. If previous Y is greater then current Y = false.
-  
+
     this.setState({
       prevScrollPos: currentScrollPos,
       languageSelectorIsHidden
