@@ -2,6 +2,15 @@ export const projectText = {
 
   en: [
     {
+      id: 'scraper-node',
+      name: 'Fullstack Scraper',
+      short: 'News scraper with Node.js',
+      description: 'The server scrapes the Aftonbladet news site and saves the headers with the corresponding links to a database. The frontend displays these headers in a list, making it easy and fast to follow the general news. JavaScript, Node, Express, Mongoose, React. Responsive, mobile first.',
+      imgFileName: 'scraper-node.png',
+      linkUrl: 'https://abbeblubb.github.io/scraper-node/',
+      linkText: 'See the project'
+    },
+    {
       id: 'taskmanager',
       name: 'Fullstack Task Manager',
       short: 'Global State with Redux',
@@ -31,6 +40,15 @@ export const projectText = {
   ],
 
   es: [
+    {
+      id: 'scraper-node',
+      name: 'Fullstack Scraper',
+      short: 'News scraper with Node.js',
+      description: 'The server scrapes the Aftonbladet news site and saves the headers with the corresponding links to a database. The frontend displays these headers in a list, making it easy and fast to follow the general news. JavaScript, Node, Express, Mongoose, React. Responsive, mobile first.',
+      imgFileName: 'scraper-node.png',
+      linkUrl: 'https://abbeblubb.github.io/scraper-node/',
+      linkText: 'See the project'
+    },
     {
       id: 'taskmanager',
       name: 'Fullstack Task Manager',
@@ -62,6 +80,15 @@ export const projectText = {
 
   ru: [
     {
+      id: 'scraper-node',
+      name: 'Fullstack Scraper',
+      short: 'News scraper with Node.js',
+      description: 'The server scrapes the Aftonbladet news site and saves the headers with the corresponding links to a database. The frontend displays these headers in a list, making it easy and fast to follow the general news. JavaScript, Node, Express, Mongoose, React. Responsive, mobile first.',
+      imgFileName: 'scraper-node.png',
+      linkUrl: 'https://abbeblubb.github.io/scraper-node/',
+      linkText: 'See the project'
+    },
+    {
       id: 'taskmanager',
       name: 'Fullstack Task Manager',
       short: 'Global State with Redux',
@@ -91,6 +118,15 @@ export const projectText = {
   ],
 
   sv: [
+    {
+      id: 'scraper-node',
+      name: 'Fullstack Scraper',
+      short: 'News scraper with Node.js',
+      description: 'The server scrapes the Aftonbladet news site and saves the headers with the corresponding links to a database. The frontend displays these headers in a list, making it easy and fast to follow the general news. JavaScript, Node, Express, Mongoose, React. Responsive, mobile first.',
+      imgFileName: 'scraper-node.png',
+      linkUrl: 'https://abbeblubb.github.io/scraper-node/',
+      linkText: 'See the project'
+    },
     {
       id: 'taskmanager',
       name: 'Fullstack Task Manager',
