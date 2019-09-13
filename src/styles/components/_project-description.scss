@@ -1,14 +1,16 @@
 .project-description {
-  //overflow: hidden;
-  margin: 0 5%;
-  background-color: rgb(251, 229, 198);
-  display: flex;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  padding-bottom: 25px;
 
-  &:hover {
-    cursor: context-menu;
+  &__content {
+    margin: 0 5%;
+    background-color: rgb(251, 229, 198);
+    display: flex;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    &:hover {
+      cursor: context-menu;
+    }
   }
-
 }

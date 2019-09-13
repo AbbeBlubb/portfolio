@@ -5,17 +5,19 @@ import { ProjectImageArea } from "./ProjectImageArea";
 
 export function ProjectDescription(props) {
   return (
-    <div className="project-description">
+    <article className="project-description">
+      <div className="project-description__content">
 
-      <ProjectImageArea
-          src={require(`../assets/project-images/${props.img}`)}/>
+        <ProjectImageArea
+            src={require(`../assets/project-images/${props.img}`)}/>
 
-      <ProjectTextArea
-          name={props.name}
-          description={props.description}
-          linkUrl={props.linkUrl}
-          linkText={props.linkText}/>
-          
-    </div>
+        <ProjectTextArea
+            name={props.name}
+            description={props.description}
+            linkUrl={props.linkUrl}
+            linkText={props.linkText}/>
+            
+      </div>
+    </article>
   )
 }
