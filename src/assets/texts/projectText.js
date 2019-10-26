@@ -2,6 +2,15 @@ export const projectText = {
 
   en: [
     {
+      id: 'fast',
+      name: 'Fast loading',
+      short: 'Lazy-loading and code splitting',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      imgFileName: 'fast.png',
+      linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
+      linkText: 'See the project'
+    },
+    {
       id: 'scraper-node',
       name: 'Fullstack Scraper',
       short: 'News scraper with Node.js',
@@ -40,6 +49,15 @@ export const projectText = {
   ],
 
   es: [
+    {
+      id: 'fast',
+      name: 'Fast loading',
+      short: 'Lazy-loading and code splitting',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      imgFileName: 'fast.png',
+      linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
+      linkText: 'See the project'
+    },
     {
       id: 'scraper-node',
       name: 'Fullstack Scraper',
@@ -80,6 +98,15 @@ export const projectText = {
 
   ru: [
     {
+      id: 'fast',
+      name: 'Fast loading',
+      short: 'Lazy-loading and code splitting',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      imgFileName: 'fast.png',
+      linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
+      linkText: 'See the project'
+    },
+    {
       id: 'scraper-node',
       name: 'Fullstack Scraper',
       short: 'News scraper with Node.js',
@@ -118,6 +145,15 @@ export const projectText = {
   ],
 
   sv: [
+    {
+      id: 'fast',
+      name: 'Fast loading',
+      short: 'Lazy-loading and code splitting',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      imgFileName: 'fast.png',
+      linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
+      linkText: 'See the project'
+    },
     {
       id: 'scraper-node',
       name: 'Fullstack Scraper',
