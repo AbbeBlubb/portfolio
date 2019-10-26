@@ -5,7 +5,7 @@ export const projectText = {
       id: 'fast',
       name: 'Fast loading',
       short: 'Lazy-loading and code splitting',
-      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server, Babel.',
       imgFileName: 'fast.png',
       linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
       linkText: 'See the project'
@@ -45,7 +45,7 @@ export const projectText = {
       imgFileName: 'value.png',
       linkUrl: 'https://abbeblubb.github.io/stocks/',
       linkText: 'See the project'
-    },
+    }
   ],
 
   es: [
@@ -53,7 +53,7 @@ export const projectText = {
       id: 'fast',
       name: 'Fast loading',
       short: 'Lazy-loading and code splitting',
-      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server, Babel.',
       imgFileName: 'fast.png',
       linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
       linkText: 'See the project'
@@ -101,7 +101,7 @@ export const projectText = {
       id: 'fast',
       name: 'Fast loading',
       short: 'Lazy-loading and code splitting',
-      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server, Babel.',
       imgFileName: 'fast.png',
       linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
       linkText: 'See the project'
@@ -141,7 +141,7 @@ export const projectText = {
       imgFileName: 'value.png',
       linkUrl: 'https://abbeblubb.github.io/stocks/',
       linkText: 'See the project'
-    },
+    }
   ],
 
   sv: [
@@ -149,7 +149,7 @@ export const projectText = {
       id: 'fast',
       name: 'Fast loading',
       short: 'Lazy-loading and code splitting',
-      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server.',
+      description: 'The images are lazy-loaded when entering the viewport. The code is splitted to facilitate caching. This gives the user a fast-loading experience. Bult with plain JavaScript without framework. The markup is built with template literals. Webpack configuration for code splitting, SCSS, dev server, Babel.',
       imgFileName: 'fast.png',
       linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
       linkText: 'See the project'
@@ -189,6 +189,6 @@ export const projectText = {
       imgFileName: 'value.png',
       linkUrl: 'https://abbeblubb.github.io/stocks/',
       linkText: 'See the project'
-    },
+    }
   ]
-}
+};
