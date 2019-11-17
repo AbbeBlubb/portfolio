@@ -11,7 +11,7 @@ const fastEN = {
                 Webpack configuration for prod/dev, code splitting, image compression, SCSS, etc.
                 Responsive, mobile first, accessibility.`,
   imgFileName: 'fast.png',
-  linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
+  linkUrl: 'https://abbeblubb.github.io/fast/',
   linkText: 'Experience fast loading'
 };
 
