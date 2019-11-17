@@ -9,7 +9,7 @@ const fastEN = {
                 Application code is splitted to facilitate caching.
                 All this gives the user a fast-loading experience with minimum of code loading and processing.
                 Webpack configuration for prod/dev, code splitting, SCSS, etc.
-                Responsive, mobile first.`,
+                Responsive, mobile first, accessibility.`,
   imgFileName: 'fast.png',
   linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
   linkText: 'Experience fast loading'
