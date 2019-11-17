@@ -1,14 +1,14 @@
 const fastEN = {
   id: 'fast',
-  name: 'Fast loading',
-  short: 'Lazy-loading, recycling, code splitting, routing, plain JS',
+  name: 'Blazingly fast',
+  short: 'Lazy-loading, recycling, code splitting, compression, routing, plain JS',
   description: `The image loader lazy-loads the images when each image intersects the viewport.
                 The infinitive scroll recycles the DOM elements, giving a seamless scrolling experience with only 20 DOM elements.
                 Bulit with plain JavaScript without framework, meaning the code is as lightweight it can be.
                 I've build an own routing and own event bus.
                 Application code is splitted to facilitate caching.
                 All this gives the user a fast-loading experience with minimum of code loading and processing.
-                Webpack configuration for prod/dev, code splitting, SCSS, etc.
+                Webpack configuration for prod/dev, code splitting, image compression, SCSS, etc.
                 Responsive, mobile first, accessibility.`,
   imgFileName: 'fast.png',
   linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
