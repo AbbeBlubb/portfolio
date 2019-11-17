@@ -8,7 +8,7 @@ const fastEN = {
                 I've build an own routing and own event bus.
                 Application code is splitted to facilitate caching.
                 All this gives the user a fast-loading experience with minimum of code loading and processing.
-                Webpack configuration for code splitting, SCSS, dev server, Babel.
+                Webpack configuration for prod/dev, code splitting, SCSS, etc.
                 Responsive, mobile first.`,
   imgFileName: 'fast.png',
   linkUrl: 'https://abbeblubb.github.io/lazy-loading/',
@@ -74,7 +74,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
-    stocksEN
+    //stocksEN
   ],
 
   es: [
@@ -82,7 +82,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
-    stocksEN
+    //stocksEN
   ],
 
   ru: [
@@ -90,7 +90,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
-    stocksEN
+    //stocksEN
   ],
 
   sv: [
@@ -98,6 +98,6 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
-    stocksEN
+    //stocksEN
   ]
 };

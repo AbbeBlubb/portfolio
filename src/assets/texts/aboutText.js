@@ -3,16 +3,16 @@ export const aboutText = {
   en: {
     header: `About me`,
     parrafs: [
-      `I'm a junior web developer currently working at a bank. I have  previously being working as consultant.`,
-    
-      `I have experience with agile methodology, big and small projects, 
+      `I'm a web developer currently working at a bank. I have previously being working as consultant.`,
+
+      `I have experience with agile methodology, big and small projects,
       SAFe, Jira, Trello, Git, Bitbucket, TeamCity, build and deployment,
-      HTML, JSX, Dust, 
+      HTML, JSX, Dust,
       CSS, SASS, LESS,
       JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github, and more.`,
-    
+
       `After 8 years working as law expert I discovered web developing.
       At first I had the development as a hobby, and soon I decided to go all-in.
       I love my new career path!
@@ -33,7 +33,7 @@ export const aboutText = {
       JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github y más.`,
-          
+
       `Después de 8 años trabajando como experto legal, descubrí el desarrollo web.
       Al principio tuve el desarrollo web como un pasatiempo y pronto decidí ir con todo.
       ¡Amo mi nueva carrera profesional!
@@ -41,7 +41,7 @@ export const aboutText = {
       ¡Esta experiencia me la he traído a mi carrera como desarrollador!`
     ]
   },
-  
+
   ru: {
     header: `Обо мне`,
     parrafs: [
@@ -54,7 +54,7 @@ export const aboutText = {
       JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github и многое другое.`,
-          
+
       `После 8 лет работы в качестве юриста я открыл для себя веб-разработку.
       Сначала у меня было хобби, и вскоре я решил пойти ва-банк.
       Я люблю свою новую карьеру!
@@ -62,20 +62,20 @@ export const aboutText = {
       Этот опыт я принес в свою карьеру веб-разработчика!`
     ]
   },
-  
+
   sv: {
     header: `Om mig`,
     parrafs: [
-      `Jag är en junior webbutvecklare som för närvarande arbetar på en bank. Jag har innan arbetat som konsult.`,
-    
-      `Jag har erfarenhet av agil metodik, stora och små projekt, 
+      `Jag är webbutvecklare och arbetar för närvarande på bank. Jag har innan arbetat som konsult.`,
+
+      `Jag har erfarenhet av agil metodik, stora och små projekt,
       SAFe, Jira, Trello, Git, Bitbucket, TeamCity, bygg och lyft,
-      HTML, JSX, Dust, 
+      HTML, JSX, Dust,
       CSS, SASS, LESS,
       JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
       Node.js, Express, MongoDB, Mongoose, GraphQL,
       Episerver, Contentful, Github, och mer.`,
-    
+
       `Efter att ha arbetat som jurist i 8 år upptäckte jag webbutveckling.
       Till en början hade jag utveckling som ett fritidsintresse, och snart beslöt jag att satsa helhjärtat på webbutveckling.
       Jag älskar min nya karriär!
@@ -83,4 +83,4 @@ export const aboutText = {
       Dessa erfarenheter har jag tagit med mig till min karriär som webbutvecklare!`
     ]
   }
-}
+};

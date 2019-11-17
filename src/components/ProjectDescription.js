@@ -1,6 +1,6 @@
-import React from "react"
-import { ProjectTextArea } from "./ProjectTextArea";
-import { ProjectImageArea } from "./ProjectImageArea";
+import React from 'react';
+import { ProjectTextArea } from './ProjectTextArea';
+import { ProjectImageArea } from './ProjectImageArea';
 
 
 export function ProjectDescription(props) {
@@ -16,8 +16,8 @@ export function ProjectDescription(props) {
             description={props.description}
             linkUrl={props.linkUrl}
             linkText={props.linkText}/>
-            
+
       </div>
     </article>
-  )
+  );
 }
