@@ -19,12 +19,22 @@ export class ProjectListItem extends React.Component {
     });
   }
 
+  handleKeyDown = event => {
+    // Capture space and enter. Note: if only 'event.keyCode === 32 || 13', then '|| 13' will evaluate to 'or true', thus always fulfill the if-statement
+    if(event.keyCode === 32 || event.keyCode === 13) {
+      event.preventDefault();
+      this.toggleProject();
+    }
+  }
+
   render() {
     return (
       <article
         className="project-list-item"
         style={{ backgroundColor: this.props.backgroundColor, backgroundImage: "url(\"" + this.props.backgroundImage.url + "\")"}}
-        onClick={this.toggleProject}>
+        onClick={this.toggleProject}
+        onKeyDown={event => this.handleKeyDown(event)}
+      >
 
         <div className="project-list-item__strip-and-description-wrapper">
           <ProjectStrip

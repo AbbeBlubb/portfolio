@@ -12,10 +12,10 @@ export class ProjectList extends React.Component {
     const language = this.context.language;
 
     return (
-      <section 
+      <section
         className="project-list"
         ref={this.props.refProp}> {/*Attatch the given ref to child. This ref is for the Header button */}
-        
+
         {projectText[language].map(project => (
           <ProjectListItem
             key={project.id}
@@ -29,8 +29,8 @@ export class ProjectList extends React.Component {
             backgroundColor={backgroundColor}
             backgroundImage={backgroundImages[Math.floor(Math.random()*backgroundImages.length)]} />
         ))}
-        
+
       </section>
-    )
+    );
   }
 }
