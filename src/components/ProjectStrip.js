@@ -3,7 +3,7 @@ import React from "react";
 export function ProjectStrip(props) {
   return(
     <div className="project-strip">
-      <div className="project-strip__text-wrap">
+      <div tabIndex={0} className="project-strip__text-wrap">
         <span
             className='project-strip__text-line'
             style={{ backgroundColor: props.projectIsVisible && '#fbe5c6'}}>
@@ -12,5 +12,5 @@ export function ProjectStrip(props) {
         </span>
       </div>
     </div>
-  )
+  );
 }

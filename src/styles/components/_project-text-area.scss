@@ -8,27 +8,28 @@
 
   &__link-wrap {
     text-decoration: underline;
+    padding: 25px 0;
+  }
 
-    & > a {
-      padding: 0.8em;
+  &__link {
 
-      &:link,
-      &:active,
-      &:visited {
-        color: $off-black;
-      }
+    &:link,
+    &:active,
+    &:visited {
+      color: $off-black;
+    }
 
-      &:hover {
-        color: $pink;
-      }
+    &:hover {
+      color: $pink;
+    }
 
-      /* The two arrows after the link text */
-      & > div::after {
-        content: '\00a0 \00bb';
-      }
+    /* The two arrows after the link text */
+    &::after {
+      content: '\00a0 \00bb';
     }
   }
 }
+
 
 @media (min-width: 1150px) {
   .project-text-area {

@@ -2,7 +2,8 @@
 
 /* As long as the .user-is-tabbing doesn't exists, have no outlines for buttons or select elements */
 body:not(.user-is-tabbing) button:focus,
-body:not(.user-is-tabbing) select:focus {
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) div:focus {
   outline: none;
 }
 

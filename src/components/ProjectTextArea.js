@@ -11,18 +11,19 @@ export function ProjectTextArea(props) {
       <div>
         {props.description}
       </div>
-      
-      <div className="project-text-area__link-wrap">
-        <a
+
+      {props.linkText && (
+        <div className="project-text-area__link-wrap">
+          <a
+            className={'project-text-area__link'}
             href={props.linkUrl}
             target="_blank"
             onClick="return false">
-          <div>
             {props.linkText}
-          </div>
-        </a>
-      </div>
-    
+          </a>
+        </div>
+      )}
+
     </div>
-  )
+  );
 }

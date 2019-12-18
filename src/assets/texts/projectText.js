@@ -1,6 +1,23 @@
+const whoEN = {
+  id: 'who',
+  name: 'Fullstack Authentication',
+  short: 'Secure application with JWT',
+  description: `Create an account, log in, and see all the usernames.
+                Passwords are encrypted in the database.
+                On log in, a Jason Web Token (JWT) is created and sent to the client.
+                Access to the API requires the JWT in the request.
+                The authentication server is made on Node with Express, Mongoose, bcrypt, passport.
+                The client is made with React.
+                The authentication server and the client are made for reusability.
+                Responsive, mobile first, accessibility.`,
+  imgFileName: 'who.png',
+  linkUrl: 'http://www.vemharbetalat.se',
+  linkText: 'www.VemHarBetalat.se'
+};
+
 const fastEN = {
   id: 'fast',
-  name: 'Blazingly fast',
+  name: 'Blazingly Fast',
   short: 'Lazy-loading, recycling, code splitting, compression, routing, plain JS',
   description: `The image loader lazy-loads the images when each image intersects the viewport.
                 The infinitive scroll recycles the DOM elements, giving a seamless scrolling experience.
@@ -52,31 +69,31 @@ const snakeEN = {
   linkText: 'Play'
 };
 
-const stocksEN = {
-  id: 'stocks',
-  name: 'Fullstack Stocks Explorer',
-  short: 'Financial rating with global newsfeed',
-  description: `Explore the Swedish Large Cap list!
-                Explained financial information and up-to-date global newsfeed.
-                API server hosted in Heroku, MongoDB server hosted in mLab.
-                JavaScript, React, Express, Mongoose.
-                Responsive, mobile first.`,
-  imgFileName: 'value.png',
-  linkUrl: 'https://abbeblubb.github.io/stocks/',
-  linkText: 'See the project'
+const portfolioEN = {
+  id: 'portfolio',
+  name: 'This Portfolio',
+  short: 'Portfolio with a11y and i18n',
+  description: `Reacts Context API is used for multilanguage purposes.
+                Responsive, mobile first, accessibility, internationalization.`,
+  imgFileName: 'portfolio.png',
+  linkUrl: '',
+  linkText: ''
 };
 
 export const projectText = {
 
   en: [
+    whoEN,
     fastEN,
     scraperEN,
     taskmanagerEN,
     snakeEN,
+    portfolioEN
     //stocksEN
   ],
 
   es: [
+    whoEN,
     fastEN,
     scraperEN,
     taskmanagerEN,
@@ -85,6 +102,7 @@ export const projectText = {
   ],
 
   ru: [
+    whoEN,
     fastEN,
     scraperEN,
     taskmanagerEN,
@@ -93,6 +111,7 @@ export const projectText = {
   ],
 
   sv: [
+    whoEN,
     fastEN,
     scraperEN,
     taskmanagerEN,
