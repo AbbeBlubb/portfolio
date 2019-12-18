@@ -12,7 +12,7 @@ const whoEN = {
                 Responsive, mobile first, accessibility.`,
   imgFileName: 'who.png',
   linkUrl: 'http://www.vemharbetalat.se',
-  linkText: 'www.VemHarBetalat.se'
+  linkText: 'VemHarBetalat.se'
 };
 
 const fastEN = {
