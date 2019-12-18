@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export function ProjectTextArea(props) {
   return (
@@ -18,7 +18,12 @@ export function ProjectTextArea(props) {
             className={'project-text-area__link'}
             href={props.linkUrl}
             target="_blank"
-            onClick="return false">
+            onKeyDown={event => {
+              event.stopPropagation();
+              return false;
+            }}
+            onClick={'return false'}
+            >
             {props.linkText}
           </a>
         </div>

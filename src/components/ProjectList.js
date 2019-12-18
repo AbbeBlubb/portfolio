@@ -1,8 +1,8 @@
-import React from "react"
-import LanguageContext from '../contexts/LanguageContext'
-import { projectText } from '../assets/texts/projectText'
-import { ProjectListItem } from "./ProjectListItem"
-import { backgroundColor, backgroundImages } from '../assets/background-images'
+import React from 'react';
+import LanguageContext from '../contexts/LanguageContext';
+import { projectText } from '../assets/texts/projectText';
+import { ProjectListItem } from './ProjectListItem';
+import { backgroundColor, backgroundImages } from '../assets/background-images';
 
 export class ProjectList extends React.Component {
   static contextType = LanguageContext;
