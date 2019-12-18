@@ -1,11 +1,18 @@
-import React from "react"
-import LanguageContext from '../contexts/LanguageContext'
-import { aboutText } from '../assets/texts/aboutText'
-import { contactText } from '../assets/texts/contactText'
+import React from 'react';
+import LanguageContext from '../contexts/LanguageContext';
+import { aboutText } from '../assets/texts/aboutText';
+import { contactText } from '../assets/texts/contactText';
 
 export class About extends React.Component {
   static contextType = LanguageContext;
-  
+
+  copyToClipboard = () => {
+    if(navigator.clipboard) {
+      navigator.clipboard.writeText('alberto@francisco.nu');
+
+    }
+  }
+
   render() {
 
     const language = this.context.language;
@@ -21,7 +28,11 @@ export class About extends React.Component {
             <h2>{contactText[language].header}</h2>
             <ul>
               <li>
-                <span className='bold' tabIndex={0}>
+                <span
+                  className='bold'
+                  tabIndex={0}
+                  onKeyDown={() => this.copyToClipboard()}
+                  title={'Focus on the e-mail adress and press any key to copy the e-mail to the clipboard'}>
                   {contactText[language].email}
                 </span>
               </li>
@@ -41,6 +52,6 @@ export class About extends React.Component {
 
         </div>
       </section>
-    )
+    );
   }
 }
