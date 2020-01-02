@@ -4,7 +4,7 @@ const whoEN = {
   short: 'Secure application with JWT',
   description: `Create an account, log in, and see all the usernames.
                 Passwords are encrypted in the database.
-                On log in, a Jason Web Token (JWT) is created and sent to the client.
+                On log in, if credentials match, a Jason Web Token (JWT) is created and sent to the client.
                 Access to the API requires the JWT in the request.
                 The authentication server is made on Node with Express, Mongoose, bcrypt, passport.
                 The client is made with React.
