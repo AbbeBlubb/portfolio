@@ -1,21 +1,32 @@
+import React from "react";
+
 export const aboutText = {
+
+// I discovered programming, went all-in, made a 9-month study-plan including a bootcamp, courses and lots of self-studying.
 
   en: {
     header: `About me`,
     parrafs: [
-      `I'm a web developer currently working at a bank. I have previously being working as consultant.`,
+      `I'm a web developer working at a bank.
+      I have previously being working as consultant.
+      I love programming, infrastructure, challenges, agile working and constantly learning more!`,
 
-      `I have experience with agile methodology, big and small projects,
-      SAFe, Jira, Trello, Git, Bitbucket, TeamCity, build and deployment,
-      HTML, JSX, Dust,
-      CSS, SASS, LESS,
-      JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
-      Node.js, Express, MongoDB, Mongoose, GraphQL,
-      Episerver, Contentful, Github, and more.`,
+      <div>
+        Some of my experience is:
+        <ul style={{marginTop: '0px'}}>
+          <li>
+            <span className="bold">Working procedures: </span>Agile methodism, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+          </li>
+          <li>
+            <span className="bold">Version management and integration: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+          </li>
+          <li>
+            <span className="bold">Programming: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+        </ul>
+      </div>,
 
-      `After 8 years working as law expert I discovered web developing.
-      At first I had the development as a hobby, and soon I decided to go all-in.
-      I love my new career path!
+      `Before I started my web developing career I worked as a law expert for 8 years.
       Law is a lot about structure, analysis and presentation.
       This experience I have brought into my web developer career!`
     ]
