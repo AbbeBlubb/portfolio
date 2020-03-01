@@ -73,7 +73,7 @@ const portfolioEN = {
   id: 'portfolio',
   name: 'This Portfolio',
   short: 'Portfolio with a11y and i18n',
-  description: `Reacts Context API is used for multilanguage purposes.
+  description: `Reacts Context API and cookies are used for multilanguage purposes.
                 Responsive, mobile first, accessibility, internationalization.`,
   imgFileName: 'portfolio.png',
   linkUrl: '',
@@ -98,6 +98,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
+    portfolioEN
     //stocksEN
   ],
 
@@ -107,6 +108,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
+    portfolioEN
     //stocksEN
   ],
 
@@ -116,6 +118,7 @@ export const projectText = {
     scraperEN,
     taskmanagerEN,
     snakeEN,
+    portfolioEN
     //stocksEN
   ]
 };

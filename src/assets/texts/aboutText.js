@@ -2,8 +2,6 @@ import React from "react";
 
 export const aboutText = {
 
-// I discovered programming, went all-in, made a 9-month study-plan including a bootcamp, courses and lots of self-studying.
-
   en: {
     header: `About me`,
     parrafs: [
@@ -12,7 +10,7 @@ export const aboutText = {
       I love programming, infrastructure, challenges, agile working and constantly learning more!`,
 
       <div>
-        Some of my experience is:
+        My competences are:
         <ul style={{marginTop: '0px'}}>
           <li>
             <span className="bold">Working procedures: </span>Agile methodism, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
@@ -35,19 +33,26 @@ export const aboutText = {
   es: {
     header: `Sobre mí`,
     parrafs: [
-      `Soy desarrollador de web en un banco. Anteriormente he trabajando como consultor.`,
+      `Soy desarrollador de web en un banco.
+      Anteriormente he trabajando como consultor.
+      Me encanta la programación, infraestructura, desafíos, metodología ágil y constantemente aprender más!`,
 
-      `Tengo experiencia con metodología ágil, proyectos grandes y pequeños,
-      SAFe, Jira, Trello, Git, Bitbucket, TeamCity, compilación y despliegue,
-      HTML, JSX, Dust,
-      CSS, SASS, LESS,
-      JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
-      Node.js, Express, MongoDB, Mongoose, GraphQL,
-      Episerver, Contentful, Github y más.`,
+      <div>
+        Mis competencias son:
+        <ul style={{marginTop: '0px'}}>
+          <li>
+            <span className="bold">Métodos de trabajo: </span>Metodologias agiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+          </li>
+          <li>
+            <span className="bold">Manejo de versiones y integración: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+          </li>
+          <li>
+            <span className="bold">Programación: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+        </ul>
+      </div>,
 
-      `Después de 8 años trabajando como experto legal, descubrí el desarrollo web.
-      Al principio tuve el desarrollo web como un pasatiempo y pronto decidí ir con todo.
-      ¡Amo mi nueva carrera profesional!
+      `Antes de emprender my carrera como desarollador web, trabajé como experto legal durante 8 años.
       El derecho se trata mucho de estructura, análisis y presentación.
       ¡Esta experiencia me la he traído a mi carrera como desarrollador!`
     ]
@@ -77,19 +82,26 @@ export const aboutText = {
   sv: {
     header: `Om mig`,
     parrafs: [
-      `Jag är webbutvecklare och arbetar för närvarande på bank. Jag har innan arbetat som konsult.`,
+      `Jag är webbutvecklare och arbetar en på bank.
+      Jag har innan arbetat som konsult.
+      Jag älskar programmerin, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
 
-      `Jag har erfarenhet av agil metodik, stora och små projekt,
-      SAFe, Jira, Trello, Git, Bitbucket, TeamCity, bygg och lyft,
-      HTML, JSX, Dust,
-      CSS, SASS, LESS,
-      JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
-      Node.js, Express, MongoDB, Mongoose, GraphQL,
-      Episerver, Contentful, Github, och mer.`,
+      <div>
+        Mina kompetenser är:
+        <ul style={{marginTop: '0px'}}>
+          <li>
+            <span className="bold">Arbetssätt: </span>Agila metoder, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+          </li>
+          <li>
+            <span className="bold">Versionshantering och integration: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+          </li>
+          <li>
+            <span className="bold">Programmering: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+        </ul>
+      </div>,
 
-      `Efter att ha arbetat som jurist i 8 år upptäckte jag webbutveckling.
-      Till en början hade jag utveckling som ett fritidsintresse, och snart beslöt jag att satsa helhjärtat på webbutveckling.
-      Jag älskar min nya karriär!
+      `Innan jag startade min karriär som webbutvecklare arbetade jag som jurist i 8 år.
       Juridik handlar mycket om struktur, analys och presentation.
       Dessa erfarenheter har jag tagit med mig till min karriär som webbutvecklare!`
     ]
