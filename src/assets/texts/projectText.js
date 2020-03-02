@@ -50,7 +50,7 @@ const taskmanagerEN = {
   short: 'Global State with Redux',
   description: `Follow the Redux Store and Redux Actions in the console or in Redux DevTools.
                 API server hosted in Heroku, MongoDB server hosted in Atlas.
-                JavaScript, React, Redux, Redux-Thunk, Express, Mongoose, SASS.
+                JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsive, mobile first.`,
   imgFileName: 'taskmanager.png',
   linkUrl: 'https://abbeblubb.github.io/taskmanager/',
@@ -63,7 +63,7 @@ const taskmanagerES = {
   short: 'Estado Global con Redux',
   description: `Sigue el store central de Redux y las acciones de Redux en la consola del navegador o en Redux DevTools.
                 El servidor API está alojado en Heroku. El servidor MongoDB está alojado en Atlas.
-                JavaScript, React, Redux, Redux-Thunk, Express, Mongoose, SASS.
+                JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsivo, mobile first.`,
   imgFileName: 'taskmanager.png',
   linkUrl: 'https://abbeblubb.github.io/taskmanager/',
