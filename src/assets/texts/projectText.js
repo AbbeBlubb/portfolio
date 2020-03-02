@@ -57,6 +57,19 @@ const taskmanagerEN = {
   linkText: 'Look into the task manager'
 };
 
+const taskmanagerES = {
+  id: 'taskmanager',
+  name: 'Administrador de tareas fullstack',
+  short: 'Estado Global con Redux',
+  description: `Sigue el store central de Redux y las acciones de Redux en la consola del navegador o en Redux DevTools.
+                El servidor API está alojado en Heroku. El servidor MongoDB está alojado en Atlas.
+                JavaScript, React, Redux, Redux-Thunk, Express, Mongoose, SASS.
+                Responsivo, mobile first.`,
+  imgFileName: 'taskmanager.png',
+  linkUrl: 'https://abbeblubb.github.io/taskmanager/',
+  linkText: 'Mira el administrador'
+};
+
 const snakeEN = {
   id: 'snake',
   name: 'JavaScript Snake Game',
@@ -69,12 +82,35 @@ const snakeEN = {
   linkText: 'Play'
 };
 
+const snakeES = {
+  id: 'snake',
+  name: 'Juego Snake en JavaScript',
+  short: '¡Come manzanas y hazte grande!',
+  description: `Haga gestos de deslizamiento en la pantalla o usa las flechas del teclado para controlar la serpiente.
+                Programado en JavaScript.
+                Mobile first.`,
+  imgFileName: 'snake.png',
+  linkUrl: 'https://abbeblubb.github.io/snake/',
+  linkText: 'Juega'
+};
+
 const portfolioEN = {
   id: 'portfolio',
   name: 'This Portfolio',
   short: 'Portfolio with a11y and i18n',
-  description: `Reacts Context API and cookies are used for multilanguage purposes.
+  description: `React Context API and cookies are used for multilanguage purposes.
                 Responsive, mobile first, accessibility, internationalization.`,
+  imgFileName: 'portfolio.png',
+  linkUrl: '',
+  linkText: ''
+};
+
+const portfolioES = {
+  id: 'portfolio',
+  name: 'Este Portfolio',
+  short: 'Portfolio con a11y and i18n',
+  description: `La función de multilenguaje utiliza cookies y el API Context de React.
+                Responsivo, mobile first, accesibilidad, internacionalización.`,
   imgFileName: 'portfolio.png',
   linkUrl: '',
   linkText: ''
@@ -89,17 +125,15 @@ export const projectText = {
     taskmanagerEN,
     snakeEN,
     portfolioEN
-    //stocksEN
   ],
 
   es: [
     whoEN,
     fastEN,
     scraperEN,
-    taskmanagerEN,
-    snakeEN,
-    portfolioEN
-    //stocksEN
+    taskmanagerES,
+    snakeES,
+    portfolioES
   ],
 
   ru: [
@@ -109,7 +143,6 @@ export const projectText = {
     taskmanagerEN,
     snakeEN,
     portfolioEN
-    //stocksEN
   ],
 
   sv: [
@@ -119,6 +152,5 @@ export const projectText = {
     taskmanagerEN,
     snakeEN,
     portfolioEN
-    //stocksEN
   ]
 };
