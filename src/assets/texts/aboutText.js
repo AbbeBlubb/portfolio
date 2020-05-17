@@ -61,21 +61,7 @@ export const aboutText = {
   ru: {
     header: `Обо мне`,
     parrafs: [
-      `Я младший веб-разработчик, в настоящее время работаю в банке. Ранее я работал консультантом.`,
-
-      `У меня есть опыт работы с гибкой методологией, большими и маленькими проектами,
-      SAFe, Jira, Trello, Git, Bitbucket, TeamCity, сборка и развертывание,
-      HTML, JSX, Dust,
-      CSS, SASS, LESS,
-      JavaScript, TypeScript, React, Redux, Gatsby, Aurelia, MorphDOM,
-      Node.js, Express, MongoDB, Mongoose, GraphQL,
-      Episerver, Contentful, Github и многое другое.`,
-
-      `После 8 лет работы в качестве юриста я открыл для себя веб-разработку.
-      Сначала у меня было хобби, и вскоре я решил пойти ва-банк.
-      Я люблю свою новую карьеру!
-      Закон много о структуре, анализе и представлении.
-      Этот опыт я принес в свою карьеру веб-разработчика!`
+      `Я изучал русский язык, но это было некоторое время назад! Смотрите английскую версию для деталей.`
     ]
   },
 
@@ -84,7 +70,7 @@ export const aboutText = {
     parrafs: [
       `Jag är webbutvecklare och arbetar en på bank.
       Jag har innan arbetat som konsult.
-      Jag älskar programmerin, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
+      Jag älskar programmering, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
 
       <div>
         Mina kompetenser är:
