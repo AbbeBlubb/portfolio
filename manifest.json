@@ -1,0 +1,21 @@
+{
+  "short_name": "Abbe's Portfolio",
+  "name": "Alberto F. Chávez Pérez",
+  "icons": [
+    {
+      "src": "/public/favicon.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/public/favicon.ico",
+      "type": "image/ico",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://abbeblubb.github.io/portfolio/",
+  "background_color": "#E5989B",
+  "display": "standalone",
+  "scope": "",
+  "theme_color": "#E5989B"
+}
