@@ -5,21 +5,30 @@ export const aboutText = {
   en: {
     header: `About me`,
     parrafs: [
-      `I'm a web developer working at a bank.
+      `I'm a fullstack web developer working at a bank.
       I have previously being working as consultant.
-      I love programming, infrastructure, challenges, agile working and constantly learning more!`,
+      I love programming, infrastructure, challenges, agile methodology and constantly learning more!`,
 
       <div>
-        My competences are:
-        <ul style={{marginTop: '0px'}}>
+        <h2>My competences</h2>
+        <ul style={{ marginTop: '0px' }}>
           <li>
-            <span className="bold">Working procedures: </span>Agile methodism, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+            <span className="bold">What I work with: </span>Application infrastructure, frontend development, Scrum Master
           </li>
           <li>
-            <span className="bold">Version management and integration: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+            <span className="bold">Working procedures: </span>Agile methodism, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
           </li>
           <li>
-            <span className="bold">Programming: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+            <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree, GitHub, Bitbucket, TeamCity
+          </li>
+          <li>
+            <span className="bold">Programming: </span>JavaScript, TypeScript, Docker, Webpack 5, Web Components, Custom Elements, React, Redux, Gatsby, Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+          <li>
+            <span className="bold">Testing: </span>TestCafé, React Testing Library, Karma, Jest, Jasmine, Enzyme, Sinon
+          </li>
+          <li>
+            <span className="bold">Quality and monitoring: </span>WCAG 2.1 (accessibility), Clean Coder (Uncle Bob), ESLint, SonarQube, SonarLint, SonarCloud, Kibana
           </li>
         </ul>
       </div>,
@@ -33,21 +42,30 @@ export const aboutText = {
   es: {
     header: `Sobre mí`,
     parrafs: [
-      `Soy desarrollador de web en un banco.
+      `Soy desarrollador de web fullstack y trabajo en un banco.
       Anteriormente he trabajando como consultor.
       Me encanta la programación, infraestructura, desafíos, metodología ágil y constantemente aprender más!`,
 
       <div>
-        Mis competencias son:
-        <ul style={{marginTop: '0px'}}>
+        <h2>Mis competencias</h2>
+        <ul style={{ marginTop: '0px' }}>
           <li>
-            <span className="bold">Métodos de trabajo: </span>Metodologias agiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+            <span className="bold">En qué trabajo: </span>Infraestructura de aplicaciónes, desarollo frontend, Scrum Master
           </li>
           <li>
-            <span className="bold">Manejo de versiones y integración: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+            <span className="bold">Métodos de trabajo: </span>Metodologias ágiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
           </li>
           <li>
-            <span className="bold">Programación: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+            <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree, GitHub, Bitbucket, TeamCity
+          </li>
+          <li>
+            <span className="bold">Programación: </span>JavaScript, TypeScript, Docker, Webpack 5, Web Components, Custom Elements, React, Redux, Gatsby, Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+          <li>
+            <span className="bold">Testing: </span>TestCafé, React Testing Library, Karma, Jest, Jasmine, Enzyme, Sinon
+          </li>
+          <li>
+            <span className="bold">Calidad y monitoramiento: </span>WCAG 2.1 (accesibidad), Clean Coder (Uncle Bob), ESLint, SonarQube, SonarLint, SonarCloud, Kibana
           </li>
         </ul>
       </div>,
@@ -68,21 +86,30 @@ export const aboutText = {
   sv: {
     header: `Om mig`,
     parrafs: [
-      `Jag är webbutvecklare och arbetar en på bank.
+      `Jag är fullstack webbutvecklare och arbetar en på bank.
       Jag har innan arbetat som konsult.
       Jag älskar programmering, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
 
       <div>
-        Mina kompetenser är:
-        <ul style={{marginTop: '0px'}}>
+        <h2>My competences</h2>
+        <ul style={{ marginTop: '0px' }}>
           <li>
-            <span className="bold">Arbetssätt: </span>Agila metoder, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
+            <span className="bold">Vad jag jobbar med: </span>Applikationernas infrastruktur, webbutveckling, Scrum Master
           </li>
           <li>
-            <span className="bold">Versionshantering och integration: </span> Git, Sourcetree, GitHub, Bitbucket, TeamCity, SonarQube
+            <span className="bold">Arbetssätt </span>Agila metoder, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
           </li>
           <li>
-            <span className="bold">Programmering: </span>JavaScript, TypeScript, Web Components, React, Redux, Gatsby, Aurelia, CSS, SASS, LESS, HTML, JSX, accessibility, Karma, Jest, Jasmine, Enzyme, Sinon, Webpack, Node.js, Express, GraphQL, MongoDB, Mongoose
+            <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree, GitHub, Bitbucket, TeamCity
+          </li>
+          <li>
+            <span className="bold">Programmering: </span>JavaScript, TypeScript, Docker, Webpack 5, Web Components, Custom Elements, React, Redux, Gatsby, Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express, GraphQL, MongoDB, Mongoose
+          </li>
+          <li>
+            <span className="bold">Test: </span>TestCafé, React Testing Library, Karma, Jest, Jasmine, Enzyme, Sinon
+          </li>
+          <li>
+            <span className="bold">Kvalitet och monitorering: </span>WCAG 2.1 (tillgänglighet), Clean Coder (Uncle Bob), ESLint, SonarQube, SonarLint, SonarCloud, Kibana
           </li>
         </ul>
       </div>,

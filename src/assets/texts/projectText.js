@@ -97,7 +97,7 @@ const snakeES = {
 const portfolioEN = {
   id: 'portfolio',
   name: 'This Portfolio',
-  short: 'Portfolio with a11y and i18n',
+  short: 'Portfolio with a11y, i18n and React Context',
   description: `React Context API and cookies are used for multilanguage purposes.
                 Responsive, mobile first, accessibility, internationalization.`,
   imgFileName: 'portfolio.png',
@@ -108,7 +108,7 @@ const portfolioEN = {
 const portfolioES = {
   id: 'portfolio',
   name: 'Este Portfolio',
-  short: 'Portfolio con a11y and i18n',
+  short: 'Portfolio con a11y, i18n y React Context',
   description: `La función de multilenguaje utiliza cookies y el API Context de React.
                 Responsivo, mobile first, accesibilidad, internacionalización.`,
   imgFileName: 'portfolio.png',
@@ -123,7 +123,6 @@ export const projectText = {
     fastEN,
     scraperEN,
     taskmanagerEN,
-    snakeEN,
     portfolioEN
   ],
 
@@ -132,7 +131,6 @@ export const projectText = {
     fastEN,
     scraperEN,
     taskmanagerES,
-    snakeES,
     portfolioES
   ],
 
@@ -141,7 +139,6 @@ export const projectText = {
     fastEN,
     scraperEN,
     taskmanagerEN,
-    snakeEN,
     portfolioEN
   ],
 
@@ -150,7 +147,6 @@ export const projectText = {
     fastEN,
     scraperEN,
     taskmanagerEN,
-    snakeEN,
     portfolioEN
   ]
 };

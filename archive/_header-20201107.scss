@@ -2,6 +2,8 @@
   height: 100vh;
   background-color: $brick-red;
   position: relative;
+  --maskX: 0;
+  --maskY: 50;
 
   &__header {
     width: 515px;
@@ -22,6 +24,33 @@
     -moz-border-radius: 1px;
     border-radius: 1px;
     padding: 0 0 0 0.5em;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  /* This clone is to change the color of the text */
+  &__header-clone {
+    width: 515px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 5em;
+    line-height: 1em;
+    font-style: italic;
+    font-weight: 400;
+    color: $brown; //New color for the .header-clone on top of .header
+    text-shadow: 1px 1px 0 $brown;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: $dark-gray;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding: 0 0 0 0.5em;
+    clip-path: polygon(0 0, calc(var(--maskX) * 1%) 0, calc(var(--maskY) * 1%) 100%, 0 100%);
+    transition: clip-path 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 
     span {
       font-weight: 700;
@@ -79,6 +108,20 @@
     font-size: 40px;
     padding: 5px 2em 5px 2em;
   }
+
+  .header__header-clone {
+    top: 100px;
+    transform: translate(0, 0);
+    width: auto;
+    font-size: 40px;
+    padding: 5px 2em 5px 2em;
+  }
+}
+
+@media (max-height: 330px) {
+  .header__button-wrapper {
+    bottom: 1%;
+  }
 }
 
 @media (max-height: 320px) {
@@ -87,8 +130,17 @@
   }
 }
 
+
 @media (min-width: 1030px) {
   .header__header {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 0.5em 0 0.5em;
+  }
+
+  .header__header-clone {
     width: auto;
     position: absolute;
     top: 50%;

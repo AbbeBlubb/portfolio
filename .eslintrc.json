@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "technigo"
-  ],
-  "rules": {
-    "no-underscore-dangle": "off",
-    "linebreak-style": 0
-  }
-}
