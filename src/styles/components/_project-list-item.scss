@@ -1,6 +1,6 @@
 .project-list-item {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.4em;
+  line-height: 1.6em;
   color: $off-black;
   //background-color: $green;
   cursor: pointer;
@@ -21,12 +21,6 @@
 
 @media (min-width: 700px) {
   .project-list-item {
-    font-size: 1.6em;
-  }
-}
-
-@media (min-width: 950px) {
-  .project-list-item {
-    font-size: 1.9em;
+    font-size: 1.2em;
   }
 }
