@@ -18,10 +18,10 @@ export class About extends React.Component {
     const language = this.context.language;
 
     return (
-      <section className="about-wrapper">
-        <div className="about">
+      <section className="about">
+        <div className="about__container">
 
-          <div className="about__text-section">
+          <div className="about__text">
             <h2>{aboutText[language].header}</h2>
             {aboutText[language].parrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
 
@@ -32,7 +32,7 @@ export class About extends React.Component {
                   className='bold'
                   tabIndex={0}
                   onKeyDown={() => this.copyToClipboard()}
-                  title={'Focus on the e-mail adress and press any key to copy the e-mail to the clipboard'}>
+                  title={'Click on this image to copy the e-mail to the clipboard'}>
                   {contactText[language].email}
                 </span>
               </li>
@@ -44,7 +44,7 @@ export class About extends React.Component {
             </ul>
           </div>
 
-          <div className="about__photo-section">
+          <div className="about__photo-wrapper">
             <img className="about__photo"
               src={contactText[language].photo}
               alt="Profile" />
