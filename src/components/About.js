@@ -7,7 +7,7 @@ export class About extends React.Component {
   static contextType = LanguageContext;
 
   copyToClipboard = () => {
-    if(navigator.clipboard) {
+    if (navigator.clipboard) {
       navigator.clipboard.writeText('alberto@francisco.nu');
 
     }
@@ -22,8 +22,11 @@ export class About extends React.Component {
         <div className="about__container">
 
           <div className="about__text">
-            <h2>{aboutText[language].header}</h2>
-            {aboutText[language].parrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
+            <h2>{aboutText[language].aboutHeader}</h2>
+            {aboutText[language].aboutParrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
+
+            <h2>{aboutText[language].competencesHeader}</h2>
+            {aboutText[language].competencesParrafs.map((parraf, index) => <div key={index}>{parraf}</div>)}
 
             <h2>{contactText[language].header}</h2>
             <ul>

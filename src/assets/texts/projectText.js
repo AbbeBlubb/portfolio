@@ -52,7 +52,7 @@ const taskmanagerEN = {
                 API server hosted in Heroku, MongoDB server hosted in Atlas.
                 JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsive, mobile first.`,
-  imgFileName: 'taskmanager.png',
+  imgFileName: 'redux.svg',
   linkUrl: 'https://abbeblubb.github.io/taskmanager/',
   linkText: 'Look into the task manager'
 };
@@ -65,7 +65,7 @@ const taskmanagerES = {
                 El servidor API está alojado en Heroku. El servidor MongoDB está alojado en Atlas.
                 JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsivo, mobile first.`,
-  imgFileName: 'taskmanager.png',
+  imgFileName: 'redux.svg',
   linkUrl: 'https://abbeblubb.github.io/taskmanager/',
   linkText: 'Mira el administrador'
 };
