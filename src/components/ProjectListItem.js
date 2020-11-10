@@ -49,8 +49,12 @@ export class ProjectListItem extends React.Component {
                 projectIsVisible={this.state.projectDescriptionHeight}
                 name={this.props.name}
                 description={this.props.description}
-                linkUrl={this.props.linkUrl}
-                linkText={this.props.linkText}
+                linkUrlGui={this.props.linkUrlGui}
+                linkTextGui={this.props.linkTextGui}
+                linkUrlCodeFrontend={this.props.linkUrlCodeFrontend}
+                linkTextCodeFrontend={this.props.linkTextCodeFrontend}
+                linkUrlCodeBackend={this.props.linkUrlCodeBackend}
+                linkTextCodeBackend={this.props.linkTextCodeBackend}
                 img={this.props.img}/>
           </AnimateHeight>
         </div>

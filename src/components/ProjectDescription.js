@@ -16,11 +16,11 @@ export function ProjectDescription(props) {
         <div className="project-text-area">
           <div>{props.description}</div>
 
-          {props.linkText && (
-            <div className="project-text-area__link-wrap">
+          <div className="project-text-area__link-wrap">
+            {props.linkTextGui && (
               <a
                 className={"project-text-area__link"}
-                href={props.linkUrl}
+                href={props.linkUrlGui}
                 target="_blank"
                 onKeyDown={event => {
                   event.stopPropagation();
@@ -28,10 +28,42 @@ export function ProjectDescription(props) {
                 }}
                 onClick={"return false"}
               >
-                {props.linkText}
+                {props.linkTextGui}
               </a>
-            </div>
-          )}
+            )}
+            {props.linkTextGui && <br />}
+
+            {props.linkTextCodeFrontend && (
+              <a
+                className={"project-text-area__link"}
+                href={props.linkUrlCodeFrontend}
+                target="_blank"
+                onKeyDown={event => {
+                  event.stopPropagation();
+                  return false;
+                }}
+                onClick={"return false"}
+              >
+                {props.linkTextCodeFrontend}
+              </a>
+            )}
+            {props.linkTextCodeFrontend && <br />}
+
+            {props.linkTextCodeBackend && (
+              <a
+                className={"project-text-area__link"}
+                href={props.linkUrlCodeBackend}
+                target="_blank"
+                onKeyDown={event => {
+                  event.stopPropagation();
+                  return false;
+                }}
+                onClick={"return false"}
+              >
+                {props.linkTextCodeBackend}
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </article>

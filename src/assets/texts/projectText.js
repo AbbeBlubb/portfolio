@@ -1,3 +1,33 @@
+/*
+const templateEN = {
+  id: '',
+  name: '',
+  short: '',
+  description: ``,
+  imgFileName: 'webpack.svg',
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: '',
+  linkTextCodeFrontend: '',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
+};
+*/
+
+const federationEN = {
+  id: 'federation',
+  name: 'Webpack 5',
+  short: 'Federated modules in 3 applications',
+  description: `The public site consumes modules from the modules application and the infrastructure application.`,
+  imgFileName: 'webpack.svg',
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/module-federation',
+  linkTextCodeFrontend: 'GitHub repo',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
+};
+
 const whoEN = {
   id: 'who',
   name: 'Fullstack Authentication and Apache',
@@ -11,8 +41,12 @@ const whoEN = {
                 The authentication server and the client are made for reusability.
                 Responsive, mobile first, accessibility.`,
   imgFileName: 'who.png',
-  linkUrl: 'http://www.vemharbetalat.se',
-  linkText: 'VemHarBetalat.se'
+  linkUrlGui: 'http://www.vemharbetalat.se',
+  linkTextGui: 'VemHarBetalat.se',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/vemharbetalat',
+  linkTextCodeFrontend: 'GUI code',
+  linkUrlCodeBackend: 'https://github.com/AbbeBlubb/auth-server',
+  linkTextCodeBackend: 'Authentication server code'
 };
 
 const fastEN = {
@@ -27,8 +61,31 @@ const fastEN = {
                 All this gives the user a fast-loading experience with minimum of code loading and processing.
                 Responsive, mobile first, accessibility.`,
   imgFileName: 'fast.png',
-  linkUrl: 'https://abbeblubb.github.io/fast/',
-  linkText: 'Experience fast loading'
+  linkUrlGui: 'https://abbeblubb.github.io/fast/',
+  linkTextGui: 'Experience fast loading',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/fast',
+  linkTextCodeFrontend: 'GitHub repo',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
+};
+
+const qualityEN = {
+  id: 'quality',
+  name: 'Code Quality',
+  short: 'Configuration for Husky, ESLint & Prettier in a TypeScript React application',
+  description: `Configuration for Husky, lint-staged, Prettier, Eslint, Webpack, TypeScript and React.
+                Husky is used for running the pre-commit Git hook. 
+                This pre-commit hook runs lint-staged that runs a Prettier-command on specific files. 
+                Prettier thus formats the code on commit. 
+                Prettier is integrated with ESLint.
+                Also Webpack configuration for React and TypeScript.`,
+  imgFileName: 'webpack.svg',
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/react-ts-husky-eslint-prettier',
+  linkTextCodeFrontend: 'GitHub repo',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
 };
 
 const scraperEN = {
@@ -40,8 +97,12 @@ const scraperEN = {
                 JavaScript, Node, Express, Mongoose, React.
                 Responsive, mobile first.`,
   imgFileName: 'scraper-node.png',
-  linkUrl: 'https://abbeblubb.github.io/scraper-node/',
-  linkText: 'Scrape the news site'
+  linkUrlGui: 'https://abbeblubb.github.io/scraper-node/',
+  linkTextGui: 'Scrape the news site',
+  linkUrlCodeFrontend: '',
+  linkTextCodeFrontend: '',
+  linkUrlCodeBackend: 'https://github.com/AbbeBlubb/scraper-node-backend',
+  linkTextCodeBackend: 'Scraper server code'
 };
 
 const taskmanagerEN = {
@@ -53,8 +114,12 @@ const taskmanagerEN = {
                 JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsive, mobile first.`,
   imgFileName: 'redux.svg',
-  linkUrl: 'https://abbeblubb.github.io/taskmanager/',
-  linkText: 'Look into the task manager'
+  linkUrlGui: 'https://abbeblubb.github.io/taskmanager/',
+  linkTextGui: 'Look into the task manager',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/taskmanager',
+  linkTextCodeFrontend: 'Frontend code',
+  linkUrlCodeBackend: '', // https://github.com/AbbeBlubb/taskmanager-backend
+  linkTextCodeBackend: '' // Backend code
 };
 
 const taskmanagerES = {
@@ -66,32 +131,12 @@ const taskmanagerES = {
                 JavaScript, React, Redux, Redux-Thunk, Node, Express, Mongoose, SASS.
                 Responsivo, mobile first.`,
   imgFileName: 'redux.svg',
-  linkUrl: 'https://abbeblubb.github.io/taskmanager/',
-  linkText: 'Mira el administrador'
-};
-
-const snakeEN = {
-  id: 'snake',
-  name: 'JavaScript Game with touch gestures',
-  short: 'Eat apples and get bigger!',
-  description: `Make swipe gestures on the screen or use the keyboard arrows to control the snake.
-                Made with JavaScript.
-                Mobile first.`,
-  imgFileName: 'snake.png',
-  linkUrl: 'https://abbeblubb.github.io/snake/',
-  linkText: 'Play'
-};
-
-const snakeES = {
-  id: 'snake',
-  name: 'Juego en JavaScript con gestos de deslizamiento',
-  short: '¡Come manzanas y hazte grande!',
-  description: `Haga gestos de deslizamiento en la pantalla o usa las flechas del teclado para controlar la serpiente.
-                Programado en JavaScript.
-                Mobile first.`,
-  imgFileName: 'snake.png',
-  linkUrl: 'https://abbeblubb.github.io/snake/',
-  linkText: 'Juega'
+  linkUrlGui: 'https://abbeblubb.github.io/taskmanager/',
+  linkTextGui: 'Mira el administrador',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/taskmanager',
+  linkTextCodeFrontend: 'Código frontend',
+  linkUrlCodeBackend: 'https://github.com/AbbeBlubb/taskmanager-backend',
+  linkTextCodeBackend: 'Código backend'
 };
 
 const portfolioEN = {
@@ -99,10 +144,15 @@ const portfolioEN = {
   name: 'This Portfolio',
   short: 'Portfolio with a11y, i18n and React Context',
   description: `React Context API and cookies are used for multilanguage purposes.
+                Web manifest to download the page on Android.
                 Responsive, mobile first, accessibility, internationalization.`,
   imgFileName: 'portfolio.png',
-  linkUrl: '',
-  linkText: ''
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: '',
+  linkTextCodeFrontend: '',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
 };
 
 const portfolioES = {
@@ -110,41 +160,54 @@ const portfolioES = {
   name: 'Este Portfolio',
   short: 'Portfolio con a11y, i18n y React Context',
   description: `La función de multilenguaje utiliza cookies y el API Context de React.
+                Web manifest para descargar la página en Android.
                 Responsivo, mobile first, accesibilidad, internacionalización.`,
   imgFileName: 'portfolio.png',
-  linkUrl: '',
-  linkText: ''
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: '',
+  linkTextCodeFrontend: '',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
 };
 
 export const projectText = {
 
   en: [
+    federationEN,
     whoEN,
     fastEN,
+    qualityEN,
     scraperEN,
     taskmanagerEN,
     portfolioEN
   ],
 
   es: [
+    federationEN,
     whoEN,
     fastEN,
+    qualityEN,
     scraperEN,
     taskmanagerES,
     portfolioES
   ],
 
   ru: [
+    federationEN,
     whoEN,
     fastEN,
+    qualityEN,
     scraperEN,
     taskmanagerEN,
     portfolioEN
   ],
 
   sv: [
+    federationEN,
     whoEN,
     fastEN,
+    qualityEN,
     scraperEN,
     taskmanagerEN,
     portfolioEN

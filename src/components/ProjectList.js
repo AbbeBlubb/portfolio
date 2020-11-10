@@ -23,8 +23,12 @@ export class ProjectList extends React.Component {
             name={project.name}
             short={project.short}
             description={project.description}
-            linkUrl={project.linkUrl}
-            linkText={project.linkText}
+            linkUrlGui={project.linkUrlGui}
+            linkTextGui={project.linkTextGui}
+            linkUrlCodeFrontend={project.linkUrlCodeFrontend}
+            linkTextCodeFrontend={project.linkTextCodeFrontend}
+            linkUrlCodeBackend={project.linkUrlCodeBackend}
+            linkTextCodeBackend={project.linkTextCodeBackend}
             img={project.imgFileName}
             backgroundColor={backgroundColor}
             backgroundImage={backgroundImages[Math.floor(Math.random()*backgroundImages.length)]} />
