@@ -22,7 +22,7 @@ export const aboutText = {
             Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree,
+          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
@@ -43,7 +43,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="bold">OS: </span>Windows10, Ubuntu server on WSL2,
-            Kali Linux
+            Ubuntu server on Linode virtual machine, Kali Linux
         </li>
       </ul>,
 
@@ -74,7 +74,7 @@ export const aboutText = {
             DevOps Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree,
+          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
@@ -95,7 +95,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="bold">OS: </span>Windows10, Ubuntu server en WSL2,
-            Kali Linux
+          Ubuntu server en máquina virtual Linode, Kali Linux
         </li>
       </ul>,
 
@@ -133,7 +133,7 @@ export const aboutText = {
             Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Sourcetree,
+          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
@@ -154,7 +154,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="bold">OS: </span>Windows10, Ubuntu server i WSL2,
-            Kali Linux
+          Ubuntu server på Linode virtuell burk, Kali Linux
         </li>
       </ul>,
 
