@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "91dddf0dc2a0d71879f2",
-    "url": "/portfolio/static/css/main.f3993f28.chunk.css"
+    "revision": "e30fb94053d40a88e4aa",
+    "url": "/portfolio/static/css/main.d1974822.chunk.css"
   },
   {
-    "revision": "91dddf0dc2a0d71879f2",
-    "url": "/portfolio/static/js/main.91dddf0d.chunk.js"
+    "revision": "e30fb94053d40a88e4aa",
+    "url": "/portfolio/static/js/main.e30fb940.chunk.js"
   },
   {
-    "revision": "35cc90764c2b3810da95",
-    "url": "/portfolio/static/js/1.35cc9076.chunk.js"
+    "revision": "d798a26b0d007e94ba6a",
+    "url": "/portfolio/static/js/1.d798a26b.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/portfolio.6a114ff3.png"
   },
   {
+    "revision": "5c7392a91f8cd5d997137f6b4a36870b",
+    "url": "/portfolio/static/media/redux.5c7392a9.svg"
+  },
+  {
     "revision": "429c7db6a840821f18f19edc4d73cd8d",
     "url": "/portfolio/static/media/scraper-node.429c7db6.png"
   },
@@ -72,11 +76,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/weather.15bb5af4.png"
   },
   {
+    "revision": "cd12b3249278448829738cb4d3350a00",
+    "url": "/portfolio/static/media/webpack.cd12b324.svg"
+  },
+  {
     "revision": "3a6266362d29cbc4b6be794984530407",
     "url": "/portfolio/static/media/who.3a626636.png"
   },
   {
-    "revision": "b1e78d8032a1c434642c0510967a39e3",
+    "revision": "bf4c668112164ac1274aa4ad128d5ecf",
     "url": "/portfolio/index.html"
   }
 ];
