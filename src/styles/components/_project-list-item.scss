@@ -2,7 +2,6 @@
   font-family: 'Raleway', sans-serif;
   line-height: 1.6em;
   color: $off-black;
-  //background-color: $green;
   cursor: pointer;
   transition: background-color 0.3s;
   -webkit-box-shadow: inset 0 3px 3px 0 #b6cfc5, inset 0 -3px 3px 0 #b6cfc5;
@@ -19,7 +18,7 @@
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1300px) {
   .project-list-item {
     font-size: 1.2em;
   }

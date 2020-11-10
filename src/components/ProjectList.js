@@ -29,7 +29,6 @@ export class ProjectList extends React.Component {
             backgroundColor={backgroundColor}
             backgroundImage={backgroundImages[Math.floor(Math.random()*backgroundImages.length)]} />
         ))}
-
       </section>
     );
   }
