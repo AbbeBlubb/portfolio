@@ -20,7 +20,7 @@ export class Header extends React.Component {
         ref={this.refForTitleContainer}>
 
         <h1 className='header__heading'>
-          <span>{headerText[language].a}</span> {headerText[language].fcp}
+          <span className="bold">{headerText[language].a}</span> {headerText[language].fcp}
         </h1>
 
         {/* Position the button-wrapper in absolute, so the button inside the wrapper don't need to have the absolute positioning */}

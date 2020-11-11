@@ -1,39 +1,61 @@
 .header {
   height: 100vh;
+  max-height: 650px;
   background-color: $brick-red;
   position: relative;
-  max-height: 800px;
+
+  @media (min-width: 700px) {
+    max-height: 800px;
+  }
 
   &__heading {
-    width: 515px;
     height: auto;
-    font-family: 'Tajawal', sans-serif;
-    font-size: 4em;
+    font-family: "Tajawal", sans-serif;
     line-height: 1em;
     font-style: italic;
     font-weight: 400;
     color: $sand;
     text-shadow: 1px 1px 0 $brown;
     position: absolute;
-    top: 30%;
     right: 0;
-    transform: translate(0, -50%);
     background-color: $dark-gray;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
-    padding: 0 0 0 0.5em;
+    top: 100px;
+    transform: translate(0, 0);
+    width: auto;
+    font-size: 2.5em;
+    padding: 5px 2em 5px 2em;
 
-    span {
-      font-weight: 700;
+    @media (min-width: 700px) {
+      top: 30%;
+      transform: translate(0, -50%);
+      width: 515px;
+      font-size: 4em;
+      padding: 0 0 0 0.5em;
+    }
+
+    @media (min-width: 1030px) {
+        font-size: 5em;
+        width: auto;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        padding: 0 0.5em 0 0.5em;
     }
   }
 
   &__button-wrapper {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     width: 100%;
     text-align: center;
+
+    @media (min-height: 600px) {
+      // HEIGHT
+      bottom: 15%;
+    }
   }
 
   &__button {
@@ -47,48 +69,17 @@
     display: inline-block;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 0.875rem; //14px;
     text-decoration: none;
     text-align: center;
-    font-size: 1rem;
     transition: background-color 0.3s;
 
     &:hover {
       background-color: $gray-transparent;
     }
-  }
-}
 
-@media (max-width: 700px) {
-  .header__button {
-    font-size: 0.875rem //14px;
-  }
-
-  .header {
-    max-height: 650px;
-  }
-
-  .header__heading {
-    top: 100px;
-    transform: translate(0, 0);
-    width: auto;
-    font-size: 2.5em;
-    padding: 5px 2em 5px 2em;
-  }
-}
-
-@media (max-height: 600px) {
-  .header__button-wrapper {
-    bottom: 5%;
-  }
-}
-
-@media (min-width: 1030px) {
-  .header__heading {
-    font-size: 5em;
-    width: auto;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    padding: 0 0.5em 0 0.5em;
+    @media (min-width: 700px) {
+      font-size: 1rem;
+    }
   }
 }
