@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.3f3d51f2.chunk.css",
-  "main.js": "/portfolio/static/js/main.2d90ed5e.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.2d90ed5e.chunk.js.map",
-  "static/js/1.816fa29d.chunk.js": "/portfolio/static/js/1.816fa29d.chunk.js",
-  "static/js/1.816fa29d.chunk.js.map": "/portfolio/static/js/1.816fa29d.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.466c462c.chunk.css",
+  "main.js": "/portfolio/static/js/main.1f8040eb.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.1f8040eb.chunk.js.map",
+  "static/js/1.d7c18ac2.chunk.js": "/portfolio/static/js/1.d7c18ac2.chunk.js",
+  "static/js/1.d7c18ac2.chunk.js.map": "/portfolio/static/js/1.d7c18ac2.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/profilephoto.jpg": "/portfolio/static/media/profilephoto.43ca4647.jpg",
@@ -15,6 +15,7 @@
   "static/media/habittracker2.png": "/portfolio/static/media/habittracker2.ebd1d58c.png",
   "static/media/log.png": "/portfolio/static/media/log.2b1a2635.png",
   "static/media/magazine.png": "/portfolio/static/media/magazine.b5ff8a8e.png",
+  "static/media/nodejs.svg": "/portfolio/static/media/nodejs.a1231528.svg",
   "static/media/portfolio.png": "/portfolio/static/media/portfolio.6a114ff3.png",
   "static/media/quality.png": "/portfolio/static/media/quality.02f7125f.png",
   "static/media/redux.svg": "/portfolio/static/media/redux.5c7392a9.svg",
@@ -26,8 +27,8 @@
   "static/media/weather.png": "/portfolio/static/media/weather.15bb5af4.png",
   "static/media/webpack.svg": "/portfolio/static/media/webpack.cd12b324.svg",
   "static/media/who.png": "/portfolio/static/media/who.3a626636.png",
-  "static/css/main.3f3d51f2.chunk.css.map": "/portfolio/static/css/main.3f3d51f2.chunk.css.map",
+  "static/css/main.466c462c.chunk.css.map": "/portfolio/static/css/main.466c462c.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.a7c9189ff23e73910813f3979a5ac92c.js": "/portfolio/precache-manifest.a7c9189ff23e73910813f3979a5ac92c.js",
+  "precache-manifest.696202c9123f18de92e7e4bcd83c37ed.js": "/portfolio/precache-manifest.696202c9123f18de92e7e4bcd83c37ed.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
