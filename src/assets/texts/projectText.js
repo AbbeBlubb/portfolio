@@ -16,9 +16,11 @@ const templateEN = {
 
 const federationEN = {
   id: 'federation',
-  name: 'Webpack 5',
-  short: 'Federated modules in 3 applications',
-  description: `The public site consumes modules from the modules application and the infrastructure application.`,
+  name: 'Micro Frontends',
+  short: 'Webpack 5 Module Federation between 3 applications',
+  description: `Module Federation allows code sharing between applications in the form of federated modules.
+                While a typical Micro Frontends framework loads UI:s, Module Federation permits different applications to share all kinds of code, logic and libraries between the appications.
+                In this project, the public site consumes UI modules from the modules application and logic from the infrastructure application.`,
   imgFileName: 'webpack.svg',
   linkUrlGui: '',
   linkTextGui: '',
@@ -97,7 +99,7 @@ const scraperEN = {
                 The frontend displays these headers in a list, making it easy and fast to follow the general news.
                 JavaScript, Node, Express, Mongoose, React.
                 Responsive, mobile first.`,
-  imgFileName: 'scraper-node.png',
+  imgFileName: 'nodejs.svg',
   linkUrlGui: 'https://abbeblubb.github.io/scraper-node/',
   linkTextGui: 'Scrape the news site',
   linkUrlCodeFrontend: '',
