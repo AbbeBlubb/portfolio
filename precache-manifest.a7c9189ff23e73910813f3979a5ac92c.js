@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "09f3ffc7b7127346ee8d",
-    "url": "/portfolio/static/css/main.fefdb0fc.chunk.css"
+    "revision": "2d90ed5e5f0cb2db74b8",
+    "url": "/portfolio/static/css/main.3f3d51f2.chunk.css"
   },
   {
-    "revision": "09f3ffc7b7127346ee8d",
-    "url": "/portfolio/static/js/main.09f3ffc7.chunk.js"
+    "revision": "2d90ed5e5f0cb2db74b8",
+    "url": "/portfolio/static/js/main.2d90ed5e.chunk.js"
   },
   {
-    "revision": "e6946d898aa7a9aa4ee3",
-    "url": "/portfolio/static/js/1.e6946d89.chunk.js"
+    "revision": "816fa29d14948e78fdb1",
+    "url": "/portfolio/static/js/1.816fa29d.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -56,12 +56,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/portfolio.6a114ff3.png"
   },
   {
+    "revision": "02f7125f71ce32e8e089cd51080ea52d",
+    "url": "/portfolio/static/media/quality.02f7125f.png"
+  },
+  {
     "revision": "5c7392a91f8cd5d997137f6b4a36870b",
     "url": "/portfolio/static/media/redux.5c7392a9.svg"
   },
   {
     "revision": "429c7db6a840821f18f19edc4d73cd8d",
     "url": "/portfolio/static/media/scraper-node.429c7db6.png"
+  },
+  {
+    "revision": "a2acf98a5c52d66aa5caf9d65a9025c5",
+    "url": "/portfolio/static/media/secure-server.a2acf98a.svg"
   },
   {
     "revision": "6f989dd17e2885f09181d8337edb9d31",
@@ -88,7 +96,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/who.3a626636.png"
   },
   {
-    "revision": "727a2c9d5320a7278e9e0a4155e80eb5",
+    "revision": "efe19a14acef830bc7eddacbb21041f9",
     "url": "/portfolio/index.html"
   }
 ];
