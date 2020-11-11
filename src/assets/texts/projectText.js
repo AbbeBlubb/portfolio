@@ -30,17 +30,18 @@ const federationEN = {
 
 const whoEN = {
   id: 'who',
-  name: 'Fullstack Authentication and Apache',
-  short: 'Secure application with JWT, Apache configuration',
+  name: 'Fullstack Authentication',
+  short: 'Secure application with JWT, Apache configuration, Linode VM',
   description: `Create an account, log in, and see all the usernames.
                 Passwords are encrypted in the database.
                 On log in, if credentials match, a Jason Web Token (JWT) is created and sent to the client.
                 Access to the API requires the JWT in the request.
                 The authentication server is made on Node with Express, Mongoose, bcrypt, passport.
-                The client is made with React and served on an Apache2 web server on Ubuntu in a Linode virtual machine.
+                The client is made with React and served on an Apache2 Web Server (HTTP Server).
+                Apache runs on an Ubuntu server in a Linode virtual machine.
                 The authentication server and the client are made for reusability.
                 Responsive, mobile first, accessibility.`,
-  imgFileName: 'who.png',
+  imgFileName: 'secure-server.svg',
   linkUrlGui: 'http://www.vemharbetalat.se',
   linkTextGui: 'VemHarBetalat.se',
   linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/vemharbetalat',
@@ -79,7 +80,7 @@ const qualityEN = {
                 Prettier thus formats the code on commit. 
                 Prettier is integrated with ESLint.
                 Also Webpack configuration for React and TypeScript.`,
-  imgFileName: 'webpack.svg',
+  imgFileName: 'quality.png',
   linkUrlGui: '',
   linkTextGui: '',
   linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/react-ts-husky-eslint-prettier',
