@@ -18,7 +18,7 @@ export class Header extends React.Component {
           className='header'
           ref={this.refForTitleContainer}>
 
-        <h1 className='header__header'>
+        <h1 className='header__heading'>
           <span>{headerText[language].a}</span> {headerText[language].fcp}
         </h1>
 

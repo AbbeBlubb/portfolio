@@ -2,19 +2,20 @@
   height: 100vh;
   background-color: $brick-red;
   position: relative;
+  max-height: 800px;
 
-  &__header {
+  &__heading {
     width: 515px;
     height: auto;
     font-family: 'Tajawal', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     line-height: 1em;
     font-style: italic;
     font-weight: 400;
     color: $sand;
     text-shadow: 1px 1px 0 $brown;
     position: absolute;
-    top: 50%;
+    top: 30%;
     right: 0;
     transform: translate(0, -50%);
     background-color: $dark-gray;
@@ -66,11 +67,11 @@
     max-height: 650px;
   }
 
-  .header__header {
+  .header__heading {
     top: 100px;
     transform: translate(0, 0);
     width: auto;
-    font-size: 40px;
+    font-size: 2.5em;
     padding: 5px 2em 5px 2em;
   }
 }
@@ -82,10 +83,11 @@
 }
 
 @media (min-width: 1030px) {
-  .header__header {
+  .header__heading {
+    font-size: 5em;
     width: auto;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     padding: 0 0.5em 0 0.5em;
   }
