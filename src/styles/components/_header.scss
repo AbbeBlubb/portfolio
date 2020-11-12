@@ -8,43 +8,66 @@
     max-height: 800px;
   }
 
+  &__heading-wrapper {
+    width: 100%;
+    padding-top: 100px;
+    
+    @media (min-width: 700px) {
+      text-align: right;
+    }
+  }
+  
   &__heading {
-    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0;
+    //position: absolute;
+    //height: auto;
+    //width: auto;
+    //right: 0;
+    //top: 100px;
     font-family: "Tajawal", sans-serif;
     line-height: 1em;
     font-style: italic;
     font-weight: 400;
     color: $sand;
     text-shadow: 1px 1px 0 $brown;
-    position: absolute;
-    right: 0;
     background-color: $dark-gray;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
-    top: 100px;
-    transform: translate(0, 0);
-    width: auto;
     font-size: 2.5em;
     padding: 5px 2em 5px 2em;
 
     @media (min-width: 700px) {
-      transform: translate(0, -50%);
-      top: 30%;
+      //top: 27%;
       font-size: 4em;
-      width: 515px;
+      width: 530px;
       padding: 0 0 0 0.5em;
     }
 
     @media (min-width: 1090px) {
-      width: auto;
-      left: 50%;
+      width: 50%;
+      //width: auto;
+      //left: 50%;
       padding: 0 0.5em 0 0.5em;
     }
 
     @media (min-width: 1300px) {
       font-size: 5em;
     }
+  }
+
+  &__subheading-wrapper {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__subheading {
+    font-size: 2em;
+    font-weight: 100;
   }
 
   &__button-wrapper {

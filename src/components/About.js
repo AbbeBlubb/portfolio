@@ -32,7 +32,7 @@ export class About extends React.Component {
             <ul>
               <li>
                 <span
-                  className='bold'
+                  className='semi-bold'
                   tabIndex={0}
                   onKeyDown={() => this.copyToClipboard()}
                   title={'Click on this image to copy the e-mail to the clipboard'}>

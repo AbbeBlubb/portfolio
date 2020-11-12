@@ -13,36 +13,36 @@ export const aboutText = {
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
-          <span className="bold">What I work with: </span>Application
+          <span className="semi-bold">What I work with: </span>Application
             infrastructure, frontend development, Scrum Master
         </li>
         <li>
-          <span className="bold">Working procedures: </span>Agile methodism,
+          <span className="semi-bold">Working procedures: </span>Agile methodism,
             SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The DevOps
             Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
+          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="bold">Programming: </span>JavaScript, TypeScript,
+          <span className="semi-bold">Programming: </span>JavaScript, TypeScript,
             Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
         </li>
         <li>
-          <span className="bold">Testing: </span>TestCafé, React Testing
+          <span className="semi-bold">Testing: </span>TestCafé, React Testing
             Library, Karma, Jest, Jasmine, Enzyme, Sinon
         </li>
         <li>
-          <span className="bold">Quality and monitoring: </span>WCAG 2.1
+          <span className="semi-bold">Quality and monitoring: </span>WCAG 2.1
             (accessibility), Clean Coder (Uncle Bob), ESLint, SonarQube,
             SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="bold">OS: </span>Windows10, Ubuntu server on WSL2,
+          <span className="semi-bold">OS: </span>Windows10, Ubuntu server on WSL2,
             Ubuntu server on Linode virtual machine, Kali Linux
         </li>
       </ul>,
@@ -65,36 +65,36 @@ export const aboutText = {
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
-          <span className="bold">En qué trabajo: </span>Infraestructura de
+          <span className="semi-bold">En qué trabajo: </span>Infraestructura de
             aplicaciónes, desarollo frontend, Scrum Master
         </li>
         <li>
-          <span className="bold">Métodos de trabajo: </span>Metodologias
+          <span className="semi-bold">Métodos de trabajo: </span>Metodologias
             ágiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The
             DevOps Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
+          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="bold">Programación: </span>JavaScript, TypeScript,
+          <span className="semi-bold">Programación: </span>JavaScript, TypeScript,
             Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
         </li>
         <li>
-          <span className="bold">Testing: </span>TestCafé, React Testing
+          <span className="semi-bold">Testing: </span>TestCafé, React Testing
             Library, Karma, Jest, Jasmine, Enzyme, Sinon
         </li>
         <li>
-          <span className="bold">Calidad y monitoramiento: </span>WCAG 2.1
+          <span className="semi-bold">Calidad y monitoramiento: </span>WCAG 2.1
             (accesibidad), Clean Coder (Uncle Bob), ESLint, SonarQube,
             SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="bold">OS: </span>Windows10, Ubuntu server en WSL2,
+          <span className="semi-bold">OS: </span>Windows10, Ubuntu server en WSL2,
           Ubuntu server en máquina virtual Linode, Kali Linux
         </li>
       </ul>,
@@ -125,35 +125,35 @@ export const aboutText = {
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
-          <span className="bold">Vad jag jobbar med: </span>Applikationernas
+          <span className="semi-bold">Vad jag jobbar med: </span>Applikationernas
             infrastruktur, webbutveckling, Scrum Master
         </li>
         <li>
-          <span className="bold">Arbetssätt </span>Agila metoder, SAFe, Scrum,
+          <span className="semi-bold">Arbetssätt </span>Agila metoder, SAFe, Scrum,
             Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
         </li>
         <li>
-          <span className="bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
+          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
             GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="bold">Programmering: </span>JavaScript, TypeScript,
+          <span className="semi-bold">Programmering: </span>JavaScript, TypeScript,
             Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
         </li>
         <li>
-          <span className="bold">Test: </span>TestCafé, React Testing Library,
+          <span className="semi-bold">Test: </span>TestCafé, React Testing Library,
             Karma, Jest, Jasmine, Enzyme, Sinon
         </li>
         <li>
-          <span className="bold">Kvalitet och monitorering: </span>WCAG 2.1
+          <span className="semi-bold">Kvalitet och monitorering: </span>WCAG 2.1
             (tillgänglighet), Clean Coder (Uncle Bob), ESLint, SonarQube,
             SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="bold">OS: </span>Windows10, Ubuntu server i WSL2,
+          <span className="semi-bold">OS: </span>Windows10, Ubuntu server i WSL2,
           Ubuntu server på Linode virtuell burk, Kali Linux
         </li>
       </ul>,
