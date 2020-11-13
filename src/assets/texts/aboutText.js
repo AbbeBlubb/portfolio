@@ -27,7 +27,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="semi-bold">Programming: </span>JavaScript, TypeScript,
-            Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
@@ -79,7 +79,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="semi-bold">Programación: </span>JavaScript, TypeScript,
-            Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
@@ -138,7 +138,7 @@ export const aboutText = {
         </li>
         <li>
           <span className="semi-bold">Programmering: </span>JavaScript, TypeScript,
-            Docker, Webpack 5, Apache2 Web Server (HTTP Server), Web Components,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
             Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
             Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
             GraphQL, MongoDB, Mongoose
