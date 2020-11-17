@@ -17,12 +17,15 @@ const templateEN = {
 const federationEN = {
   id: 'federation',
   name: 'Micro Frontends',
-  short: 'Webpack 5 Module Federation between 3 applications',
-  description: `In this project, the Public site consumes UI modules from the Modules app and logic from the Infrastructure app.
+  short: 'Webpack 5 Module Federation and resilent sharing between 3 applications',
+  description: `In this project, the Public site resiliently consumes UI modules from the Modules app and logic modules from the Infrastructure app.
                 Built with React, run locally or in Docker containers.
-                Module Federation allows code sharing between applications in the form of federated modules.
-                While a typical Micro Frontend framework loads UI:s, Module Federation permits different applications to share all kinds of code, logic and libraries between the appications.
-                As JavaScript applications typically bundles with Webpack, Module Federation is a powerful tool for Micro Frontend purposes.`,
+                The project has resilent and dynamic imports of functions, values and React Components. 
+                A proxy design pattern with cache is used for requests.
+                A queue wrapper function queues calls to dynamically imported functions.
+                While a typical Micro Frontend framework loads UI:s, Module Federation permits applications to share and consume all kinds of code, logic and libraries between the appications, which makes it a powerful tool for Micro Frontend purposes.
+                
+                `,
   imgFileName: 'webpack.svg',
   linkUrlGui: '',
   linkTextGui: '',
