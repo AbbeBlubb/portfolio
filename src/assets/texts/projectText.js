@@ -60,9 +60,9 @@ const whoEN = {
 const fastEN = {
   id: 'fast',
   name: 'Blazingly Fast',
-  short: 'Lazy-loading, recycling, code splitting, compression, routing, plain JS',
+  short: 'Lazy-loading, infinite scroll with recycling, code splitting, compression, routing, event bus, all in plain JS',
   description: `The image loader lazy-loads the images when each image intersects the viewport.
-                The infinitive scroll recycles the DOM elements, giving a seamless scrolling experience.
+                The infinitive scroll recycles the DOM elements, giving a seamless scrolling experience: scrolling up and down is smooth because there will only be 20 DOM elements that are recycled with new content.
                 Built with plain JavaScript without framework, meaning the code is as lightweight it can be.
                 For this reason I've build an own routing and own event bus.
                 Webpack configuration for prod/dev, code splitting, bundle name hashing, image compression, SCSS, etc.
@@ -73,8 +73,8 @@ const fastEN = {
   linkTextGui: 'Experience fast loading',
   linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/fast',
   linkTextCodeFrontend: 'GitHub repo',
-  linkUrlCodeBackend: '',
-  linkTextCodeBackend: ''
+  linkUrlCodeBackend: 'https://abbeblubb.github.io/fast/fastness',
+  linkTextCodeBackend: 'How it has been done'
 };
 
 const qualityEN = {
