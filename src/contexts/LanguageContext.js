@@ -1,7 +1,7 @@
 import React from "react";
 import { docCookies } from "../helpers/docCookies"
 
-const Context = React.createContext();
+export const LanguageContext = React.createContext();
 
 export class LanguageStore extends React.Component {
   state={ 
@@ -23,11 +23,9 @@ export class LanguageStore extends React.Component {
 
   render() {
     return(
-      <Context.Provider value={{ ...this.state, handleLanguageChange: this.handleLanguageChange }}> {/* The prop name must be 'value' and contain the object wanted as context object */}
+      <LanguageContext.Provider value={{ ...this.state, handleLanguageChange: this.handleLanguageChange }}> {/* The prop name must be 'value' and contain the object wanted as context object */}
         {this.props.children}
-      </Context.Provider>
+      </LanguageContext.Provider>
     );
   }
 }
-
-export default Context;

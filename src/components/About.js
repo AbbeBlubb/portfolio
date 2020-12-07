@@ -1,5 +1,5 @@
 import React from 'react';
-import LanguageContext from '../contexts/LanguageContext';
+import { LanguageContext } from '../contexts/LanguageContext';
 import { aboutText } from '../assets/texts/aboutText';
 import { contactText } from '../assets/texts/contactText';
 
