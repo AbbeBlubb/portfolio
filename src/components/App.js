@@ -2,7 +2,7 @@ import React from "react"
 import '../helpers/waves'
 import '../helpers/interactionListeners';
 import smoothscroll from 'smoothscroll-polyfill'
-import { LanguageStore } from '../contexts/LanguageContext'
+import { LanguageStore } from '../contexts/LanguageStore'
 import { LanguageSelector } from './LanguageSelector'
 import { Header } from "./Header"
 import { ProjectList } from "./ProjectList"
