@@ -1,7 +1,7 @@
 import React from 'react';
 import { LanguageContext } from '../contexts/LanguageContext';
-import { aboutText } from '../assets/texts/aboutText';
-import { contactText } from '../assets/texts/contactText';
+import { aboutJSXText } from './aboutJSXText';
+import { contactText } from './aboutContactText';
 
 export class About extends React.Component {
   static contextType = LanguageContext;
@@ -22,11 +22,11 @@ export class About extends React.Component {
         <div className="about__container">
 
           <div className="about__text">
-            <h2>{aboutText[language].aboutHeader}</h2>
-            {aboutText[language].aboutParrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
+            <h2>{aboutJSXText[language].aboutHeader}</h2>
+            {aboutJSXText[language].aboutParrafs.map((parraf, index) => <p key={index}>{parraf}</p>)}
 
-            <h2>{aboutText[language].competencesHeader}</h2>
-            {aboutText[language].competencesParrafs.map((parraf, index) => <div key={index}>{parraf}</div>)}
+            <h2>{aboutJSXText[language].competencesHeader}</h2>
+            {aboutJSXText[language].competencesParrafs.map((parraf, index) => <div key={index}>{parraf}</div>)}
 
             <h2>{contactText[language].header}</h2>
             <ul>

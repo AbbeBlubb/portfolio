@@ -1,4 +1,5 @@
 import React from "react";
+import ssm from "../assets/icons/ssm.png"
 
 export function Icons() {
   return (
@@ -122,6 +123,14 @@ export function Icons() {
             className="icons__icon"
             alt="Azure logo"
             title="Azure DevOps"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src={ssm}
+            className="icons__icon"
+            alt="SSM cert icon"
+            title="SAFe 5.0 Scrum Master certification"
           />
         </li>
       </ul>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const aboutText = {
+export const aboutJSXText = {
   en: {
     aboutHeader: `About me`,
     aboutParrafs: [

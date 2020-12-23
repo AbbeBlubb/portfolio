@@ -1,6 +1,6 @@
 import React from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
-import { headerText } from "../assets/texts/headerText";
+import { headerText } from "./headerText";
 import { Icons } from "./Icons";
 
 export class Header extends React.Component {

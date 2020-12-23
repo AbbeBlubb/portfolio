@@ -1,6 +1,6 @@
 import React from 'react';
 import { LanguageContext } from '../contexts/LanguageContext';
-import { projectText } from '../assets/texts/projectText';
+import { projectText } from './projectText';
 import { ProjectListItem } from './ProjectListItem';
 import { backgroundColor, backgroundImages } from '../assets/background-images';
 
