@@ -1,5 +1,5 @@
 import React from 'react';
-import { LanguageContext } from '../contexts/LanguageContext';
+import { LanguageContext } from '../../contexts/LanguageContext';
 
 export class LanguageSelector extends React.Component {
   static contextType = LanguageContext;

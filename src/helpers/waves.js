@@ -8,7 +8,7 @@
  */
 
 ;(function(window) {
-    'use strict';
+    //'use strict';
 
     var Waves = Waves || {};
     var $$ = document.querySelectorAll.bind(document);
@@ -123,7 +123,7 @@
             TouchHandler.touchup(e);
 
             var el = this;
-            var width = el.clientWidth * 1.4;
+            //var width = el.clientWidth * 1.4;
 
             // Get first ripple
             var ripple = null;

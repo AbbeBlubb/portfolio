@@ -1,5 +1,5 @@
 import React from "react";
-import ssm from "../assets/icons/ssm.png"
+import ssm from "../../assets/icons/ssm.png"
 
 export function Icons() {
   return (

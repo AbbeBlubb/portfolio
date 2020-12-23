@@ -3,10 +3,10 @@ import '../helpers/waves'
 import '../helpers/interactionListeners';
 import smoothscroll from 'smoothscroll-polyfill'
 import { LanguageStore } from '../contexts/LanguageStore'
-import { LanguageSelector } from './LanguageSelector'
-import { Header } from "./Header"
-import { ProjectList } from "./ProjectList"
-import { About } from "./About"
+import { LanguageSelector } from './language/LanguageSelector'
+import { Header } from "./header/Header"
+import { ProjectList } from "./projects/ProjectList"
+import { About } from "./about/About"
 
 smoothscroll.polyfill() //Polyfill needs to be called in order to make scrollTo.behavior work in all browsers
 

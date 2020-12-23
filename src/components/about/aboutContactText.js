@@ -1,4 +1,4 @@
-import profilephoto from "../assets/profilephoto.jpg"
+import profilephoto from "../../assets/profilephoto.jpg"
 
 export const contactText = {
 

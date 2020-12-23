@@ -1,13 +1,19 @@
 import React from "react";
 
 export function ProjectDescription(props) {
+
+  const stopClickFromClosingAccordeon = event => {
+    event.stopPropagation();
+    return false;
+  }
+
   return (
     <article className="project-description">
       <div className="project-description__content">
         <div className="project-image-area">
           <div className="project-image-area__img-wrap">
             <img
-              src={require(`../assets/project-images/${props.img}`)}
+              src={require(`../../assets/project-images/${props.img}`)}
               alt="Project"
             />
           </div>
@@ -22,12 +28,9 @@ export function ProjectDescription(props) {
                 className={"project-text-area__link"}
                 href={props.linkUrlGui}
                 target="_blank"
-                onKeyDown={event => {
-                  event.stopPropagation();
-                  return false;
-                }}
-                onClick={"return false"}
-              >
+                rel="noopener noreferrer"
+                onKeyDown={stopClickFromClosingAccordeon}
+                onClick={stopClickFromClosingAccordeon}              >
                 {props.linkTextGui}
               </a>
             )}
@@ -38,11 +41,9 @@ export function ProjectDescription(props) {
                 className={"project-text-area__link"}
                 href={props.linkUrlCodeFrontend}
                 target="_blank"
-                onKeyDown={event => {
-                  event.stopPropagation();
-                  return false;
-                }}
-                onClick={"return false"}
+                rel="noopener noreferrer"
+                onKeyDown={stopClickFromClosingAccordeon}
+                onClick={stopClickFromClosingAccordeon}
               >
                 {props.linkTextCodeFrontend}
               </a>
@@ -54,12 +55,9 @@ export function ProjectDescription(props) {
                 className={"project-text-area__link"}
                 href={props.linkUrlCodeBackend}
                 target="_blank"
-                onKeyDown={event => {
-                  event.stopPropagation();
-                  return false;
-                }}
-                onClick={"return false"}
-              >
+                rel="noopener noreferrer"
+                onKeyDown={stopClickFromClosingAccordeon}
+                onClick={stopClickFromClosingAccordeon}              >
                 {props.linkTextCodeBackend}
               </a>
             )}
