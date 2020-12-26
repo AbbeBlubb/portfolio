@@ -59,7 +59,7 @@ export class About extends React.Component {
                         <img
                             className="about__photo"
                             src={contactText[language].photo}
-                            alt="Profile"
+                            alt="Profile photo"
                         />
                     </div>
                 </div>
