@@ -79,18 +79,38 @@ const fastEN = {
 
 const qualityEN = {
   id: 'quality',
-  name: 'Code Quality',
-  short: 'Configuration for Husky, ESLint & Prettier in a TypeScript React application',
-  description: `Configuration for Husky, lint-staged, Prettier, Eslint, Webpack, TypeScript and React.
+  name: 'Code Quality frontend',
+  short: 'Frontend boilerplate: TypeScript, React, Webpack, Husky, lint-staged, ESLint, Prettier',
+  description: `Boilerplate configuration for frontend.
+                Webpack configuration for React and TypeScript.
+                Configuration for Husky, lint-staged, Prettier, Eslint, Webpack, TypeScript and React.
                 Husky is used for running the pre-commit Git hook. 
                 This pre-commit hook runs lint-staged that runs a Prettier-command on specific files. 
                 Prettier thus formats the code on commit. 
-                Prettier is integrated with ESLint.
-                Also Webpack configuration for React and TypeScript.`,
+                Prettier is integrated with ESLint.`,
   imgFileName: 'quality.png',
   linkUrlGui: '',
   linkTextGui: '',
   linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/react-ts-husky-eslint-prettier',
+  linkTextCodeFrontend: 'GitHub repo',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
+};
+
+const qualityBackendEN = {
+  id: 'qualityBackend',
+  name: 'Code Quality backend',
+  short: 'Server boilerplate: Docker, Node, TypeScript, Nodemon, Husky, lint-staged, Eslint, Prettier, Pug, dotenv',
+  description: `Boilerplate configuration for backend in Node environment with TypeScript.
+                Containarized with Docker, it uses volumes to enable watching with Nodemon. Nodemon is configured with TypeScript to reload on code changes.
+                Dotenv file for secrets. 
+                Templates with Pug. 
+                Husky runs lint-staged on pre-commit, and lint-staged runs Prettier.
+                ESLint configuration.`,
+  imgFileName: 'quality.png',
+  linkUrlGui: '',
+  linkTextGui: '',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/node-ts',
   linkTextCodeFrontend: 'GitHub repo',
   linkUrlCodeBackend: '',
   linkTextCodeBackend: ''
@@ -134,6 +154,7 @@ export const projectText = {
     fastEN,
     whoEN,
     qualityEN,
+    qualityBackendEN,
     scraperEN,
     dockerEN,
   ],
@@ -143,6 +164,7 @@ export const projectText = {
     fastEN,
     whoEN,
     qualityEN,
+    qualityBackendEN,
     scraperEN,
     dockerEN,
   ],
@@ -152,6 +174,7 @@ export const projectText = {
     fastEN,
     whoEN,
     qualityEN,
+    qualityBackendEN,
     scraperEN,
     dockerEN,
   ],
@@ -161,6 +184,7 @@ export const projectText = {
     fastEN,
     whoEN,
     qualityEN,
+    qualityBackendEN,
     scraperEN,
     dockerEN,
   ]
