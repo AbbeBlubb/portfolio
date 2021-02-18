@@ -100,13 +100,14 @@ const qualityEN = {
 const qualityBackendEN = {
   id: 'qualityBackend',
   name: 'Code Quality backend',
-  short: 'Server boilerplate: Docker, Node, TypeScript, Nodemon, Husky, lint-staged, Eslint, Prettier, Pug, dotenv',
+  short: 'Server boilerplate: Docker, Node, TypeScript, Nodemon, Husky, lint-staged, Eslint, Prettier, Pug, dotenv, Jest',
   description: `Boilerplate configuration for backend in Node environment with TypeScript.
                 Containarized with Docker, it uses volumes to enable watching with Nodemon. Nodemon is configured with TypeScript to reload on code changes.
                 Dotenv file for secrets. 
                 Templates with Pug. 
                 Husky runs lint-staged on pre-commit, and lint-staged runs Prettier.
-                ESLint configuration.`,
+                ESLint configuration.
+                Jest test runner with ts-jest as preset.`,
   imgFileName: 'quality.png',
   linkUrlGui: '',
   linkTextGui: '',
