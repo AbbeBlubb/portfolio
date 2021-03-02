@@ -100,14 +100,15 @@ const qualityEN = {
 const qualityBackendEN = {
   id: 'qualityBackend',
   name: 'Code Quality backend',
-  short: 'Server boilerplate: Docker, Node, TypeScript, Nodemon, Husky, lint-staged, Eslint, Prettier, Pug, dotenv, Jest',
+  short: 'Server boilerplate: Docker, Node, TypeScript, Nodemon, Husky, lint-staged, Eslint, Prettier, Pug, dotenv, Jest, TestCafé',
   description: `Boilerplate configuration for backend in Node environment with TypeScript.
                 Containarized with Docker, it uses volumes to enable watching with Nodemon. Nodemon is configured with TypeScript to reload on code changes.
                 Dotenv file for secrets. 
                 Templates with Pug. 
                 Husky runs lint-staged on pre-commit, and lint-staged runs Prettier.
                 ESLint configuration.
-                Jest test runner with ts-jest as preset.`,
+                Unit tests with Jest test runner using ts-jest as preset.
+                End-to-end tests with TestCafé.`,
   imgFileName: 'quality.png',
   linkUrlGui: '',
   linkTextGui: '',
@@ -148,45 +149,64 @@ const dockerEN = {
   linkTextCodeBackend: ''
 };
 
+const npmEN = {
+  id: 'npm',
+  name: 'NPM Package',
+  short: 'Published NPM Package available for installation',
+  description: `A React components library published in the NPM registry, available for anyone to install and use in a project.
+                The library is organization scoped. Name:  @abbeblubb/react-library.`,
+  imgFileName: 'npm.svg',
+  linkUrlGui: 'https://www.npmjs.com/package/@abbeblubb/react-library',
+  linkTextGui: 'NPM Registry',
+  linkUrlCodeFrontend: 'https://github.com/AbbeBlubb/npm-package',
+  linkTextCodeFrontend: 'GitHub repo',
+  linkUrlCodeBackend: '',
+  linkTextCodeBackend: ''
+};
+
 export const projectText = {
 
   en: [
     federationEN,
     fastEN,
     whoEN,
-    qualityEN,
     qualityBackendEN,
+    qualityEN,
     scraperEN,
     dockerEN,
+    npmEN,
   ],
 
   es: [
     federationEN,
     fastEN,
     whoEN,
-    qualityEN,
     qualityBackendEN,
+    qualityEN,
     scraperEN,
     dockerEN,
+    npmEN,
   ],
 
   ru: [
     federationEN,
     fastEN,
     whoEN,
-    qualityEN,
     qualityBackendEN,
+    qualityEN,
     scraperEN,
     dockerEN,
+    npmEN,
   ],
 
   sv: [
     federationEN,
     fastEN,
     whoEN,
-    qualityEN,
     qualityBackendEN,
+    qualityEN,
     scraperEN,
     dockerEN,
+    npmEN,
   ]
 };
