@@ -23,7 +23,7 @@ export const aboutJSXText = {
         </li>
         <li>
           <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity
+            GitHub, Bitbucket, TeamCity, NPM
         </li>
         <li>
           <span className="semi-bold">Programming: </span>JavaScript, TypeScript,
@@ -75,7 +75,7 @@ export const aboutJSXText = {
         </li>
         <li>
           <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity
+            GitHub, Bitbucket, TeamCity, NPM
         </li>
         <li>
           <span className="semi-bold">Programación: </span>JavaScript, TypeScript,
@@ -134,7 +134,7 @@ export const aboutJSXText = {
         </li>
         <li>
           <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity
+            GitHub, Bitbucket, TeamCity, NPM
         </li>
         <li>
           <span className="semi-bold">Programmering: </span>JavaScript, TypeScript,

@@ -7,18 +7,18 @@ export function Icons() {
       <ul className="icons__list">
         <li className="icons__list-item">
           <img
-            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-            className="icons__icon"
-            alt="JavaScript logo"
-            title="Javascript"
-          />
-        </li>
-        <li className="icons__list-item">
-          <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
             className="icons__icon"
             alt="TypeScript logo"
             title="TypeScript"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+            className="icons__icon"
+            alt="JavaScript logo"
+            title="Javascript"
           />
         </li>
         <li className="icons__list-item">
@@ -123,6 +123,14 @@ export function Icons() {
             className="icons__icon"
             alt="Azure logo"
             title="Azure DevOps"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"
+            className="icons__icon"
+            alt="Node Package Manager logo"
+            title="NPM"
           />
         </li>
         <li className="icons__list-item">
