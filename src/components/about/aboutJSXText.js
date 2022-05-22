@@ -5,7 +5,7 @@ export const aboutJSXText = {
     aboutHeader: `About me`,
     aboutParrafs: [
       `I'm Product Owner and Developer at a bank. 
-      I love programming, infrastructure, challenges, agile methodology and constantly learning more!`,
+      I love to work in a fast-paced environment, programming, infrastructure, challenges, agile methodology and constantly learning more!`,
     ],
 
     competencesHeader: "Competences",
@@ -56,7 +56,7 @@ export const aboutJSXText = {
     aboutHeader: `Sobre mí`,
     aboutParrafs: [
       `Soy Product Owner y desarrollador de web en un banco.
-      Me encanta la programación, infraestructura, desafíos, metodología ágil y constantemente aprender más!`,
+      Me encanta trabajar en un entorno acelerado, programación, infraestructura, desafíos, metodología ágil y constantemente aprender más!`,
     ],
 
     competencesHeader: "Competencias",
@@ -116,7 +116,7 @@ export const aboutJSXText = {
     aboutHeader: `Om mig`,
     aboutParrafs: [
       `Jag produktägare och webbutvecklare på en bank.
-      Jag älskar programmering, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
+      Jag älskar att arbeta i en snabbföränderlig miljö, programmering, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
     ],
     competencesHeader: "Kompetenser",
     competencesParrafs: [
