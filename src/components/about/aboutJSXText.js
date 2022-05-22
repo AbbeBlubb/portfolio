@@ -4,12 +4,11 @@ export const aboutJSXText = {
   en: {
     aboutHeader: `About me`,
     aboutParrafs: [
-      `I'm a fullstack web developer working at a bank.
-      I have previously being working as consultant.
+      `I'm Product Owner and Developer at a bank. 
       I love programming, infrastructure, challenges, agile methodology and constantly learning more!`,
     ],
 
-    competencesHeader: "My competences",
+    competencesHeader: "Competences",
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
@@ -56,12 +55,11 @@ export const aboutJSXText = {
   es: {
     aboutHeader: `Sobre mí`,
     aboutParrafs: [
-      `Soy desarrollador de web fullstack y trabajo en un banco.
-      Anteriormente he trabajando como consultor.
+      `Soy Product Owner y desarrollador de web en un banco.
       Me encanta la programación, infraestructura, desafíos, metodología ágil y constantemente aprender más!`,
     ],
 
-    competencesHeader: "Mis competencias",
+    competencesHeader: "Competencias",
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
@@ -117,11 +115,10 @@ export const aboutJSXText = {
   sv: {
     aboutHeader: `Om mig`,
     aboutParrafs: [
-      `Jag är fullstack webbutvecklare och arbetar en på bank.
-      Jag har innan arbetat som konsult.
+      `Jag produktägare och webbutvecklare på en bank.
       Jag älskar programmering, infrastruktur, utmaningar, agilt arbete och att ständigt lära mig mer!`,
     ],
-    competencesHeader: "Mina kompetenser",
+    competencesHeader: "Kompetenser",
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
