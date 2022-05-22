@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a8eb528849a939effefb",
-    "url": "/portfolio/static/css/main.b2a61c21.chunk.css"
+    "revision": "b5ff8a8ef4379b9622acb4ab0610f16a",
+    "url": "/portfolio/static/media/magazine.b5ff8a8e.png"
   },
   {
-    "revision": "a8eb528849a939effefb",
-    "url": "/portfolio/static/js/main.a8eb5288.chunk.js"
+    "revision": "cea8a32c79e2fbe0dc87",
+    "url": "/portfolio/static/css/main.0bb375e2.chunk.css"
   },
   {
-    "revision": "a506fd8417c62e712d4e",
-    "url": "/portfolio/static/js/1.a506fd84.chunk.js"
+    "revision": "f3dcbf76853e83cbf16f",
+    "url": "/portfolio/static/js/1.f3dcbf76.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -24,8 +24,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ssm.af33080c.png"
   },
   {
-    "revision": "a35e845f27e57f3d5046f857d551608e",
-    "url": "/portfolio/static/media/Npm-logo.svg:Zone.a35e845f.Identifier"
+    "revision": "63ca3714cf7d8943873f225898962870",
+    "url": "/portfolio/static/media/popm.63ca3714.png"
+  },
+  {
+    "revision": "ff9dc8ad0c6c7f8128959b671f822404",
+    "url": "/portfolio/static/media/Npm-logo.svg:Zone.ff9dc8ad.Identifier"
   },
   {
     "revision": "7bcbbab5e4c7c9a94f7a32016ae8f827",
@@ -56,16 +60,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/log.2b1a2635.png"
   },
   {
-    "revision": "b5ff8a8ef4379b9622acb4ab0610f16a",
-    "url": "/portfolio/static/media/magazine.b5ff8a8e.png"
+    "revision": "cea8a32c79e2fbe0dc87",
+    "url": "/portfolio/static/js/main.cea8a32c.chunk.js"
   },
   {
     "revision": "a123152868245dee71c441124a98ac3e",
     "url": "/portfolio/static/media/nodejs.a1231528.svg"
   },
   {
-    "revision": "6f7aeee8bb8ee61edfd134eef3152e22",
-    "url": "/portfolio/static/media/npm.6f7aeee8.svg"
+    "revision": "0618a6347bd88994ae504beb498549b8",
+    "url": "/portfolio/static/media/npm.0618a634.svg"
   },
   {
     "revision": "6a114ff3d899430679bc536caf0c94b4",
@@ -112,7 +116,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/who.3a626636.png"
   },
   {
-    "revision": "723f00768e4c8f3c1b679bc99f683a50",
+    "revision": "54781b2acf18f144a2d0d039ccb2631a",
     "url": "/portfolio/index.html"
   }
 ];
