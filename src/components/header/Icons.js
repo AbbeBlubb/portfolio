@@ -7,6 +7,22 @@ export function Icons() {
   return (
     <div className="icons">
       <ul className="icons__list">
+      <li className="icons__list-item">
+          <img
+            src={popm}
+            className="icons__icon"
+            alt="POPM cert icon"
+            title="SAFe 5.0 Product Owner & Product Manager certification"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src={ssm}
+            className="icons__icon"
+            alt="SSM cert icon"
+            title="SAFe 5.0 Scrum Master certification"
+          />
+        </li>
         <li className="icons__list-item">
           <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
@@ -45,6 +61,14 @@ export function Icons() {
             className="icons__icon"
             alt="Webpack logo"
             title="Webpack"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"
+            className="icons__icon"
+            alt="Node Package Manager logo"
+            title="NPM"
           />
         </li>
         <li className="icons__list-item">
@@ -125,30 +149,6 @@ export function Icons() {
             className="icons__icon"
             alt="Azure logo"
             title="Azure DevOps"
-          />
-        </li>
-        <li className="icons__list-item">
-          <img
-            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"
-            className="icons__icon"
-            alt="Node Package Manager logo"
-            title="NPM"
-          />
-        </li>
-        <li className="icons__list-item">
-          <img
-            src={ssm}
-            className="icons__icon"
-            alt="SSM cert icon"
-            title="SAFe 5.0 Scrum Master certification"
-          />
-        </li>
-        <li className="icons__list-item">
-          <img
-            src={popm}
-            className="icons__icon"
-            alt="POPM cert icon"
-            title="SAFe 5.0 Product Owner & Product Manager certification"
           />
         </li>
       </ul>
