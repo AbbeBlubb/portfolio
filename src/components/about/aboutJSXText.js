@@ -14,36 +14,36 @@ export const aboutJSXText = {
       <ul style={{ marginTop: "0px" }}>
         <li>
           <span className="semi-bold">What I work with: </span>Application
-            infrastructure, frontend development, Scrum Master
+            infrastructure (core codebase and framework/platform), web development, 
+            Scrum Master, Product Owner
         </li>
         <li>
-          <span className="semi-bold">Working procedures: </span>Agile methodism,
-            SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The DevOps
-            Handbook
+          <span className="semi-bold">Working procedures: </span>Agile methodologies,
+            SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
         </li>
         <li>
-          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity, NPM
+          <span className="semi-bold">CI/CD: </span>Git, NPM, Azure DevOps, Sourcetree,
+            GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="semi-bold">Programming: </span>JavaScript, TypeScript,
-            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
-            Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
-            Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
-            GraphQL, MongoDB, Mongoose
+          <span className="semi-bold">Programming: </span>TypeScript, JavaScript,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Node.js, Express,
+            GraphQL, MongoDB, Mongoose, Web Components, Custom Elements, React, 
+            React Hooks, Redux, MUI React component library, Gatsby,
+            Aurelia, CSS3, SASS, LESS, HTML5, JSX
         </li>
         <li>
-          <span className="semi-bold">Testing: </span>TestCafé, React Testing
-            Library, Karma, Jest, Jasmine, Enzyme, Sinon
+          <span className="semi-bold">Testing: </span>TestCafé, Jest, React Testing
+            Library, Karma, Jasmine, Enzyme, Sinon
         </li>
         <li>
           <span className="semi-bold">Quality and monitoring: </span>WCAG 2.1
-            (accessibility), Clean Coder (Uncle Bob), ESLint, SonarQube,
-            SonarLint, SonarCloud, Kibana
+            (accessibility), WhiteSource, ESLint, Prettier, Clean Coder (Uncle Bob), 
+            SonarQube, SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="semi-bold">OS: </span>Windows10, Ubuntu server on WSL2,
-            Ubuntu server on Linode virtual machine, Kali Linux
+          <span className="semi-bold">OS: </span>Windows, WSL2, Ubuntu,
+            Linode, Kali Linux
         </li>
       </ul>,
 
@@ -66,36 +66,36 @@ export const aboutJSXText = {
       <ul style={{ marginTop: "0px" }}>
         <li>
           <span className="semi-bold">En qué trabajo: </span>Infraestructura de
-            aplicaciónes, desarollo frontend, Scrum Master
+            aplicaciónes (base de código central y framework/plataforma), desarollo web, 
+            Scrum Master, Product Owner
         </li>
         <li>
           <span className="semi-bold">Métodos de trabajo: </span>Metodologias
-            ágiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards, The
-            DevOps Handbook
+            ágiles, SAFe, Scrum, Kanban, Jira, Confluence, Azure Boards
         </li>
         <li>
-          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity, NPM
+          <span className="semi-bold">CI/CD: </span>Git, NPM, Azure DevOps, Travis, Sourcetree,
+            GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="semi-bold">Programación: </span>JavaScript, TypeScript,
-            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
-            Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
-            Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
-            GraphQL, MongoDB, Mongoose
+          <span className="semi-bold">Programación: </span>TypeScript, JavaScript,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Node.js, Express,
+            GraphQL, MongoDB, Mongoose, Web Components, Custom Elements, React, 
+            React Hooks, Redux, MUI React component library, Gatsby,
+            Aurelia, CSS3, SASS, LESS, HTML5, JSX
         </li>
         <li>
-          <span className="semi-bold">Testing: </span>TestCafé, React Testing
-            Library, Karma, Jest, Jasmine, Enzyme, Sinon
+          <span className="semi-bold">Testing: </span>TestCafé, Jest, React Testing
+            Library, Karma, Jasmine, Enzyme, Sinon
         </li>
         <li>
           <span className="semi-bold">Calidad y monitoramiento: </span>WCAG 2.1
-            (accesibidad), Clean Coder (Uncle Bob), ESLint, SonarQube,
-            SonarLint, SonarCloud, Kibana
+            (accesibilidad), WhiteSource, ESLint, Prettier, Clean Coder (Uncle Bob), 
+            SonarQube, SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="semi-bold">OS: </span>Windows10, Ubuntu server en WSL2,
-          Ubuntu server en máquina virtual Linode, Kali Linux
+          <span className="semi-bold">OS: </span>Windows, WSL2, Ubuntu,
+            Linode, Kali Linux
         </li>
       </ul>,
 
@@ -125,36 +125,37 @@ export const aboutJSXText = {
     competencesParrafs: [
       <ul style={{ marginTop: "0px" }}>
         <li>
-          <span className="semi-bold">Vad jag jobbar med: </span>Applikationernas
-            infrastruktur, webbutveckling, Scrum Master
+          <span className="semi-bold">Vad jag jobbar med: </span>Infrastruktur för
+            webbaserade applikationer (core codebase och ramverk/plattform), webbutveckling, 
+            Scrum Master, Produktägare
         </li>
         <li>
           <span className="semi-bold">Arbetssätt </span>Agila metoder, SAFe, Scrum,
-            Kanban, Jira, Confluence, Azure Boards, The DevOps Handbook
+            Kanban, Jira, Confluence, Azure Boards
         </li>
         <li>
-          <span className="semi-bold">CI/CD: </span>Git, Azure DevOps, Travis, Sourcetree,
-            GitHub, Bitbucket, TeamCity, NPM
+          <span className="semi-bold">CI/CD: </span>Git, NPM, Azure DevOps, Travis, Sourcetree,
+            GitHub, Bitbucket, TeamCity
         </li>
         <li>
-          <span className="semi-bold">Programmering: </span>JavaScript, TypeScript,
-            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Web Components,
-            Custom Elements, React, React Hooks, Redux, Material-UI, Gatsby,
-            Aurelia, CSS3, SASS, LESS, HTML5, JSX, Dust.js, Node.js, Express,
-            GraphQL, MongoDB, Mongoose
+          <span className="semi-bold">Programmering: </span>TypeScript, JavaScript,
+            Webpack, Docker, Bash, Apache2 Web Server (HTTP Server), Node.js, Express,
+            GraphQL, MongoDB, Mongoose, Web Components, Custom Elements, React, 
+            React Hooks, Redux, MUI React component library, Gatsby,
+            Aurelia, CSS3, SASS, LESS, HTML5, JSX
         </li>
         <li>
-          <span className="semi-bold">Test: </span>TestCafé, React Testing Library,
-            Karma, Jest, Jasmine, Enzyme, Sinon
+          <span className="semi-bold">Test: </span>TestCafé, Jest, React Testing Library,
+            Karma, Jasmine, Enzyme, Sinon
         </li>
         <li>
           <span className="semi-bold">Kvalitet och monitorering: </span>WCAG 2.1
-            (tillgänglighet), Clean Coder (Uncle Bob), ESLint, SonarQube,
-            SonarLint, SonarCloud, Kibana
+            (tillgänglighet), WhiteSource, ESLint, Prettier, Clean Coder (Uncle Bob), 
+            SonarQube, SonarLint, SonarCloud, Kibana
         </li>
         <li>
-          <span className="semi-bold">OS: </span>Windows10, Ubuntu server i WSL2,
-          Ubuntu server på Linode virtuell burk, Kali Linux
+          <span className="semi-bold">OS: </span>Windows, WSL2, Ubuntu,
+            Linode, Kali Linux
         </li>
       </ul>,
 
