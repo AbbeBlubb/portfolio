@@ -16,6 +16,8 @@ export class ProjectList extends React.Component {
         className="project-list"
         ref={this.props.refProp}> {/*Attatch the given ref to child. This ref is for the Header button */}
 
+        {/*<h2>Portfolio</h2>*/}
+
         {projectText[language].map(project => (
           <ProjectListItem
             key={project.id}

@@ -48,7 +48,7 @@ export const aboutJSXText = {
       </ul>,
 
       `Before I started my web developing career I worked as a law expert for 8 years.
-      Law is a lot about structure, analysis and presentation.
+      Law is about structure, analysis, presentation and communication.
       This experience I have brought into my web developer career!`
     ]
   },
@@ -100,8 +100,8 @@ export const aboutJSXText = {
       </ul>,
 
       `Antes de emprender my carrera como desarollador web, trabajé como experto legal durante 8 años.
-      El derecho se trata mucho de estructura, análisis y presentación.
-      ¡Esta experiencia me la he traído a mi carrera como desarrollador!`
+      El derecho trata de estructura, análisis, presentación y comunicación.
+      ¡Esta experiencia me la he traído a mi carrera de desarrollador!`
     ]
   },
 
@@ -160,7 +160,7 @@ export const aboutJSXText = {
       </ul>,
 
       `Innan jag startade min karriär som webbutvecklare arbetade jag som jurist i 8 år.
-      Juridik handlar mycket om struktur, analys och presentation.
+      Juridik handlar om struktur, analys, presentation och kommunikation.
       Dessa erfarenheter har jag tagit med mig till min karriär som webbutvecklare!`
     ]
   }

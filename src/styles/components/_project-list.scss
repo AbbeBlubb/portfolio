@@ -1,4 +1,17 @@
 .project-list {
+  
+  h2 {
+    background-color: $green;
+    font-size: 1.2em;
+    color: #3e3e46;
+    margin: 0;
+    padding: 25px 5%;
+
+    @media (min-width: 1300px) {
+      font-size: 1.4em;
+    }
+  }
+
   &::before,
   &::after {
     display: block;
