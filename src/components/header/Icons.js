@@ -1,5 +1,7 @@
 import React from "react";
 import ssm from "../../assets/icons/ssm.png"
+import popm from "../../assets/icons/popm.png"
+
 
 export function Icons() {
   return (
@@ -139,6 +141,14 @@ export function Icons() {
             className="icons__icon"
             alt="SSM cert icon"
             title="SAFe 5.0 Scrum Master certification"
+          />
+        </li>
+        <li className="icons__list-item">
+          <img
+            src={popm}
+            className="icons__icon"
+            alt="POPM cert icon"
+            title="SAFe 5.0 Product Owner & Product Manager certification"
           />
         </li>
       </ul>
