@@ -4,7 +4,7 @@ export const aboutJSXText = {
   en: {
     aboutHeader: `About me`,
     aboutParrafs: [
-      `I'm Product Owner and Developer at a bank. 
+      `I'm Product Owner and Developer in a bank. 
       I love to work in a fast-paced environment, programming, infrastructure, challenges, agile methodology and constantly learning more!`,
     ],
 
